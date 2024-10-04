@@ -115,3 +115,1463 @@ Started GET "/" for 127.0.0.1 at 2024-10-03 22:58:20 -0400
   
 ActionController::RoutingError (uninitialized constant HomeController):
   
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:01:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 377)
+Completed 200 OK in 10ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 4383)
+
+
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:02:13 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:02:15 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:02:15 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:02:15 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:02:16 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:02:46 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:02:47 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:02:59 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:03:00 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:03:00 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:03:00 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:03:53 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 234.9ms | Allocations: 106559)
+Completed 500 Internal Server Error in 240ms (ActiveRecord: 0.0ms | Allocations: 110637)
+
+
+  
+ActionView::Template::Error (The asset "lib/wow/wow.min.js" is not present in the asset pipeline.
+):
+    23:     <!-- JavaScript Libraries -->
+    24:     <%= javascript_include_tag 'https://code.jquery.com/jquery-3.4.1.min.js', 'data-turbo-track': 'reload' %>
+    25:     <%= javascript_include_tag 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', 'data-turbo-track': 'reload' %>
+    26:     <%= javascript_include_tag 'lib/wow/wow.min.js', 'data-turbo-track': 'reload' %>
+    27:     <%= javascript_include_tag 'lib/easing/easing.min.js', 'data-turbo-track': 'reload' %>
+    28:     <%= javascript_include_tag 'lib/waypoints/waypoints.min.js', 'data-turbo-track': 'reload' %>
+    29:     <%= javascript_include_tag 'lib/counterup/counterup.min.js', 'data-turbo-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:26
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:05:19 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 95)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 5048)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 5946)
+
+
+  
+ActionView::Template::Error (The asset "public/carserv-1.0.0/lib/wow/wow.min.js" is not present in the asset pipeline.
+):
+    23:     <!-- JavaScript Libraries -->
+    24:     <%= javascript_include_tag 'https://code.jquery.com/jquery-3.4.1.min.js', 'data-turbo-track': 'reload' %>
+    25:     <%= javascript_include_tag 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', 'data-turbo-track': 'reload' %>
+    26:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/wow/wow.min.js', 'data-turbo-track': 'reload' %>
+    27:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/easing/easing.min.js', 'data-turbo-track': 'reload' %>
+    28:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/waypoints/waypoints.min.js', 'data-turbo-track': 'reload' %>
+    29:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/counterup/counterup.min.js', 'data-turbo-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:26
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:05:20 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4439)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 4670)
+
+
+  
+ActionView::Template::Error (The asset "public/carserv-1.0.0/lib/wow/wow.min.js" is not present in the asset pipeline.
+):
+    23:     <!-- JavaScript Libraries -->
+    24:     <%= javascript_include_tag 'https://code.jquery.com/jquery-3.4.1.min.js', 'data-turbo-track': 'reload' %>
+    25:     <%= javascript_include_tag 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', 'data-turbo-track': 'reload' %>
+    26:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/wow/wow.min.js', 'data-turbo-track': 'reload' %>
+    27:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/easing/easing.min.js', 'data-turbo-track': 'reload' %>
+    28:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/waypoints/waypoints.min.js', 'data-turbo-track': 'reload' %>
+    29:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/counterup/counterup.min.js', 'data-turbo-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:26
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:05:20 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 16060)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 18942)
+
+
+  
+ActionView::Template::Error (The asset "public/carserv-1.0.0/lib/wow/wow.min.js" is not present in the asset pipeline.
+):
+    23:     <!-- JavaScript Libraries -->
+    24:     <%= javascript_include_tag 'https://code.jquery.com/jquery-3.4.1.min.js', 'data-turbo-track': 'reload' %>
+    25:     <%= javascript_include_tag 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', 'data-turbo-track': 'reload' %>
+    26:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/wow/wow.min.js', 'data-turbo-track': 'reload' %>
+    27:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/easing/easing.min.js', 'data-turbo-track': 'reload' %>
+    28:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/waypoints/waypoints.min.js', 'data-turbo-track': 'reload' %>
+    29:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/counterup/counterup.min.js', 'data-turbo-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:26
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:05:21 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 18691)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 23165)
+
+
+  
+ActionView::Template::Error (The asset "public/carserv-1.0.0/lib/wow/wow.min.js" is not present in the asset pipeline.
+):
+    23:     <!-- JavaScript Libraries -->
+    24:     <%= javascript_include_tag 'https://code.jquery.com/jquery-3.4.1.min.js', 'data-turbo-track': 'reload' %>
+    25:     <%= javascript_include_tag 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', 'data-turbo-track': 'reload' %>
+    26:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/wow/wow.min.js', 'data-turbo-track': 'reload' %>
+    27:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/easing/easing.min.js', 'data-turbo-track': 'reload' %>
+    28:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/waypoints/waypoints.min.js', 'data-turbo-track': 'reload' %>
+    29:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/counterup/counterup.min.js', 'data-turbo-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:26
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:05:21 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 21584)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 26699)
+
+
+  
+ActionView::Template::Error (The asset "public/carserv-1.0.0/lib/wow/wow.min.js" is not present in the asset pipeline.
+):
+    23:     <!-- JavaScript Libraries -->
+    24:     <%= javascript_include_tag 'https://code.jquery.com/jquery-3.4.1.min.js', 'data-turbo-track': 'reload' %>
+    25:     <%= javascript_include_tag 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', 'data-turbo-track': 'reload' %>
+    26:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/wow/wow.min.js', 'data-turbo-track': 'reload' %>
+    27:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/easing/easing.min.js', 'data-turbo-track': 'reload' %>
+    28:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/waypoints/waypoints.min.js', 'data-turbo-track': 'reload' %>
+    29:     <%= javascript_include_tag 'public/carserv-1.0.0/lib/counterup/counterup.min.js', 'data-turbo-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:26
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:06:16 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 76.2ms | Allocations: 52253)
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 0.0ms | Allocations: 56331)
+
+
+  
+ActionView::Template::Error (Asset `lib/wow/wow.min.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link lib/wow/wow.min.js
+
+and restart your server):
+    23:     <!-- JavaScript Libraries -->
+    24:     <%= javascript_include_tag 'https://code.jquery.com/jquery-3.4.1.min.js', 'data-turbo-track': 'reload' %>
+    25:     <%= javascript_include_tag 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', 'data-turbo-track': 'reload' %>
+    26:     <%= javascript_include_tag 'lib/wow/wow.min.js', 'data-turbo-track': 'reload' %>
+    27:     <%= javascript_include_tag 'lib/easing/easing.min.js', 'data-turbo-track': 'reload' %>
+    28:     <%= javascript_include_tag 'lib/waypoints/waypoints.min.js', 'data-turbo-track': 'reload' %>
+    29:     <%= javascript_include_tag 'lib/counterup/counterup.min.js', 'data-turbo-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:26
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:07:41 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 5064)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 5961)
+
+
+  
+ActionView::Template::Error (The asset "assets/javascripts/lib/wow/wow.min.js" is not present in the asset pipeline.
+):
+    23:     <!-- JavaScript Libraries -->
+    24:     <%= javascript_include_tag 'https://code.jquery.com/jquery-3.4.1.min.js', 'data-turbo-track': 'reload' %>
+    25:     <%= javascript_include_tag 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', 'data-turbo-track': 'reload' %>
+    26:     <%= javascript_include_tag 'assets/javascripts/lib/wow/wow.min.js', 'data-turbo-track': 'reload' %>
+    27:     <%= javascript_include_tag 'assets/javascripts/liblib/easing/easing.min.js', 'data-turbo-track': 'reload' %>
+    28:     <%= javascript_include_tag 'assets/javascripts/liblib/waypoints/waypoints.min.js', 'data-turbo-track': 'reload' %>
+    29:     <%= javascript_include_tag 'assets/javascripts/liblib/counterup/counterup.min.js', 'data-turbo-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:26
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:07:42 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 4454)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 4685)
+
+
+  
+ActionView::Template::Error (The asset "assets/javascripts/lib/wow/wow.min.js" is not present in the asset pipeline.
+):
+    23:     <!-- JavaScript Libraries -->
+    24:     <%= javascript_include_tag 'https://code.jquery.com/jquery-3.4.1.min.js', 'data-turbo-track': 'reload' %>
+    25:     <%= javascript_include_tag 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', 'data-turbo-track': 'reload' %>
+    26:     <%= javascript_include_tag 'assets/javascripts/lib/wow/wow.min.js', 'data-turbo-track': 'reload' %>
+    27:     <%= javascript_include_tag 'assets/javascripts/liblib/easing/easing.min.js', 'data-turbo-track': 'reload' %>
+    28:     <%= javascript_include_tag 'assets/javascripts/liblib/waypoints/waypoints.min.js', 'data-turbo-track': 'reload' %>
+    29:     <%= javascript_include_tag 'assets/javascripts/liblib/counterup/counterup.min.js', 'data-turbo-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:26
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:08:21 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 95)
+  Rendered layout layouts/application.html.erb (Duration: 57.4ms | Allocations: 23689)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.0ms | Allocations: 24587)
+
+
+  
+ActionView::Template::Error (Asset `lib/wow/wow.min.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link lib/wow/wow.min.js
+
+and restart your server):
+    23:     <!-- JavaScript Libraries -->
+    24:     <%= javascript_include_tag 'https://code.jquery.com/jquery-3.4.1.min.js', 'data-turbo-track': 'reload' %>
+    25:     <%= javascript_include_tag 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', 'data-turbo-track': 'reload' %>
+    26:     <%= javascript_include_tag 'lib/wow/wow.min.js', 'data-turbo-track': 'reload' %>
+    27:     <%= javascript_include_tag 'lib/easing/easing.min.js', 'data-turbo-track': 'reload' %>
+    28:     <%= javascript_include_tag 'lib/waypoints/waypoints.min.js', 'data-turbo-track': 'reload' %>
+    29:     <%= javascript_include_tag 'lib/counterup/counterup.min.js', 'data-turbo-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:26
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:08:59 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 127.3ms | Allocations: 57759)
+Completed 200 OK in 128ms (Views: 127.7ms | ActiveRecord: 0.0ms | Allocations: 58051)
+
+
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 764)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 13446)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 14356)
+
+
+Started GET "/lib/animate/animate.min.css" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/animate/animate.min.css"):
+  
+Started GET "/lib/owlcarousel/assets/owl.carousel.min.css" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+Started GET "/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+Started GET "/css/style.css" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/owlcarousel/assets/owl.carousel.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  
+Started GET "/lib/easing/easing.min.js" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/css/style.css"):
+  
+Started GET "/lib/waypoints/waypoints.min.js" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/easing/easing.min.js"):
+  
+Started GET "/lib/counterup/counterup.min.js" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+Started GET "/lib/owlcarousel/owl.carousel.min.js" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+Started GET "/lib/tempusdominus/js/moment.min.js" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/lib/tempusdominus/js/moment-timezone.min.js" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+Started GET "/js/main.js" for 127.0.0.1 at 2024-10-04 00:10:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/js/main.js"):
+  
+Started GET "/lib/wow/wow.min.js" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/wow/wow.min.js"):
+  
+Started GET "/img/carousel-bg-1.jpg" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+Started GET "/img/about.jpg" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+Started GET "/img/carousel-1.png" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+Started GET "/img/carousel-bg-2.jpg" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+Started GET "/img/team-4.jpg" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-1.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-4.jpg"):
+  
+Started GET "/lib/wow/wow.min.js" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+Started GET "/img/team-1.jpg" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+Started GET "/img/team-2.jpg" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+Started GET "/img/team-3.jpg" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+Started GET "/img/testimonial-1.jpg" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-1.jpg"):
+  
+Started GET "/img/testimonial-2.jpg" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+Started GET "/img/testimonial-3.jpg" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+Started GET "/img/testimonial-4.jpg" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+Started GET "/lib/easing/easing.min.js" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+Started GET "/img/carousel-2.png" for 127.0.0.1 at 2024-10-04 00:10:08 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-4.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-2.png"):
+  
+Started GET "/img/service-2.jpg" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+Started GET "/img/service-3.jpg" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+Started GET "/img/service-4.jpg" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+Started GET "/lib/waypoints/waypoints.min.js" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-4.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/lib/waypoints/waypoints.min.js"):
+  
+Started GET "/img/service-1.jpg" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-1.jpg"):
+  
+Started GET "/lib/counterup/counterup.min.js" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/counterup/counterup.min.js"):
+  
+Started GET "/lib/owlcarousel/owl.carousel.min.js" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/lib/tempusdominus/js/moment.min.js" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/lib/tempusdominus/js/moment-timezone.min.js" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+Started GET "/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/js/main.js" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/js/main.js"):
+  
+Started GET "/img/testimonial-1.jpg" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+Started GET "/img/testimonial-3.jpg" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+Started GET "/img/testimonial-2.jpg" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+Started GET "/img/testimonial-4.jpg" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-4.jpg"):
+  
+Started GET "/img/favicon.ico" for 127.0.0.1 at 2024-10-04 00:10:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/favicon.ico"):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:12:09 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 755)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 11135)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 12043)
+
+
+Started GET "/lib/wow/wow.min.js" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/wow/wow.min.js"):
+  
+Started GET "/lib/easing/easing.min.js" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+Started GET "/lib/waypoints/waypoints.min.js" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+Started GET "/lib/counterup/counterup.min.js" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+Started GET "/lib/owlcarousel/owl.carousel.min.js" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/lib/waypoints/waypoints.min.js"):
+  
+Started GET "/lib/tempusdominus/js/moment-timezone.min.js" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+Started GET "/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+Started GET "/js/main.js" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+Started GET "/lib/animate/animate.min.css" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+Started GET "/lib/owlcarousel/assets/owl.carousel.min.css" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/js/main.js"):
+  
+Started GET "/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/animate/animate.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/lib/owlcarousel/assets/owl.carousel.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"):
+  
+Started GET "/css/bootstrap.min.css" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+Started GET "/css/style.css" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/css/style.css"):
+  
+Started GET "/img/about.jpg" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+Started GET "/img/service-1.jpg" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+Started GET "/img/team-1.jpg" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+Started GET "/img/team-2.jpg" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+Started GET "/img/team-3.jpg" for 127.0.0.1 at 2024-10-04 00:12:10 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-3.jpg"):
+  
+Started GET "/img/team-4.jpg" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+Started GET "/lib/wow/wow.min.js" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+Started GET "/img/carousel-bg-1.jpg" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+Started GET "/img/carousel-1.png" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+Started GET "/img/testimonial-1.jpg" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-4.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-1.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-1.jpg"):
+  
+Started GET "/img/testimonial-2.jpg" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+Started GET "/img/testimonial-3.jpg" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+Started GET "/lib/easing/easing.min.js" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+Started GET "/img/testimonial-4.jpg" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+Started GET "/img/carousel-bg-2.jpg" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-4.jpg"):
+  
+Started GET "/img/carousel-2.png" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+Started GET "/img/service-2.jpg" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+Started GET "/img/service-3.jpg" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+Started GET "/img/service-4.jpg" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+Started GET "/lib/waypoints/waypoints.min.js" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-2.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-4.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/lib/waypoints/waypoints.min.js"):
+  
+Started GET "/lib/counterup/counterup.min.js" for 127.0.0.1 at 2024-10-04 00:12:11 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/counterup/counterup.min.js"):
+  
+Started GET "/lib/owlcarousel/owl.carousel.min.js" for 127.0.0.1 at 2024-10-04 00:12:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/lib/tempusdominus/js/moment.min.js" for 127.0.0.1 at 2024-10-04 00:12:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/lib/tempusdominus/js/moment-timezone.min.js" for 127.0.0.1 at 2024-10-04 00:12:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+Started GET "/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js" for 127.0.0.1 at 2024-10-04 00:12:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/js/main.js" for 127.0.0.1 at 2024-10-04 00:12:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/js/main.js"):
+  
+Started GET "/img/testimonial-1.jpg" for 127.0.0.1 at 2024-10-04 00:12:12 -0400
+Started GET "/img/testimonial-3.jpg" for 127.0.0.1 at 2024-10-04 00:12:12 -0400
+Started GET "/img/testimonial-2.jpg" for 127.0.0.1 at 2024-10-04 00:12:12 -0400
+Started GET "/img/testimonial-4.jpg" for 127.0.0.1 at 2024-10-04 00:12:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-4.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-2.jpg"):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:13:02 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 703)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 11071)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 11975)
+
+
+Started GET "/img/carousel-bg-1.jpg" for 127.0.0.1 at 2024-10-04 00:13:02 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+Started GET "/img/carousel-1.png" for 127.0.0.1 at 2024-10-04 00:13:02 -0400
+Started GET "/img/carousel-bg-2.jpg" for 127.0.0.1 at 2024-10-04 00:13:02 -0400
+Started GET "/img/about.jpg" for 127.0.0.1 at 2024-10-04 00:13:02 -0400
+Started GET "/img/carousel-2.png" for 127.0.0.1 at 2024-10-04 00:13:02 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-1.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-2.png"):
+  
+Started GET "/img/team-1.jpg" for 127.0.0.1 at 2024-10-04 00:13:02 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-1.jpg"):
+  
+Started GET "/img/team-2.jpg" for 127.0.0.1 at 2024-10-04 00:13:03 -0400
+Started GET "/img/team-3.jpg" for 127.0.0.1 at 2024-10-04 00:13:03 -0400
+Started GET "/img/team-4.jpg" for 127.0.0.1 at 2024-10-04 00:13:03 -0400
+Started GET "/img/testimonial-1.jpg" for 127.0.0.1 at 2024-10-04 00:13:03 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-4.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-1.jpg"):
+  
+Started GET "/img/testimonial-2.jpg" for 127.0.0.1 at 2024-10-04 00:13:03 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-2.jpg"):
+  
+Started GET "/img/testimonial-3.jpg" for 127.0.0.1 at 2024-10-04 00:13:03 -0400
+Started GET "/img/testimonial-4.jpg" for 127.0.0.1 at 2024-10-04 00:13:03 -0400
+Started GET "/img/service-2.jpg" for 127.0.0.1 at 2024-10-04 00:13:03 -0400
+Started GET "/img/service-3.jpg" for 127.0.0.1 at 2024-10-04 00:13:03 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-4.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-3.jpg"):
+  
+Started GET "/img/service-4.jpg" for 127.0.0.1 at 2024-10-04 00:13:03 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-4.jpg"):
+  
+Started GET "/img/service-1.jpg" for 127.0.0.1 at 2024-10-04 00:13:03 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-1.jpg"):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:14:40 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 11080)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 11986)
+
+
+Started GET "/img/carousel-bg-1.jpg" for 127.0.0.1 at 2024-10-04 00:14:40 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+Started GET "/img/carousel-1.png" for 127.0.0.1 at 2024-10-04 00:14:40 -0400
+Started GET "/img/carousel-bg-2.jpg" for 127.0.0.1 at 2024-10-04 00:14:40 -0400
+Started GET "/img/carousel-2.png" for 127.0.0.1 at 2024-10-04 00:14:40 -0400
+Started GET "/img/about.jpg" for 127.0.0.1 at 2024-10-04 00:14:40 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-1.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+Started GET "/img/team-1.jpg" for 127.0.0.1 at 2024-10-04 00:14:40 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-2.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-1.jpg"):
+  
+Started GET "/img/team-2.jpg" for 127.0.0.1 at 2024-10-04 00:14:40 -0400
+Started GET "/img/team-3.jpg" for 127.0.0.1 at 2024-10-04 00:14:40 -0400
+Started GET "/img/team-4.jpg" for 127.0.0.1 at 2024-10-04 00:14:40 -0400
+Started GET "/img/testimonial-1.jpg" for 127.0.0.1 at 2024-10-04 00:14:40 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-3.jpg"):
+  
+Started GET "/img/testimonial-2.jpg" for 127.0.0.1 at 2024-10-04 00:14:40 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/team-4.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-2.jpg"):
+  
+Started GET "/img/testimonial-3.jpg" for 127.0.0.1 at 2024-10-04 00:14:41 -0400
+Started GET "/img/testimonial-4.jpg" for 127.0.0.1 at 2024-10-04 00:14:41 -0400
+Started GET "/img/service-2.jpg" for 127.0.0.1 at 2024-10-04 00:14:41 -0400
+Started GET "/img/service-3.jpg" for 127.0.0.1 at 2024-10-04 00:14:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-4.jpg"):
+  
+Started GET "/img/service-4.jpg" for 127.0.0.1 at 2024-10-04 00:14:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-4.jpg"):
+  
+Started GET "/img/service-1.jpg" for 127.0.0.1 at 2024-10-04 00:14:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/service-1.jpg"):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:21:06 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1891)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1983)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2878)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for an instance of #<Class:0x00007d7739c30c98>):
+    49:     <div class="collapse navbar-collapse" id="navbarCollapse">
+    50:         <div class="navbar-nav ms-auto p-4 p-lg-0">
+    51:             <a href="<%= root_path %>" class="nav-item nav-link active">Home</a>
+    52:             <a href="<%= about_path %>" class="nav-item nav-link">About</a>
+    53:             <a href="<%= services_path %>" class="nav-item nav-link">Services</a>
+    54:             <div class="nav-item dropdown">
+    55:                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+  
+app/views/home/index.html.erb:52
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:22:39 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1894)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1986)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2881)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for an instance of #<Class:0x00007d77391d01e0>):
+    49:     <div class="collapse navbar-collapse" id="navbarCollapse">
+    50:         <div class="navbar-nav ms-auto p-4 p-lg-0">
+    51:             <a href="<%= root_path %>" class="nav-item nav-link active">Home</a>
+    52:             <a href="<%= about_path %>" class="nav-item nav-link">About</a>
+    53:             <a href="<%= services_path %>" class="nav-item nav-link">Services</a>
+    54:             <div class="nav-item dropdown">
+    55:                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+  
+app/views/home/index.html.erb:52
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:23:13 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1885)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1977)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2870)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for an instance of #<Class:0x00007d7739542300>):
+    49:     <div class="collapse navbar-collapse" id="navbarCollapse">
+    50:         <div class="navbar-nav ms-auto p-4 p-lg-0">
+    51:             <a href="<%= root_path %>" class="nav-item nav-link active">Home</a>
+    52:             <a href="<%= about_path %>" class="nav-item nav-link">About</a>
+    53:             <a href="<%= services_path %>" class="nav-item nav-link">Services</a>
+    54:             <div class="nav-item dropdown">
+    55:                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+  
+app/views/home/index.html.erb:52
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:23:14 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1020)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1111)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1337)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for an instance of #<Class:0x00007d7739542300>):
+    49:     <div class="collapse navbar-collapse" id="navbarCollapse">
+    50:         <div class="navbar-nav ms-auto p-4 p-lg-0">
+    51:             <a href="<%= root_path %>" class="nav-item nav-link active">Home</a>
+    52:             <a href="<%= about_path %>" class="nav-item nav-link">About</a>
+    53:             <a href="<%= services_path %>" class="nav-item nav-link">Services</a>
+    54:             <div class="nav-item dropdown">
+    55:                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+  
+app/views/home/index.html.erb:52
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:26:45 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1933)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 2025)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2918)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for an instance of #<Class:0x00007d7739fe7580>):
+    49:     <div class="collapse navbar-collapse" id="navbarCollapse">
+    50:         <div class="navbar-nav ms-auto p-4 p-lg-0">
+    51:             <a href="<%= root_path %>" class="nav-item nav-link active">Home</a>
+    52:             <a href="<%= about_path %>" class="nav-item nav-link">About</a>
+    53:             <a href="<%= services_path %>" class="nav-item nav-link">Services</a>
+    54:             <div class="nav-item dropdown">
+    55:                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+  
+app/views/home/index.html.erb:52
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:27:23 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 269)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1052)
+
+
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:27:41 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 260)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 888)
+
+
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:27:41 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 205)
+
+
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:27:42 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 204)
+
+
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:27:42 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.0ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 204)
+
+
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:27:48 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 260)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 888)
+
+
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:28:03 -0400
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <main>'
+config/routes.rb:2:in `<main>'
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:28:25 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1937)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 2029)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2922)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `services_path' for an instance of #<Class:0x00007d7738b962c0>):
+    50:         <div class="navbar-nav ms-auto p-4 p-lg-0">
+    51:             <a href="<%= root_path %>" class="nav-item nav-link active">Home</a>
+    52:             <a href="<%= about_path %>" class="nav-item nav-link">About</a>
+    53:             <a href="<%= services_path %>" class="nav-item nav-link">Services</a>
+    54:             <div class="nav-item dropdown">
+    55:                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+    56:                 <div class="dropdown-menu fade-up m-0">
+  
+app/views/home/index.html.erb:53
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:29:56 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 472)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 10848)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 11752)
+
+
+Started GET "/img/testimonial-1.jpg" for 127.0.0.1 at 2024-10-04 00:29:56 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-1.jpg"):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:33:31 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 404)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 10774)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 11683)
+
+
+Started GET "/img/carousel-1.jpg" for 127.0.0.1 at 2024-10-04 00:33:31 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-1.jpg"):
+  
+Started GET "/img/carousel-2.jpg" for 127.0.0.1 at 2024-10-04 00:33:31 -0400
+Started GET "/img/carousel-3.jpg" for 127.0.0.1 at 2024-10-04 00:33:31 -0400
+Started GET "/img/testimonial-1.jpg" for 127.0.0.1 at 2024-10-04 00:33:31 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-1.jpg"):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:35:04 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 402)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 10781)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 11687)
+
+
+Started GET "/img/carousel-1.jpg" for 127.0.0.1 at 2024-10-04 00:35:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-1.jpg"):
+  
+Started GET "/img/carousel-2.jpg" for 127.0.0.1 at 2024-10-04 00:35:04 -0400
+Started GET "/img/carousel-3.jpg" for 127.0.0.1 at 2024-10-04 00:35:04 -0400
+Started GET "/img/testimonial-1.jpg" for 127.0.0.1 at 2024-10-04 00:35:05 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-3.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/testimonial-1.jpg"):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:38:42 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1334)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1426)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2321)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/dhiogo/CarvalhoAutoCenter/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.10/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actiontext-7.1.4/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionmailbox-7.1.4/app/views"
+):
+    1: <!-- index.html.erb -->
+    2: <%= render 'shared/navbar' %>
+    3: <%= render 'shared/carousel' %>
+    4: <%= render 'shared/services' %>
+    5: <%= render 'shared/about' %>
+  
+app/views/home/index.html.erb:2
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:39:29 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1303)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1395)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2288)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/dhiogo/CarvalhoAutoCenter/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.10/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actiontext-7.1.4/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionmailbox-7.1.4/app/views"
+):
+    1: <%= render 'shared/navbar' %>
+    2: <%= render 'shared/carousel' %>
+    3: <%= render 'shared/services' %>
+    4: <%= render 'shared/about' %>
+  
+app/views/home/index.html.erb:1
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:40:05 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_carousel.html.erb (Duration: 0.2ms | Allocations: 114)
+  Rendered shared/_services.html.erb (Duration: 0.1ms | Allocations: 107)
+  Rendered shared/_about.html.erb (Duration: 0.1ms | Allocations: 94)
+  Rendered shared/_testimonials.html.erb (Duration: 0.4ms | Allocations: 1278)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 2317)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 2409)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 3304)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil):
+    4:     <h1 class="mb-5">Our Clients Say!</h1>
+    5:   </div>
+    6:   <div class="owl-carousel testimonial-carousel position-relative">
+    7:     <% @testimonials.each do |testimonial| %>
+    8:       <div class="testimonial-item text-center">
+    9:         <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="<%= testimonial.image %>" style="width: 80px; height: 80px;">
+   10:         <h5 class="mb-0"><%= testimonial.client_name %></h5>
+  
+app/views/shared/_testimonials.html.erb:7
+app/views/home/index.html.erb:5
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:40:11 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1449)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1541)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2434)
+
+
+  
+ActionView::Template::Error (Missing partial home/_sharednavbar, application/_sharednavbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/dhiogo/CarvalhoAutoCenter/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.10/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actiontext-7.1.4/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionmailbox-7.1.4/app/views"
+):
+    1: <%= render 'sharednavbar' %>
+    2: <%= render 'shared/carousel' %>
+    3: <%= render 'shared/services' %>
+    4: <%= render 'shared/about' %>
+  
+app/views/home/index.html.erb:1
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:40:36 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 215)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 10565)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 11469)
+
+
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:41:02 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1453)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1545)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2438)
+
+
+  
+ActionView::Template::Error (Missing partial home/_navbar, application/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/dhiogo/CarvalhoAutoCenter/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.10/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actiontext-7.1.4/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionmailbox-7.1.4/app/views"
+):
+    1: <%= render 'navbar' %>
+    2: <%= render 'carousel' %>
+    3: <%= render 'services' %>
+    4: <%= render 'about' %>
+  
+app/views/home/index.html.erb:1
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:41:59 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1099)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1190)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1416)
+
+
+  
+ActionView::Template::Error (Missing partial home/_navbar, application/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/dhiogo/CarvalhoAutoCenter/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.10/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actiontext-7.1.4/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionmailbox-7.1.4/app/views"
+):
+    1: <%= render 'navbar' %>
+    2: <%= render 'carousel' %>
+    3: <%= render 'services' %>
+    4: <%= render 'about' %>
+  
+app/views/home/index.html.erb:1
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:42:00 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1099)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1190)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1416)
+
+
+  
+ActionView::Template::Error (Missing partial home/_navbar, application/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/dhiogo/CarvalhoAutoCenter/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.10/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actiontext-7.1.4/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionmailbox-7.1.4/app/views"
+):
+    1: <%= render 'navbar' %>
+    2: <%= render 'carousel' %>
+    3: <%= render 'services' %>
+    4: <%= render 'about' %>
+  
+app/views/home/index.html.erb:1
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:43:11 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1317)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1409)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2302)
+
+
+  
+ActionView::Template::Error (Missing partial home/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/dhiogo/CarvalhoAutoCenter/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.10/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actiontext-7.1.4/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionmailbox-7.1.4/app/views"
+):
+    1: <!-- index.html.erb -->
+    2: <%= render 'home/navbar' %>
+    3: <%= render 'home/carousel' %>
+    4: <%= render 'home/services' %>
+    5: <%= render 'home/about' %>
+  
+app/views/home/index.html.erb:2
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:44:09 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_navbar.html.erb (Duration: 0.3ms | Allocations: 239)
+  Rendered home/_carousel.html.erb (Duration: 0.1ms | Allocations: 111)
+  Rendered home/_services.html.erb (Duration: 0.1ms | Allocations: 106)
+  Rendered home/_about.html.erb (Duration: 0.1ms | Allocations: 93)
+  Rendered home/_testimonials.html.erb (Duration: 0.4ms | Allocations: 1262)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2664)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2756)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 3649)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil):
+    4:     <h1 class="mb-5">Our Clients Say!</h1>
+    5:   </div>
+    6:   <div class="owl-carousel testimonial-carousel position-relative">
+    7:     <% @testimonials.each do |testimonial| %>
+    8:       <div class="testimonial-item text-center">
+    9:         <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="<%= testimonial.image %>" style="width: 80px; height: 80px;">
+   10:         <h5 class="mb-0"><%= testimonial.client_name %></h5>
+  
+app/views/home/_testimonials.html.erb:7
+app/views/home/index.html.erb:6
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:44:36 -0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 521)
+
+
+  
+NameError (uninitialized constant HomeController::Testimonial):
+  
+app/controllers/home_controller.rb:4:in `index'
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:44:47 -0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 461)
+
+
+  
+NameError (uninitialized constant HomeController::Testimonial):
+  
+app/controllers/home_controller.rb:4:in `index'
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:44:54 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_navbar.html.erb (Duration: 0.3ms | Allocations: 233)
+  Rendered home/_carousel.html.erb (Duration: 0.1ms | Allocations: 110)
+  Rendered home/_services.html.erb (Duration: 0.1ms | Allocations: 105)
+  Rendered home/_about.html.erb (Duration: 0.1ms | Allocations: 92)
+  Rendered home/_testimonials.html.erb (Duration: 0.4ms | Allocations: 1319)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2704)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2796)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 3689)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil):
+    4:     <h1 class="mb-5">Our Clients Say!</h1>
+    5:   </div>
+    6:   <div class="owl-carousel testimonial-carousel position-relative">
+    7:     <% @testimonials.each do |testimonial| %>
+    8:       <div class="testimonial-item text-center">
+    9:         <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="<%= testimonial.image %>" style="width: 80px; height: 80px;">
+   10:         <h5 class="mb-0"><%= testimonial.client_name %></h5>
+  
+app/views/home/_testimonials.html.erb:7
+app/views/home/index.html.erb:6
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:45:49 -0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 461)
+
+
+  
+NameError (uninitialized constant HomeController::Testimonial):
+  
+app/controllers/home_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:47:40 -0400
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 461)
+
+
+  
+NameError (uninitialized constant HomeController::Testimonial):
+  
+app/controllers/home_controller.rb:3:in `index'
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(735481996392021585)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.7ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+Migrating to CreateTestimonials (20241004044811)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (24.8ms)[0m  [1m[35mCREATE TABLE "testimonials" ("id" bigserial primary key, "name" character varying, "profession" character varying, "content" text, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20241004044811') RETURNING "version"[0m
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateServices (20241004044812)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (11.4ms)[0m  [1m[35mCREATE TABLE "services" ("id" bigserial primary key, "name" character varying, "description" text, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20241004044812') RETURNING "version"[0m
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(735481996392021585)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:48:52 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1863)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1989)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 15332)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/dhiogo/CarvalhoAutoCenter/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.10/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actiontext-7.1.4/app/views"
+  * "/home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionmailbox-7.1.4/app/views"
+):
+    1: <%= render 'shared/navbar' %>
+    2: <%= render 'shared/carousel' %>
+    3: <%= render 'shared/services' %>
+    4: <%= render 'shared/about' %>
+  
+app/views/home/index.html.erb:1
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:49:17 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 300)
+  Rendered shared/_carousel.html.erb (Duration: 0.1ms | Allocations: 112)
+  Rendered shared/_services.html.erb (Duration: 0.1ms | Allocations: 107)
+  Rendered shared/_about.html.erb (Duration: 0.1ms | Allocations: 94)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 6.6ms | Allocations: 3701)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 138)
+  Rendered shared/_back_to_top.html.erb (Duration: 0.1ms | Allocations: 93)
+  Rendered home/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 5654)
+  Rendered layout layouts/application.html.erb (Duration: 56.5ms | Allocations: 45334)
+Completed 200 OK in 59ms (Views: 54.8ms | ActiveRecord: 2.5ms | Allocations: 47513)
+
+
+Started GET "/img/carousel-1.jpg" for 127.0.0.1 at 2024-10-04 00:49:17 -0400
+Started GET "/img/carousel-2.jpg" for 127.0.0.1 at 2024-10-04 00:49:17 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-1.jpg"):
+  
+Started GET "/img/carousel-3.jpg" for 127.0.0.1 at 2024-10-04 00:49:17 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-3.jpg"):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:50:29 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 233)
+  Rendered shared/_carousel.html.erb (Duration: 0.1ms | Allocations: 110)
+  Rendered shared/_services.html.erb (Duration: 0.1ms | Allocations: 105)
+  Rendered shared/_about.html.erb (Duration: 0.1ms | Allocations: 92)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.9ms | Allocations: 673)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 136)
+  Rendered shared/_back_to_top.html.erb (Duration: 0.1ms | Allocations: 91)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2532)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 13093)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.2ms | Allocations: 15230)
+
+
+Started GET "/img/carousel-1.jpg" for 127.0.0.1 at 2024-10-04 00:50:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-1.jpg"):
+  
+Started GET "/img/carousel-2.jpg" for 127.0.0.1 at 2024-10-04 00:50:29 -0400
+Started GET "/img/carousel-3.jpg" for 127.0.0.1 at 2024-10-04 00:50:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-3.jpg"):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-04 00:50:34 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 233)
+  Rendered shared/_carousel.html.erb (Duration: 0.1ms | Allocations: 110)
+  Rendered shared/_services.html.erb (Duration: 0.1ms | Allocations: 105)
+  Rendered shared/_about.html.erb (Duration: 0.1ms | Allocations: 92)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 1.2ms | Allocations: 673)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 136)
+  Rendered shared/_back_to_top.html.erb (Duration: 0.2ms | Allocations: 91)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2532)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 12920)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.3ms | Allocations: 15052)
+
+
+Started GET "/img/carousel-2.jpg" for 127.0.0.1 at 2024-10-04 00:50:34 -0400
+Started GET "/img/carousel-1.jpg" for 127.0.0.1 at 2024-10-04 00:50:34 -0400
+Started GET "/img/carousel-3.jpg" for 127.0.0.1 at 2024-10-04 00:50:34 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-3.jpg"):
+  
