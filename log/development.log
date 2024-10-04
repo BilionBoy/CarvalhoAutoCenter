@@ -1,0 +1,117 @@
+  [1m[35m (185.5ms)[0m  [1m[35mCREATE DATABASE "carvalho_auto_center_development" ENCODING = 'unicode'[0m
+  [1m[35m (44.7ms)[0m  [1m[35mCREATE DATABASE "carvalho_auto_center_test" ENCODING = 'unicode'[0m
+  [1m[35m (16.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (14.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(735481996392021585)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::InternalMetadata Create (1.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('environment', 'development', '2024-10-02 07:37:01.038751', '2024-10-02 07:37:01.038754') RETURNING "key"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(735481996392021585)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2024-10-02 03:46:58 -0400
+Started GET "/" for 127.0.0.1 at 2024-10-02 03:46:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendering /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 389)
+  Rendered /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 389)
+Completed 200 OK in 28ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 7906)
+
+
+Completed 200 OK in 29ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 8075)
+
+
+Started GET "/" for 127.0.0.1 at 2024-10-02 03:53:49 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 377)
+Completed 200 OK in 6ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 4318)
+
+
+Started GET "/home" for 127.0.0.1 at 2024-10-02 03:53:58 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:55:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dhiogo/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 377)
+Completed 200 OK in 19ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 4318)
+
+
+Started GET "/about" for 127.0.0.1 at 2024-10-03 22:55:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:56:56 -0400
+  
+ActionController::RoutingError (uninitialized constant IndexController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:56:59 -0400
+  
+ActionController::RoutingError (uninitialized constant IndexController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:57:00 -0400
+  
+ActionController::RoutingError (uninitialized constant IndexController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:57:12 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:57:13 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:57:13 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:57:13 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:57:13 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:57:13 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:58:19 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:58:19 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:58:19 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:58:20 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:58:20 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:58:20 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:58:20 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+Started GET "/" for 127.0.0.1 at 2024-10-03 22:58:20 -0400
+  
+ActionController::RoutingError (uninitialized constant HomeController):
+  
