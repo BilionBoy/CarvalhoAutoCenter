@@ -4,11 +4,20 @@
     <title>Carvalho Auto Center</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <link href="img/favicon.ico" rel="icon">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
+
 
     <!-- Stylesheets -->
     <%= stylesheet_link_tag 'bootstrap.min', media: 'all', 'data-turbo-track': 'reload' %>
     <%= stylesheet_link_tag 'style', media: 'all', 'data-turbo-track': 'reload' %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbo-track': 'reload' %>
+    <%= javascript_importmap_tags %>
+
   </head>
 
   <body>
@@ -23,14 +32,14 @@
     <!-- JavaScript Libraries -->
     <%= javascript_include_tag 'https://code.jquery.com/jquery-3.4.1.min.js', 'data-turbo-track': 'reload' %>
     <%= javascript_include_tag 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', 'data-turbo-track': 'reload' %>
-    <%= javascript_include_tag 'lib/wow/wow.min.js', 'data-turbo-track': 'reload' %>
-    <%= javascript_include_tag 'lib/easing/easing.min.js', 'data-turbo-track': 'reload' %>
-    <%= javascript_include_tag 'lib/waypoints/waypoints.min.js', 'data-turbo-track': 'reload' %>
-    <%= javascript_include_tag 'lib/counterup/counterup.min.js', 'data-turbo-track': 'reload' %>
-    <%= javascript_include_tag 'lib/owlcarousel/owl.carousel.min.js', 'data-turbo-track': 'reload' %>
-    <%= javascript_include_tag 'lib/tempusdominus/js/moment.min.js', 'data-turbo-track': 'reload' %>
-    <%= javascript_include_tag 'lib/tempusdominus/js/moment-timezone.min.js', 'data-turbo-track': 'reload' %>
-    <%= javascript_include_tag 'lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js', 'data-turbo-track': 'reload' %>
+    <%= javascript_include_tag '/assets/javascripts/lib/wow/wow.min.js', 'data-turbo-track': 'reload' %>
+    <%= javascript_include_tag '/assets/javascripts/lib/easing/easing.min.js', 'data-turbo-track': 'reload' %>
+    <%= javascript_include_tag '/assets/javascripts/lib/waypoints/waypoints.min.js', 'data-turbo-track': 'reload' %>
+    <%= javascript_include_tag '/assets/javascripts/lib/counterup/counterup.min.js', 'data-turbo-track': 'reload' %>
+    <%= javascript_include_tag '/assets/javascripts/lib/owlcarousel/owl.carousel.min.js', 'data-turbo-track': 'reload' %>
+    <%= javascript_include_tag '/assets/javascripts/lib/tempusdominus/js/moment.min.js', 'data-turbo-track': 'reload' %>
+    <%= javascript_include_tag '/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js', 'data-turbo-track': 'reload' %>
+    <%= javascript_include_tag '/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js', 'data-turbo-track': 'reload' %>
 
     <!-- Template Javascript -->
     <%= javascript_include_tag 'main', 'data-turbo-track': 'reload' %>
