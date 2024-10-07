@@ -13277,3 +13277,2241 @@ Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.2
   
 ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
   
+Started GET "/" for 10.7.1.218 at 2024-10-07 08:36:38 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.2ms | Allocations: 152)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 426)
+  Rendered shared/_carousel.html.erb (Duration: 47.7ms | Allocations: 30971)
+  Rendered shared/_services.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered shared/_about.html.erb (Duration: 0.3ms | Allocations: 178)
+  Rendered shared/_booking.html.erb (Duration: 0.2ms | Allocations: 139)
+  [1m[36mTestimonial Load (1.1ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 7.2ms | Allocations: 3707)
+  [1m[36mService Load (0.4ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 799)
+  [1m[36mTechnician Load (0.2ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.9ms | Allocations: 695)
+  Rendered home/index.html.erb within layouts/application (Duration: 61.6ms | Allocations: 38752)
+  Rendered layout layouts/application.html.erb (Duration: 84.1ms | Allocations: 59276)
+Completed 200 OK in 97ms (Views: 82.6ms | ActiveRecord: 3.8ms | Allocations: 70110)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 08:36:38 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/img/carousel-bg-1.jpg" for 10.7.1.218 at 2024-10-07 08:36:38 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/img/carousel-bg-2.jpg" for 10.7.1.218 at 2024-10-07 08:36:38 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+Started GET "/img/favicon.ico" for 10.7.1.218 at 2024-10-07 08:36:39 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/favicon.ico"):
+  
+Started GET "/up" for 10.7.1.218 at 2024-10-07 08:36:43 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#up as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 129)
+
+
+Started GET "/" for 10.7.1.218 at 2024-10-07 08:36:46 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 1.4ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.9ms | Allocations: 423)
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 410)
+  [1m[36mTechnician Load (0.3ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 1.1ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 3876)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 9203)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.6ms | Allocations: 9472)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 08:36:47 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/services" for 10.7.1.218 at 2024-10-07 08:46:39 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#services as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 823)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#services is missing a template for request formats: text/html):
+  
+actionpack (7.1.4) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.4) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.4) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.10) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.10) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.1.4) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.4) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.4) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.4) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.1.7) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.7) lib/rack/etag.rb:29:in `call'
+rack (3.1.7) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.7) lib/rack/head.rb:15:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `block in tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `tagged'
+activesupport (7.1.4) lib/active_support/broadcast_logger.rb:241:in `method_missing'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.3) lib/puma/configuration.rb:272:in `call'
+puma (6.4.3) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.3) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.3) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.3) lib/puma/server.rb:464:in `process_client'
+puma (6.4.3) lib/puma/server.rb:245:in `block in run'
+puma (6.4.3) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 08:46:39 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.1.218 at 2024-10-07 08:46:41 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 2.2ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (8.4ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 9.3ms | Allocations: 3280)
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.6ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 14.0ms | Allocations: 6733)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 12078)
+Completed 200 OK in 18ms (Views: 5.3ms | ActiveRecord: 12.7ms | Allocations: 12344)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/img/carousel-bg-1.jpg" for 10.7.1.218 at 2024-10-07 08:46:41 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/img/carousel-bg-2.jpg" for 10.7.1.218 at 2024-10-07 08:46:41 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 08:46:42 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.1.218 at 2024-10-07 09:25:08 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 2.3ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (8.9ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 9.8ms | Allocations: 3262)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.4ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 14.5ms | Allocations: 6730)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 12078)
+Completed 200 OK in 20ms (Views: 7.6ms | ActiveRecord: 11.7ms | Allocations: 12344)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/img/carousel-bg-1.jpg" for 10.7.1.218 at 2024-10-07 09:25:08 -0400
+Started GET "/img/carousel-bg-2.jpg" for 10.7.1.218 at 2024-10-07 09:25:08 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 09:25:09 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/" for 10.7.1.218 at 2024-10-07 09:26:25 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.2ms | Allocations: 140)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 346)
+  Rendered shared/_carousel.html.erb (Duration: 1.7ms | Allocations: 2257)
+  Rendered shared/_services.html.erb (Duration: 0.1ms | Allocations: 123)
+  Rendered shared/_about.html.erb (Duration: 0.2ms | Allocations: 176)
+  Rendered shared/_booking.html.erb (Duration: 0.2ms | Allocations: 137)
+  [1m[36mTestimonial Load (0.5ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 2.1ms | Allocations: 669)
+  [1m[36mService Load (0.3ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 2.1ms | Allocations: 770)
+  [1m[36mTechnician Load (0.2ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 1.2ms | Allocations: 675)
+  Rendered home/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 6676)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 26758)
+Completed 200 OK in 30ms (Views: 26.5ms | ActiveRecord: 0.9ms | Allocations: 29400)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 09:26:26 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.1.218 at 2024-10-07 09:26:43 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.1ms | Allocations: 140)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 346)
+  Rendered shared/_carousel.html.erb (Duration: 1.7ms | Allocations: 2261)
+  Rendered shared/_services.html.erb (Duration: 0.1ms | Allocations: 123)
+  Rendered shared/_about.html.erb (Duration: 0.2ms | Allocations: 176)
+  Rendered shared/_booking.html.erb (Duration: 0.1ms | Allocations: 137)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.8ms | Allocations: 669)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 770)
+  [1m[36mTechnician Load (0.0ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.7ms | Allocations: 675)
+  Rendered home/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 6676)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 26774)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.3ms | Allocations: 29413)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 09:26:43 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.1.218 at 2024-10-07 09:27:38 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.5ms | Allocations: 140)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 346)
+  Rendered shared/_carousel.html.erb (Duration: 2.0ms | Allocations: 2261)
+  Rendered shared/_services.html.erb (Duration: 0.6ms | Allocations: 124)
+  Rendered shared/_about.html.erb (Duration: 0.3ms | Allocations: 176)
+  Rendered shared/_booking.html.erb (Duration: 0.3ms | Allocations: 137)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 1.4ms | Allocations: 669)
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 770)
+  [1m[36mTechnician Load (0.2ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 1.2ms | Allocations: 675)
+  Rendered home/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 6677)
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 26790)
+Completed 200 OK in 30ms (Views: 26.1ms | ActiveRecord: 0.7ms | Allocations: 29429)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 09:27:39 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.1.218 at 2024-10-07 09:29:10 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.2ms | Allocations: 140)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 346)
+  Rendered shared/_carousel.html.erb (Duration: 12.2ms | Allocations: 2261)
+  Rendered shared/_services.html.erb (Duration: 0.4ms | Allocations: 124)
+  Rendered shared/_about.html.erb (Duration: 0.2ms | Allocations: 176)
+  Rendered shared/_booking.html.erb (Duration: 0.1ms | Allocations: 137)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.9ms | Allocations: 669)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 770)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.8ms | Allocations: 675)
+  Rendered home/index.html.erb within layouts/application (Duration: 17.5ms | Allocations: 6679)
+  Rendered layout layouts/application.html.erb (Duration: 29.4ms | Allocations: 26793)
+Completed 200 OK in 36ms (Views: 32.5ms | ActiveRecord: 0.4ms | Allocations: 29431)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 09:29:11 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.1.218 at 2024-10-07 09:29:48 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.3ms | Allocations: 141)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 346)
+  Rendered shared/_carousel.html.erb (Duration: 2.1ms | Allocations: 2261)
+  Rendered shared/_services.html.erb (Duration: 0.2ms | Allocations: 123)
+  Rendered shared/_about.html.erb (Duration: 0.2ms | Allocations: 176)
+  Rendered shared/_booking.html.erb (Duration: 0.1ms | Allocations: 137)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.8ms | Allocations: 669)
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 770)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.9ms | Allocations: 675)
+  Rendered home/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 6679)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 26788)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.4ms | Allocations: 29429)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 09:29:48 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.1.218 at 2024-10-07 09:29:57 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.2ms | Allocations: 141)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 346)
+  Rendered shared/_carousel.html.erb (Duration: 1.5ms | Allocations: 2261)
+  Rendered shared/_services.html.erb (Duration: 0.2ms | Allocations: 123)
+  Rendered shared/_about.html.erb (Duration: 9.4ms | Allocations: 176)
+  Rendered shared/_booking.html.erb (Duration: 0.4ms | Allocations: 138)
+  [1m[36mTestimonial Load (0.4ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 1.4ms | Allocations: 669)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 1.0ms | Allocations: 770)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.8ms | Allocations: 675)
+  Rendered home/index.html.erb within layouts/application (Duration: 16.9ms | Allocations: 6678)
+  Rendered layout layouts/application.html.erb (Duration: 37.0ms | Allocations: 26787)
+Completed 200 OK in 40ms (Views: 37.3ms | ActiveRecord: 0.6ms | Allocations: 29425)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 09:29:58 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.1.218 at 2024-10-07 09:30:01 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 1.2ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.6ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.5ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3867)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 9209)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.4ms | Allocations: 9473)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 09:30:02 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.1.218 at 2024-10-07 09:31:10 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.2ms | Allocations: 137)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 346)
+  Rendered shared/_carousel.html.erb (Duration: 2.2ms | Allocations: 2262)
+  Rendered shared/_services.html.erb (Duration: 0.4ms | Allocations: 124)
+  Rendered shared/_about.html.erb (Duration: 0.2ms | Allocations: 176)
+  Rendered shared/_booking.html.erb (Duration: 0.2ms | Allocations: 137)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 1.2ms | Allocations: 669)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 1.7ms | Allocations: 770)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.9ms | Allocations: 675)
+  Rendered home/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 6691)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 26820)
+Completed 200 OK in 28ms (Views: 21.0ms | ActiveRecord: 0.4ms | Allocations: 29420)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/img/carousel-bg-1.jpg" for 10.7.1.218 at 2024-10-07 09:31:11 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/img/carousel-bg-2.jpg" for 10.7.1.218 at 2024-10-07 09:31:11 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 09:31:11 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.1.211 at 2024-10-07 09:31:52 -0400
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 1.2ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.7ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.5ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3867)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 9101)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.5ms | Allocations: 9365)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.211 at 2024-10-07 09:31:54 -0400
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+Started GET "/img/carousel-bg-2.jpg" for 10.7.1.211 at 2024-10-07 09:31:54 -0400
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/img/carousel-bg-1.jpg" for 10.7.1.211 at 2024-10-07 09:31:54 -0400
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+Started GET "/img/favicon.ico" for 10.7.1.211 at 2024-10-07 09:31:54 -0400
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/favicon.ico"):
+  
+Started GET "/" for 10.7.1.211 at 2024-10-07 09:32:22 -0400
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 1.2ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.6ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.5ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 3867)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 9215)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.3ms | Allocations: 9477)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.211 at 2024-10-07 09:32:23 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/services" for 10.7.1.211 at 2024-10-07 09:32:24 -0400
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#services as HTML
+Completed 406 Not Acceptable in 0ms (ActiveRecord: 0.0ms | Allocations: 784)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#services is missing a template for request formats: text/html):
+  
+actionpack (7.1.4) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.4) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.4) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.10) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.10) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.1.4) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.4) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.4) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.4) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.1.7) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.7) lib/rack/etag.rb:29:in `call'
+rack (3.1.7) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.7) lib/rack/head.rb:15:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `block in tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `tagged'
+activesupport (7.1.4) lib/active_support/broadcast_logger.rb:241:in `method_missing'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.3) lib/puma/configuration.rb:272:in `call'
+puma (6.4.3) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.3) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.3) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.3) lib/puma/server.rb:464:in `process_client'
+puma (6.4.3) lib/puma/server.rb:245:in `block in run'
+puma (6.4.3) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/services" for 10.7.1.211 at 2024-10-07 09:32:26 -0400
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#services as HTML
+Completed 406 Not Acceptable in 0ms (ActiveRecord: 0.0ms | Allocations: 549)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#services is missing a template for request formats: text/html):
+  
+actionpack (7.1.4) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.4) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.4) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.10) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.10) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.1.4) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.4) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.4) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.4) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.1.7) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.7) lib/rack/etag.rb:29:in `call'
+rack (3.1.7) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.7) lib/rack/head.rb:15:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `block in tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `tagged'
+activesupport (7.1.4) lib/active_support/broadcast_logger.rb:241:in `method_missing'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.3) lib/puma/configuration.rb:272:in `call'
+puma (6.4.3) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.3) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.3) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.3) lib/puma/server.rb:464:in `process_client'
+puma (6.4.3) lib/puma/server.rb:245:in `block in run'
+puma (6.4.3) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/img/about.jpg" for 10.7.1.211 at 2024-10-07 09:32:26 -0400
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.1.211 at 2024-10-07 09:32:27 -0400
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 1.3ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.9ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 500)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.5ms | Allocations: 434)
+  Rendered home/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 4002)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 9350)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.5ms | Allocations: 9612)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.211 at 2024-10-07 09:32:28 -0400
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+Started GET "/up" for 10.7.1.218 at 2024-10-07 09:32:42 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#up as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 106)
+
+
+Started GET "/" for 10.7.1.211 at 2024-10-07 09:32:57 -0400
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 1.1ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.9ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 410)
+  [1m[36mTechnician Load (0.0ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.3ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 3867)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 9221)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.4ms | Allocations: 9483)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.211 at 2024-10-07 09:32:58 -0400
+Cannot render console from 10.7.1.211! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/" for 10.7.1.41 at 2024-10-07 09:35:23 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 1.1ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.8ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.4ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 3867)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 9100)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.4ms | Allocations: 9362)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.41 at 2024-10-07 09:35:24 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/img/carousel-bg-1.jpg" for 10.7.1.41 at 2024-10-07 09:35:24 -0400
+Started GET "/img/carousel-bg-2.jpg" for 10.7.1.41 at 2024-10-07 09:35:24 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+Started GET "/img/favicon.ico" for 10.7.1.41 at 2024-10-07 09:35:25 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/favicon.ico"):
+  
+Started GET "/" for 10.7.1.41 at 2024-10-07 09:35:35 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 1.3ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.6ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 410)
+  [1m[36mTechnician Load (0.0ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.3ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 3867)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 9227)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.3ms | Allocations: 9489)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.41 at 2024-10-07 09:35:36 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/services" for 10.7.1.41 at 2024-10-07 09:38:15 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#services as HTML
+Completed 406 Not Acceptable in 0ms (ActiveRecord: 0.0ms | Allocations: 549)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#services is missing a template for request formats: text/html):
+  
+actionpack (7.1.4) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.4) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.4) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.10) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.10) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.1.4) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.4) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.4) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.4) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.1.7) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.7) lib/rack/etag.rb:29:in `call'
+rack (3.1.7) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.7) lib/rack/head.rb:15:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `block in tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `tagged'
+activesupport (7.1.4) lib/active_support/broadcast_logger.rb:241:in `method_missing'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.3) lib/puma/configuration.rb:272:in `call'
+puma (6.4.3) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.3) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.3) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.3) lib/puma/server.rb:464:in `process_client'
+puma (6.4.3) lib/puma/server.rb:245:in `block in run'
+puma (6.4.3) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/services" for 10.7.1.41 at 2024-10-07 09:38:19 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#services as HTML
+Completed 406 Not Acceptable in 0ms (ActiveRecord: 0.0ms | Allocations: 549)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#services is missing a template for request formats: text/html):
+  
+actionpack (7.1.4) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.4) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.4) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.10) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.10) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.1.4) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.4) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.4) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.4) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.1.7) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.7) lib/rack/etag.rb:29:in `call'
+rack (3.1.7) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.7) lib/rack/head.rb:15:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `block in tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `tagged'
+activesupport (7.1.4) lib/active_support/broadcast_logger.rb:241:in `method_missing'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.3) lib/puma/configuration.rb:272:in `call'
+puma (6.4.3) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.3) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.3) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.3) lib/puma/server.rb:464:in `process_client'
+puma (6.4.3) lib/puma/server.rb:245:in `block in run'
+puma (6.4.3) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/" for 10.7.1.41 at 2024-10-07 09:38:28 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 1.1ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.7ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.5ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3867)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 9206)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.5ms | Allocations: 9468)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.41 at 2024-10-07 09:38:28 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+Started GET "/services" for 10.7.1.41 at 2024-10-07 09:38:47 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#services as HTML
+Completed 406 Not Acceptable in 0ms (ActiveRecord: 0.0ms | Allocations: 550)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#services is missing a template for request formats: text/html):
+  
+actionpack (7.1.4) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.4) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.4) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.10) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.10) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.1.4) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.4) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.4) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.4) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.1.7) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.7) lib/rack/etag.rb:29:in `call'
+rack (3.1.7) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.7) lib/rack/head.rb:15:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `block in tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `tagged'
+activesupport (7.1.4) lib/active_support/broadcast_logger.rb:241:in `method_missing'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.3) lib/puma/configuration.rb:272:in `call'
+puma (6.4.3) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.3) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.3) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.3) lib/puma/server.rb:464:in `process_client'
+puma (6.4.3) lib/puma/server.rb:245:in `block in run'
+puma (6.4.3) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/about" for 10.7.1.41 at 2024-10-07 09:38:47 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 98)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 430)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 5931)
+Completed 200 OK in 13ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 6234)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.41 at 2024-10-07 09:39:13 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.3.190 at 2024-10-07 09:40:39 -0400
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 1.1ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.7ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.5ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3867)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 9100)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.5ms | Allocations: 9362)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.3.190 at 2024-10-07 09:40:39 -0400
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/img/carousel-bg-1.jpg" for 10.7.3.190 at 2024-10-07 09:40:39 -0400
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/img/carousel-bg-2.jpg" for 10.7.3.190 at 2024-10-07 09:40:39 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+Started GET "/img/favicon.ico" for 10.7.3.190 at 2024-10-07 09:40:40 -0400
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/favicon.ico"):
+  
+Started GET "/services" for 10.7.3.190 at 2024-10-07 09:40:47 -0400
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#services as HTML
+Completed 406 Not Acceptable in 0ms (ActiveRecord: 0.0ms | Allocations: 549)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#services is missing a template for request formats: text/html):
+  
+actionpack (7.1.4) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.4) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.4) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.10) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.10) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.1.4) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.4) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.4) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.4) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.4) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.4) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.4) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.1.7) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.7) lib/rack/etag.rb:29:in `call'
+rack (3.1.7) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.7) lib/rack/head.rb:15:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `block in tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.4) lib/active_support/tagged_logging.rb:139:in `tagged'
+activesupport (7.1.4) lib/active_support/broadcast_logger.rb:241:in `method_missing'
+railties (7.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.3) lib/puma/configuration.rb:272:in `call'
+puma (6.4.3) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.3) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.3) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.3) lib/puma/server.rb:464:in `process_client'
+puma (6.4.3) lib/puma/server.rb:245:in `block in run'
+puma (6.4.3) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/about" for 10.7.3.190 at 2024-10-07 09:40:47 -0400
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 98)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 297)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 5792)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 6028)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.3.190 at 2024-10-07 09:40:48 -0400
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.3.190 at 2024-10-07 09:40:49 -0400
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 1.2ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.6ms | Allocations: 420)
+  [1m[36mService Load (0.0ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 410)
+  [1m[36mTechnician Load (0.0ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.3ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 3873)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 9233)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.3ms | Allocations: 9499)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.3.190 at 2024-10-07 09:40:49 -0400
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/" for 10.7.3.190 at 2024-10-07 09:40:54 -0400
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 1.1ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.7ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.4ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3867)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 9224)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.5ms | Allocations: 9486)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.3.190 at 2024-10-07 09:40:55 -0400
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/about" for 10.7.3.190 at 2024-10-07 09:40:58 -0400
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 98)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 297)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 5792)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 6028)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.3.190 at 2024-10-07 09:40:58 -0400
+Cannot render console from 10.7.3.190! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/about" for 10.7.1.41 at 2024-10-07 09:42:39 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 297)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 5789)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 6027)
+
+
+Started GET "/about" for 10.7.1.41 at 2024-10-07 09:42:40 -0400
+Cannot render console from 10.7.1.41! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 98)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 297)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 5718)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 5954)
+
+
+Started GET "/" for 10.7.1.218 at 2024-10-07 09:51:47 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 2.2ms | Allocations: 1972)
+  Rendered shared/_services.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 10.7ms | Allocations: 3257)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.4ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 6720)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 11984)
+Completed 200 OK in 18ms (Views: 14.5ms | ActiveRecord: 3.7ms | Allocations: 12246)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/img/carousel-bg-1.jpg" for 10.7.1.218 at 2024-10-07 09:51:47 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/img/carousel-bg-2.jpg" for 10.7.1.218 at 2024-10-07 09:51:47 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 09:51:47 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
+Started GET "/" for 10.7.1.218 at 2024-10-07 09:52:56 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_back_to_top.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 97)
+  Rendered shared/_carousel.html.erb (Duration: 1.4ms | Allocations: 1962)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.4ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 1.1ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.4ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 3867)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 9206)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.5ms | Allocations: 9468)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/img/carousel-bg-1.jpg" for 10.7.1.218 at 2024-10-07 09:52:57 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/img/carousel-bg-2.jpg" for 10.7.1.218 at 2024-10-07 09:52:57 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/img/about.jpg" for 10.7.1.218 at 2024-10-07 09:52:57 -0400
+Cannot render console from 10.7.1.218! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/img/about.jpg"):
+  
