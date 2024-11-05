@@ -1,7 +1,6 @@
-<%= render 'shared/back_to_top' %>
-<%= render 'shared/navbar' %>
+<%= render "shared/navbar" %>
 
-<section class="section-products">
+<section class="section-products mt-5">
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-md-8 col-lg-6">
@@ -15,7 +14,7 @@
       <div class="col-md-6 col-lg-4 col-xl-3">
         <div id="product-1" class="single-product">
           <div class="part-1">
-            <%= image_tag 'roda1.jpg', class: 'product-image' %>
+            <%= image_tag "roda1.jpg", class: "product-image" %>
             <ul>
               <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
               <li><a href="#"><i class="fas fa-heart"></i></a></li>
@@ -35,7 +34,7 @@
       <div class="col-md-6 col-lg-4 col-xl-3">
         <div id="product-2" class="single-product">
           <div class="part-1">
-            <%= image_tag 'roda2.jpg', class: 'product-image' %>
+            <%= image_tag "roda2.jpg", class: "product-image" %>
             <span class="discount">15% off</span>
             <ul>
               <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
@@ -55,7 +54,7 @@
       <div class="col-md-6 col-lg-4 col-xl-3">
         <div id="product-3" class="single-product">
           <div class="part-1">
-            <%= image_tag 'roda3.jpg', class: 'product-image' %>
+            <%= image_tag "roda3.jpg", class: "product-image" %>
             <ul>
               <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
               <li><a href="#"><i class="fas fa-heart"></i></a></li>
@@ -75,7 +74,7 @@
       <div class="col-md-6 col-lg-4 col-xl-3">
         <div id="product-4" class="single-product">
           <div class="part-1">
-            <%= image_tag 'rodas.jpg', class: 'product-image' %>
+            <%= image_tag "rodas.jpg", class: "product-image" %>
             <span class="new">new</span>
             <ul>
               <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
@@ -96,7 +95,7 @@
       <div class="col-md-6 col-lg-4 col-xl-3">
         <div id="product-5" class="single-product">
           <div class="part-1">
-            <%= image_tag 'roda1.jpg', class: 'product-image' %>
+            <%= image_tag "roda1.jpg", class: "product-image" %>
             <ul>
               <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
               <li><a href="#"><i class="fas fa-heart"></i></a></li>
@@ -115,7 +114,7 @@
       <div class="col-md-6 col-lg-4 col-xl-3">
         <div id="product-6" class="single-product">
           <div class="part-1">
-            <%= image_tag 'roda2.jpg', class: 'product-image' %>
+            <%= image_tag "roda2.jpg", class: "product-image" %>
             <span class="discount">15% off</span>
             <ul>
               <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
@@ -134,7 +133,7 @@
       <div class="col-md-6 col-lg-4 col-xl-3">
         <div id="product-7" class="single-product">
           <div class="part-1">
-            <%= image_tag 'roda3.jpg', class: 'product-image' %>
+            <%= image_tag "roda3.jpg", class: "product-image" %>
             <ul>
               <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
               <li><a href="#"><i class="fas fa-heart"></i></a></li>
@@ -153,7 +152,7 @@
       <div class="col-md-6 col-lg-4 col-xl-3">
         <div id="product-8" class="single-product">
           <div class="part-1">
-            <%= image_tag 'rodas.jpg', class: 'product-image' %>
+            <%= image_tag "rodas.jpg", class: "product-image" %>
             <span class="new">new</span>
             <ul>
               <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
@@ -171,3 +170,10 @@
     </div>
   </div>
 </section>
+
+
+<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div> 
