@@ -33215,3 +33215,355 @@ ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg")
   
 ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
   
+Started GET "/services" for 127.0.0.1 at 2024-11-04 22:15:46 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#services as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/services.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 437)
+Started GET "/services" for 127.0.0.1 at 2024-11-04 22:15:46 -0400
+Processing by HomeController#services as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/services.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered home/services.html.erb within layouts/application (Duration: 304.2ms | Allocations: 101421)
+  Rendered home/services.html.erb within layouts/application (Duration: 177.8ms | Allocations: 57568)
+  Rendered layout layouts/application.html.erb (Duration: 206.4ms | Allocations: 96629)
+  Rendered layout layouts/application.html.erb (Duration: 334.6ms | Allocations: 143691)
+Completed 200 OK in 209ms (Views: 209.1ms | ActiveRecord: 0.0ms | Allocations: 98289)
+
+
+Completed 200 OK in 356ms (Views: 340.5ms | ActiveRecord: 0.0ms | Allocations: 147870)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/services" for 127.0.0.1 at 2024-11-04 22:15:48 -0400
+Processing by HomeController#services as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/services.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 98)
+  Rendered home/services.html.erb within layouts/application (Duration: 2.4ms | Allocations: 3132)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 8458)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 8695)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/about" for 127.0.0.1 at 2024-11-04 22:15:49 -0400
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 98)
+  Rendered shared/_about.html.erb (Duration: 1.1ms | Allocations: 827)
+  Rendered shared/_services.html.erb (Duration: 0.2ms | Allocations: 125)
+  Rendered home/about.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1514)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 6849)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 7152)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-11-04 22:15:50 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 98)
+  Rendered shared/_carousel.html.erb (Duration: 2.4ms | Allocations: 2278)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.3ms | Allocations: 453)
+  Rendered shared/_booking.html.erb (Duration: 0.2ms | Allocations: 139)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 7.8ms | Allocations: 3708)
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 1.1ms | Allocations: 796)
+  [1m[36mTechnician Load (0.2ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 1.1ms | Allocations: 695)
+  Rendered home/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 9224)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 14563)
+Completed 200 OK in 39ms (Views: 15.3ms | ActiveRecord: 3.7ms | Allocations: 21597)
+
+
+Started GET "/img/carousel-bg-1.jpg" for 127.0.0.1 at 2024-11-04 22:15:51 -0400
+Started GET "/img/carousel-bg-2.jpg" for 127.0.0.1 at 2024-11-04 22:15:51 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+Started GET "/about" for 127.0.0.1 at 2024-11-04 22:15:51 -0400
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 98)
+  Rendered shared/_about.html.erb (Duration: 0.7ms | Allocations: 628)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/about.html.erb within layouts/application (Duration: 1.2ms | Allocations: 919)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 6248)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 6484)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/services" for 127.0.0.1 at 2024-11-04 22:15:53 -0400
+Processing by HomeController#services as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/services.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 98)
+  Rendered home/services.html.erb within layouts/application (Duration: 2.4ms | Allocations: 3132)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 8452)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 8688)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+Started GET "/about" for 127.0.0.1 at 2024-11-04 22:15:54 -0400
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 98)
+  Rendered shared/_about.html.erb (Duration: 1.6ms | Allocations: 628)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered home/about.html.erb within layouts/application (Duration: 2.0ms | Allocations: 919)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 6263)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 6499)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-11-04 22:15:59 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 98)
+  Rendered shared/_carousel.html.erb (Duration: 2.3ms | Allocations: 2002)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.4ms | Allocations: 453)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (3.8ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 5.2ms | Allocations: 1176)
+  [1m[36mService Load (0.5ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 2.2ms | Allocations: 410)
+  [1m[36mTechnician Load (0.6ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 1.7ms | Allocations: 495)
+  Rendered home/index.html.erb within layouts/application (Duration: 14.0ms | Allocations: 5304)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 11082)
+Completed 200 OK in 25ms (Views: 19.3ms | ActiveRecord: 4.9ms | Allocations: 11350)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-11-04 22:16:19 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 98)
+  Rendered shared/_carousel.html.erb (Duration: 2.0ms | Allocations: 2002)
+  Rendered shared/_services.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered shared/_about.html.erb (Duration: 0.3ms | Allocations: 453)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.9ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.5ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 4288)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 9620)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.6ms | Allocations: 9882)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
