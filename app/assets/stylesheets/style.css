@@ -1,10 +1,11 @@
-/********** Template CSS **********/
 :root {
     --primary: #D81324;
     --secondary: #0B2154;
     --light: #F2F2F2;
     --dark: #111111;
 }
+
+
 
 .fw-medium {
     font-weight: 600 !important;
@@ -91,12 +92,14 @@
     text-transform: uppercase;
     outline: none;
 }
+
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--primary);
 }
+
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -140,6 +143,9 @@
     }
 }
 
+.icone-adm {
+    height: 1rem;
+}
 
 /*** Header ***/
 .carousel-caption {
@@ -167,7 +173,7 @@
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -186,7 +192,7 @@
     background: rgba(0, 0, 0, .7);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -379,6 +385,7 @@
     padding-right: 0;
     border-right: none;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 body {
@@ -393,21 +400,24 @@ a:hover {
 }
 
 
-/* services.html.erb */ 
+/* services.html.erb */
 .section-products .single-product {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 450px; /* Altura fixa para garantir consistência */
+    height: 450px;
+    /* Altura fixa para garantir consistência */
     margin-bottom: 26px;
-    background-color: #f8f8f8; /* cor de fundo para contraste */
+    background-color: #f8f8f8;
+    /* cor de fundo para contraste */
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .section-products .single-product .part-1 {
     position: relative;
-    height: 250px; /* Altura padrão para a imagem */
+    height: 250px;
+    /* Altura padrão para a imagem */
     overflow: hidden;
     border-radius: 5px 5px 0 0;
 }
