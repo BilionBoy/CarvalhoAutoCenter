@@ -16,6 +16,7 @@
   </head>
   <body>
     <%= yield %>
+   
     <%= javascript_include_tag 'https://code.jquery.com/jquery-3.4.1.min.js', 'data-turbo-track': 'reload' %>
     <%= javascript_include_tag 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js', 'data-turbo-track': 'reload' %>
     <%= javascript_include_tag '/assets/javascripts/lib/wow/wow.min.js', 'data-turbo-track': 'reload' %>
