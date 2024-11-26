@@ -1,0 +1,40 @@
+<div class="card shadow p-4">
+  <h2 class="text-center mb-4">Adicionar Nova Roda</h2>
+
+  <%= form_with(model: [:admin, @roda], local: true, html: { class: "needs-validation", novalidate: true }) do |form| %>
+    <div class="row">
+      <!-- Campo Título -->
+      <div class="col-md-12 mb-3">
+        <%= form.label :titulo, "Título", class: "form-label" %>
+        <%= form.text_field :titulo, class: "form-control", placeholder: "Digite o título da roda", required: true %>
+        <div class="invalid-feedback">Por favor, informe o título.</div>
+      </div>
+
+      <!-- Campo Descrição -->
+      <div class="col-md-12 mb-3">
+        <%= form.label :descricao, "Descrição", class: "form-label" %>
+        <%= form.text_area :descricao, class: "form-control", rows: 3, placeholder: "Descreva a roda (ex: características, material, etc.)", required: true %>
+        <div class="invalid-feedback">A descrição é obrigatória.</div>
+      </div>
+
+      <!-- Campo Preço -->
+      <div class="col-md-6 mb-3">
+        <%= form.label :preco, "Preço (R$)", class: "form-label" %>
+        <%= form.number_field :preco, class: "form-control", step: 0.01, placeholder: "Ex: 49.99", required: true %>
+        <div class="invalid-feedback">Por favor, informe um preço válido.</div>
+      </div>
+
+      <!-- Campo Imagem -->
+      <div class="col-md-6 mb-3">
+        <%= form.label :imagem, "URL da Imagem", class: "form-label" %>
+        <%= form.text_field :imagem, class: "form-control", placeholder: "Cole aqui o link da imagem", required: true %>
+        <div class="invalid-feedback">Por favor, forneça uma URL válida para a imagem.</div>
+      </div>
+    </div>
+
+    <!-- Botão de Enviar -->
+    <div class="text-center mt-4">
+      <%= form.submit "Salvar", class: "btn btn-primary btn-lg w-100" %>
+    </div>
+  <% end %>
+</div>

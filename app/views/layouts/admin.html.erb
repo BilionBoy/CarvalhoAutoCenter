@@ -57,8 +57,9 @@
         <ul class="list-unstyled">
           <li><%= link_to "Dashboard", admin_root_path %></li>
           <li><%= link_to "Usuários", admin_users_path %></li>
-          <li><%= link_to "Serviços", admin_services_path %></li>
-          <li><%= button_to "Sair", destroy_user_session_path, method: :delete, class: "btn btn-danger" %></li> <!-- Link para logout -->
+          <li><%= link_to "Listar Rodas", admin_rodas_path %></li> <!-- Lista todas as rodas -->
+          <li><%= link_to "Adicionar Roda", new_admin_roda_path %></li> <!-- Vai para o formulário de criação -->
+          <li><%= button_to "Sair", destroy_user_session_path, method: :delete, class: "btn btn-danger" %></li>
         </ul>
       </div>
     </div>

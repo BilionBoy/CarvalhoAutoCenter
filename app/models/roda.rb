@@ -1,0 +1,2 @@
+class Roda < ApplicationRecord
+end
