@@ -1,0 +1,74 @@
+
+:root {
+  --primary: #D81324;
+  --secondary: #0B2154;
+  --light: #F2F2F2;
+  --dark: #111111;
+}
+
+
+
+
+.sidebar {
+    left: 0;
+    background-color: #f8f9fa;
+    padding: 20px;
+    height: 100vh; /* Faz o sidebar ter altura total da tela */
+    position: fixed;
+    width: 300px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar ul {
+    padding-left: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #007bff;
+  }
+  
+  .login-container {
+    background: url('/assets/banner.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+.card-login{
+  max-width: 400px;
+  width: 100%;
+  border-radius: 0.375rem;
+  border: solid #141414;
+  background-color: #222222;
+}
+
+
+.text-center{
+  color: white;
+}
+  .login-box {
+    max-width: 400px;
+  }
+  
+
+  
+
+  .form-label{
+    color: white;
+  }
+
+  .form-check-label{
+    color: white;
+  }
