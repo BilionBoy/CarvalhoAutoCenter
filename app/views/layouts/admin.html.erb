@@ -14,70 +14,8 @@
     <%= stylesheet_link_tag "application", media: "all", 'data-turbo-track': "reload" %>
     <%= stylesheet_link_tag "admin", media: "all" %>
     <%= javascript_importmap_tags %>
-  </head>
-  <body>
-    <div class="navbar navbar-dark navbar-expand-xl navbar-static" style="background: #0B2154; height: 120px;">
-
-        <div class="container-fluid">
-            <div class="d-flex d-xl-none me-2">
-                <button type="button" class="navbar-toggler sidebar-mobile-main-toggle rounded-pill">
-                    <i class="ph-list"></i>
-                </button>
-            </div>
-            <div class="navbar-brand flex-0 flex-sm-1 py-0">
-                <a href="/" class="d-flex align-items-center text-decoration-none text-white gap-2">
-                    <img src="/assets/brasao.png" style="height: 65px">
-                    <img src="/assets/sgis_logo.png" style="height: 45px">
-                </a>
-            </div>
-            <ul class="nav flex-row justify-content-end order-1 order-lg-2">
-                <li class="nav-item nav-item-dropdown-lg ms-lg-2">
-                    <a href="#" class="navbar-nav-link align-items-center rounded-pill p-1" id="userMenuToggle">
-                        <div class="status-indicator-container">
-                            <i class="ph-user-circle"></i>
-                            <span class="status-indicator bg-success"></span>
-                        </div>
-                    </a>
-                    <div id="userMenu" class="custom-dropdown-menu">
-                        <form class="button_to" method="post" action="/auth/sign_out"><input type="hidden"
-                                name="_method" value="delete" autocomplete="off"><input type="hidden"
-                                name="authenticity_token"
-                                value="-KSHv3rq3Fqwonk31z2ZIP7u6kJSwdVvh8fZr-dMBtjgRkikZjdVFq6FXYwiZMNbxYq0ItLYcJ6C8aGiw_FjcQ"
-                                autocomplete="off"></form>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-<div class="container-fluid">
-  <!-- Sidebar -->
-  <div class="row">
-    <div class="col-md-3">
-      <div class="sidebar">
-        <ul class="list-unstyled">
-          <li><%= link_to "Dashboard", admin_root_path %></li>
-          <li><%= link_to "Usuários", admin_users_path %></li>
-          <li><%= link_to "Listar Rodas", admin_rodas_path %></li> <!-- Lista todas as rodas -->
-          <li><%= link_to "Adicionar Roda", new_admin_roda_path %></li> <!-- Vai para o formulário de criação -->
-          <li><%= button_to "Sair", destroy_user_session_path, method: :delete, class: "btn btn-danger" %></li>
-        </ul>
-      </div>
-    </div>
-
-<% if notice %>
-  <p class="alert alert-success"><%= notice %></p>
-<% end %>
-<% if alert %>
-  <p class="alert alert-danger"><%= alert %></p>
-<% end %>
-    <!-- Main Content -->
-    <div class="col-md-9">
-      <%= yield %> <!-- Aqui o conteúdo das páginas será renderizado -->
-    </div>
-  </div>
-</div>
-
-
+    <%# Dependências JS %>
+    <%# App JS do projeto %>
     <%= javascript_include_tag "https://code.jquery.com/jquery-3.4.1.min.js", 'data-turbo-track': "reload" %>
     <%= javascript_include_tag "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js", 'data-turbo-track': "reload" %>
     <%= javascript_include_tag "/assets/javascripts/lib/wow/wow.min.js", 'data-turbo-track': "reload" %>
@@ -91,5 +29,12 @@
     <%= javascript_include_tag "main", 'data-turbo-track': "reload" %>
     <%= javascript_include_tag "application", 'data-turbo-track': "reload" %>
     <%= javascript_include_tag "admin" %>
+  </head>
+  <body>
+    <!-- Alertas -->
+    <%= render "shared/notification"%>
+    <!-- Sidebar -->
+    <%= render "shared/sidebar"%>
+    <%= yield %>
   </body>
 </html>

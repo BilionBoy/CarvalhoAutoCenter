@@ -1,6 +1,9 @@
 module Admin
-  class DashboardController < BaseController
+  class DashboardController < ApplicationController
+    before_action :authenticate_user!
+
     def index
+      # Lógica do dashboard administrativo
     end
   end
 
