@@ -63,6 +63,13 @@
         </ul>
       </div>
     </div>
+
+<% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
     <!-- Main Content -->
     <div class="col-md-9">
       <%= yield %> <!-- Aqui o conteúdo das páginas será renderizado -->
