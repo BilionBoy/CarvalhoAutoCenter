@@ -57517,3 +57517,356 @@ ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/
   
 ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
   
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2024-11-27 06:35:11 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.8ms | Allocations: 327)
+  Rendered shared/_about.html.erb (Duration: 140.2ms | Allocations: 64069)
+  Rendered shared/_booking.html.erb (Duration: 0.3ms | Allocations: 143)
+  [1m[36mTestimonial Load (1.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 7.8ms | Allocations: 3707)
+  [1m[36mService Load (0.7ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 1.9ms | Allocations: 796)
+  [1m[36mTechnician Load (0.6ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 1.7ms | Allocations: 695)
+  Rendered home/index.html.erb within layouts/application (Duration: 163.7ms | Allocations: 70890)
+  Rendered layout layouts/application.html.erb (Duration: 184.6ms | Allocations: 91605)
+Completed 200 OK in 207ms (Views: 188.1ms | ActiveRecord: 4.6ms | Allocations: 98612)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/img/carousel-bg-2.jpg" for 127.0.0.1 at 2024-11-27 06:35:12 -0400
+Started GET "/img/carousel-bg-1.jpg" for 127.0.0.1 at 2024-11-27 06:35:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+Started GET "/img/favicon.ico" for 127.0.0.1 at 2024-11-27 06:35:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/favicon.ico"):
+  
+Started GET "/services" for 127.0.0.1 at 2024-11-27 06:35:18 -0400
+Processing by HomeController#services as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/services.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  [1m[36mRoda Load (0.9ms)[0m  [1m[34mSELECT "rodas".* FROM "rodas"[0m
+  ↳ app/views/home/services.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (1.4ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (1.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 2], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  Rendered home/services.html.erb within layouts/application (Duration: 72.1ms | Allocations: 28502)
+  Rendered layout layouts/application.html.erb (Duration: 75.9ms | Allocations: 34086)
+Completed 200 OK in 109ms (Views: 59.2ms | ActiveRecord: 17.9ms | Allocations: 42197)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-11-27 06:35:18 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered shared/_about.html.erb (Duration: 0.9ms | Allocations: 636)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.7ms | Allocations: 415)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 411)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.4ms | Allocations: 413)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2306)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 7738)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.3ms | Allocations: 8008)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/services" for 127.0.0.1 at 2024-11-27 06:35:21 -0400
+Processing by HomeController#services as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/services.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  [1m[36mRoda Load (0.3ms)[0m  [1m[34mSELECT "rodas".* FROM "rodas"[0m
+  ↳ app/views/home/services.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 2], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  Rendered home/services.html.erb within layouts/application (Duration: 7.5ms | Allocations: 3831)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 9416)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.9ms | Allocations: 9669)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MSwicHVyIjoiYmxvYl9pZCJ9fQ==--f45d81c56a3d2b999bb3f7415c79ef8463f53e6e/rodateste.jpg" for 127.0.0.1 at 2024-11-27 06:35:21 -0400
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MiwicHVyIjoiYmxvYl9pZCJ9fQ==--71f6a7e4d44874e01ff9162f60fa947593627369/rodatestando.jpg" for 127.0.0.1 at 2024-11-27 06:35:21 -0400
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsiZGF0YSI6MSwicHVyIjoiYmxvYl9pZCJ9fQ==--f45d81c56a3d2b999bb3f7415c79ef8463f53e6e", "filename"=>"rodateste"}
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsiZGF0YSI6MiwicHVyIjoiYmxvYl9pZCJ9fQ==--71f6a7e4d44874e01ff9162f60fa947593627369", "filename"=>"rodatestando"}
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  [1m[36mActiveStorage::Blob Load (0.7ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[36m  Disk Storage (0.5ms) [0m[34mGenerated URL for file at key: hlgi2ynr9gfhdbz5mqvu8jsl9d3k (http://127.0.0.1:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJobGdpMnlucjlnZmhkYno1bXF2dThqc2w5ZDNrIiwiZGlzcG9zaXRpb24iOiJpbmxpbmU7IGZpbGVuYW1lPVwicm9kYXRlc3RlLmpwZ1wiOyBmaWxlbmFtZSo9VVRGLTgnJ3JvZGF0ZXN0ZS5qcGciLCJjb250ZW50X3R5cGUiOiJpbWFnZS9qcGVnIiwic2VydmljZV9uYW1lIjoibG9jYWwifSwiZXhwIjoiMjAyNC0xMS0yN1QxMDo0MDoyMS40NzZaIiwicHVyIjoiYmxvYl9rZXkifX0=--5aa892f8b8841d9fe899640ca9b19c687f7fd5b2/rodateste.jpg)[0m
+Redirected to http://127.0.0.1:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJobGdpMnlucjlnZmhkYno1bXF2dThqc2w5ZDNrIiwiZGlzcG9zaXRpb24iOiJpbmxpbmU7IGZpbGVuYW1lPVwicm9kYXRlc3RlLmpwZ1wiOyBmaWxlbmFtZSo9VVRGLTgnJ3JvZGF0ZXN0ZS5qcGciLCJjb250ZW50X3R5cGUiOiJpbWFnZS9qcGVnIiwic2VydmljZV9uYW1lIjoibG9jYWwifSwiZXhwIjoiMjAyNC0xMS0yN1QxMDo0MDoyMS40NzZaIiwicHVyIjoiYmxvYl9rZXkifX0=--5aa892f8b8841d9fe899640ca9b19c687f7fd5b2/rodateste.jpg
+Completed 302 Found in 31ms (ActiveRecord: 0.7ms | Allocations: 41396)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJobGdpMnlucjlnZmhkYno1bXF2dThqc2w5ZDNrIiwiZGlzcG9zaXRpb24iOiJpbmxpbmU7IGZpbGVuYW1lPVwicm9kYXRlc3RlLmpwZ1wiOyBmaWxlbmFtZSo9VVRGLTgnJ3JvZGF0ZXN0ZS5qcGciLCJjb250ZW50X3R5cGUiOiJpbWFnZS9qcGVnIiwic2VydmljZV9uYW1lIjoibG9jYWwifSwiZXhwIjoiMjAyNC0xMS0yN1QxMDo0MDoyMS40NzZaIiwicHVyIjoiYmxvYl9rZXkifX0=--5aa892f8b8841d9fe899640ca9b19c687f7fd5b2/rodateste.jpg" for 127.0.0.1 at 2024-11-27 06:35:21 -0400
+  [1m[36mActiveStorage::Blob Load (0.7ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[36m  Disk Storage (0.4ms) [0m[34mGenerated URL for file at key: a3zu54hnpd30aobygaarr74igb80 (http://127.0.0.1:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJhM3p1NTRobnBkMzBhb2J5Z2FhcnI3NGlnYjgwIiwiZGlzcG9zaXRpb24iOiJpbmxpbmU7IGZpbGVuYW1lPVwicm9kYXRlc3RhbmRvLmpwZ1wiOyBmaWxlbmFtZSo9VVRGLTgnJ3JvZGF0ZXN0YW5kby5qcGciLCJjb250ZW50X3R5cGUiOiJpbWFnZS9qcGVnIiwic2VydmljZV9uYW1lIjoibG9jYWwifSwiZXhwIjoiMjAyNC0xMS0yN1QxMDo0MDoyMS41MTlaIiwicHVyIjoiYmxvYl9rZXkifX0=--df2f21c4d6e709646ed12cb467b08ff411a4c0e3/rodatestando.jpg)[0m
+Redirected to http://127.0.0.1:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJhM3p1NTRobnBkMzBhb2J5Z2FhcnI3NGlnYjgwIiwiZGlzcG9zaXRpb24iOiJpbmxpbmU7IGZpbGVuYW1lPVwicm9kYXRlc3RhbmRvLmpwZ1wiOyBmaWxlbmFtZSo9VVRGLTgnJ3JvZGF0ZXN0YW5kby5qcGciLCJjb250ZW50X3R5cGUiOiJpbWFnZS9qcGVnIiwic2VydmljZV9uYW1lIjoibG9jYWwifSwiZXhwIjoiMjAyNC0xMS0yN1QxMDo0MDoyMS41MTlaIiwicHVyIjoiYmxvYl9rZXkifX0=--df2f21c4d6e709646ed12cb467b08ff411a4c0e3/rodatestando.jpg
+Completed 302 Found in 73ms (ActiveRecord: 11.7ms | Allocations: 103377)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJhM3p1NTRobnBkMzBhb2J5Z2FhcnI3NGlnYjgwIiwiZGlzcG9zaXRpb24iOiJpbmxpbmU7IGZpbGVuYW1lPVwicm9kYXRlc3RhbmRvLmpwZ1wiOyBmaWxlbmFtZSo9VVRGLTgnJ3JvZGF0ZXN0YW5kby5qcGciLCJjb250ZW50X3R5cGUiOiJpbWFnZS9qcGVnIiwic2VydmljZV9uYW1lIjoibG9jYWwifSwiZXhwIjoiMjAyNC0xMS0yN1QxMDo0MDoyMS41MTlaIiwicHVyIjoiYmxvYl9rZXkifX0=--df2f21c4d6e709646ed12cb467b08ff411a4c0e3/rodatestando.jpg" for 127.0.0.1 at 2024-11-27 06:35:21 -0400
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"rodateste"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"rodatestando"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Allocations: 152)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-11-27 06:35:22 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered shared/_about.html.erb (Duration: 0.8ms | Allocations: 636)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.4ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 1.0ms | Allocations: 420)
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.5ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 2309)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 7753)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.6ms | Allocations: 8022)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/" for ::1 at 2024-11-27 06:35:41 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 58)
+  Rendered shared/_about.html.erb (Duration: 1.6ms | Allocations: 651)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.5ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 1.4ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.5ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2318)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 7629)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.7ms | Allocations: 7894)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/img/carousel-bg-2.jpg" for ::1 at 2024-11-27 06:35:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/img/carousel-bg-1.jpg" for ::1 at 2024-11-27 06:35:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+Started GET "/img/favicon.ico" for ::1 at 2024-11-27 06:35:42 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/favicon.ico"):
+  
+Started GET "/" for ::1 at 2024-11-27 06:36:13 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered shared/_about.html.erb (Duration: 0.7ms | Allocations: 636)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.9ms | Allocations: 414)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 410)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.6ms | Allocations: 412)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 2303)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 13952)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.4ms | Allocations: 14217)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+Started GET "/img/carousel-bg-2.jpg" for ::1 at 2024-11-27 06:36:13 -0400
+Started GET "/img/carousel-bg-1.jpg" for ::1 at 2024-11-27 06:36:13 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
