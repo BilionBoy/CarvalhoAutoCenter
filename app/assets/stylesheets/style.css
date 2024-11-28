@@ -5,6 +5,17 @@
     --dark: #111111;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Garante que o body ocupe toda a altura da tela */
+}
+
+.main-content {
+    max-height: 100vh; /* Limita a altura do conteúdo ao tamanho da tela */
+    overflow-y: auto; /* Apenas a área de conteúdo rola, sem afetar o layout geral */
+    padding: 20px;
+}
 
 
 .fw-medium {
