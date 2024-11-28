@@ -64675,3 +64675,1110 @@ Started GET "/admin/rodas/img/favicon.ico" for ::1 at 2024-11-27 13:34:11 -0400
   
 ActionController::RoutingError (No route matches [GET] "/admin/rodas/img/favicon.ico"):
   
+Started GET "/" for 127.0.0.1 at 2024-11-28 07:48:30 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 319)
+  Rendered shared/_about.html.erb (Duration: 124.0ms | Allocations: 31223)
+  Rendered shared/_booking.html.erb (Duration: 0.7ms | Allocations: 139)
+  [1m[36mTestimonial Load (0.8ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 8.4ms | Allocations: 3685)
+  [1m[36mService Load (0.4ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 1.4ms | Allocations: 776)
+  [1m[36mTechnician Load (0.5ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 2.0ms | Allocations: 680)
+  Rendered home/index.html.erb within layouts/application (Duration: 139.9ms | Allocations: 37950)
+  Rendered layout layouts/application.html.erb (Duration: 157.8ms | Allocations: 58299)
+Completed 200 OK in 174ms (Views: 156.5ms | ActiveRecord: 3.9ms | Allocations: 64732)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/img/carousel-bg-2.jpg" for 127.0.0.1 at 2024-11-28 07:48:31 -0400
+Started GET "/img/carousel-bg-1.jpg" for 127.0.0.1 at 2024-11-28 07:48:31 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+Started GET "/img/favicon.ico" for 127.0.0.1 at 2024-11-28 07:48:31 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/favicon.ico"):
+  
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2024-11-28 08:46:44 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 58)
+  Rendered shared/_about.html.erb (Duration: 1.0ms | Allocations: 621)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (6.8ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 7.9ms | Allocations: 3252)
+  [1m[36mService Load (0.3ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 1.0ms | Allocations: 406)
+  [1m[36mTechnician Load (0.3ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 1.0ms | Allocations: 408)
+  Rendered home/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 5118)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 10413)
+Completed 200 OK in 22ms (Views: 10.8ms | ActiveRecord: 10.8ms | Allocations: 10666)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2024-11-28 09:34:45 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 58)
+  Rendered shared/_about.html.erb (Duration: 1.3ms | Allocations: 621)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (6.5ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 7.6ms | Allocations: 3251)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 406)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.4ms | Allocations: 408)
+  Rendered home/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 5117)
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 10424)
+Completed 200 OK in 33ms (Views: 22.3ms | ActiveRecord: 9.5ms | Allocations: 10673)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/img/carousel-bg-2.jpg" for 127.0.0.1 at 2024-11-28 09:34:46 -0400
+Started GET "/img/carousel-bg-1.jpg" for 127.0.0.1 at 2024-11-28 09:34:46 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+Started GET "/services" for 127.0.0.1 at 2024-11-28 09:34:48 -0400
+Processing by HomeController#services as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/services.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  [1m[36mRoda Load (1.3ms)[0m  [1m[34mSELECT "rodas".* FROM "rodas"[0m
+  ↳ app/views/home/services.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (0.6ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 2], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.4ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 3], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.7ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 4], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  Rendered home/services.html.erb within layouts/application (Duration: 65.4ms | Allocations: 29949)
+  Rendered layout layouts/application.html.erb (Duration: 68.6ms | Allocations: 35420)
+Completed 200 OK in 100ms (Views: 52.6ms | ActiveRecord: 17.2ms | Allocations: 45090)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2024-11-28 10:39:43 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 319)
+  Rendered shared/_about.html.erb (Duration: 86.1ms | Allocations: 31220)
+  Rendered shared/_booking.html.erb (Duration: 0.3ms | Allocations: 139)
+  [1m[36mTestimonial Load (0.9ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 7.9ms | Allocations: 3685)
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 1.5ms | Allocations: 776)
+  [1m[36mTechnician Load (0.4ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 1.4ms | Allocations: 680)
+  Rendered home/index.html.erb within layouts/application (Duration: 100.4ms | Allocations: 37947)
+  Rendered layout layouts/application.html.erb (Duration: 118.3ms | Allocations: 59409)
+Completed 200 OK in 187ms (Views: 118.8ms | ActiveRecord: 4.0ms | Allocations: 65844)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/img/carousel-bg-2.jpg" for 127.0.0.1 at 2024-11-28 10:39:44 -0400
+Started GET "/img/carousel-bg-1.jpg" for 127.0.0.1 at 2024-11-28 10:39:44 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+Started GET "/services" for 127.0.0.1 at 2024-11-28 10:39:46 -0400
+Processing by HomeController#services as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/services.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  [1m[36mRoda Load (0.5ms)[0m  [1m[34mSELECT "rodas".* FROM "rodas"[0m
+  ↳ app/views/home/services.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (0.4ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 2], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 3], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.3ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 4], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  Rendered home/services.html.erb within layouts/application (Duration: 70.3ms | Allocations: 30019)
+  Rendered layout layouts/application.html.erb (Duration: 74.4ms | Allocations: 35468)
+Completed 200 OK in 86ms (Views: 53.8ms | ActiveRecord: 21.9ms | Allocations: 42811)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MiwicHVyIjoiYmxvYl9pZCJ9fQ==--71f6a7e4d44874e01ff9162f60fa947593627369/roda.webp" for 127.0.0.1 at 2024-11-28 10:39:47 -0400
+Processing by ActiveStorage::Blobs::RedirectController#show as WEBP
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsiZGF0YSI6MiwicHVyIjoiYmxvYl9pZCJ9fQ==--71f6a7e4d44874e01ff9162f60fa947593627369", "filename"=>"roda"}
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[36m  Disk Storage (0.4ms) [0m[34mGenerated URL for file at key: vci1emirozy8kdrzgidn69hee54n (http://127.0.0.1:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJ2Y2kxZW1pcm96eThrZHJ6Z2lkbjY5aGVlNTRuIiwiZGlzcG9zaXRpb24iOiJhdHRhY2htZW50OyBmaWxlbmFtZT1cInJvZGEud2VicFwiOyBmaWxlbmFtZSo9VVRGLTgnJ3JvZGEud2VicCIsImNvbnRlbnRfdHlwZSI6ImltYWdlL3dlYnAiLCJzZXJ2aWNlX25hbWUiOiJsb2NhbCJ9LCJleHAiOiIyMDI0LTExLTI4VDE0OjQ0OjQ3LjEwNVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--c7a7648274a8084a00edb4d83c3042f6f4c3fdf4/roda.webp)[0m
+Redirected to http://127.0.0.1:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJ2Y2kxZW1pcm96eThrZHJ6Z2lkbjY5aGVlNTRuIiwiZGlzcG9zaXRpb24iOiJhdHRhY2htZW50OyBmaWxlbmFtZT1cInJvZGEud2VicFwiOyBmaWxlbmFtZSo9VVRGLTgnJ3JvZGEud2VicCIsImNvbnRlbnRfdHlwZSI6ImltYWdlL3dlYnAiLCJzZXJ2aWNlX25hbWUiOiJsb2NhbCJ9LCJleHAiOiIyMDI0LTExLTI4VDE0OjQ0OjQ3LjEwNVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--c7a7648274a8084a00edb4d83c3042f6f4c3fdf4/roda.webp
+Completed 302 Found in 4ms (ActiveRecord: 0.1ms | Allocations: 2590)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJ2Y2kxZW1pcm96eThrZHJ6Z2lkbjY5aGVlNTRuIiwiZGlzcG9zaXRpb24iOiJhdHRhY2htZW50OyBmaWxlbmFtZT1cInJvZGEud2VicFwiOyBmaWxlbmFtZSo9VVRGLTgnJ3JvZGEud2VicCIsImNvbnRlbnRfdHlwZSI6ImltYWdlL3dlYnAiLCJzZXJ2aWNlX25hbWUiOiJsb2NhbCJ9LCJleHAiOiIyMDI0LTExLTI4VDE0OjQ0OjQ3LjEwNVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--c7a7648274a8084a00edb4d83c3042f6f4c3fdf4/roda.webp" for 127.0.0.1 at 2024-11-28 10:39:47 -0400
+Processing by ActiveStorage::DiskController#show as WEBP
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"roda"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Allocations: 276)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MSwicHVyIjoiYmxvYl9pZCJ9fQ==--f45d81c56a3d2b999bb3f7415c79ef8463f53e6e/roda.webp" for 127.0.0.1 at 2024-11-28 10:39:47 -0400
+Processing by ActiveStorage::Blobs::RedirectController#show as WEBP
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsiZGF0YSI6MSwicHVyIjoiYmxvYl9pZCJ9fQ==--f45d81c56a3d2b999bb3f7415c79ef8463f53e6e", "filename"=>"roda"}
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[36m  Disk Storage (0.2ms) [0m[34mGenerated URL for file at key: ll3y06d0t3r34nc9y36zgl3fdcml (http://127.0.0.1:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJsbDN5MDZkMHQzcjM0bmM5eTM2emdsM2ZkY21sIiwiZGlzcG9zaXRpb24iOiJhdHRhY2htZW50OyBmaWxlbmFtZT1cInJvZGEud2VicFwiOyBmaWxlbmFtZSo9VVRGLTgnJ3JvZGEud2VicCIsImNvbnRlbnRfdHlwZSI6ImltYWdlL3dlYnAiLCJzZXJ2aWNlX25hbWUiOiJsb2NhbCJ9LCJleHAiOiIyMDI0LTExLTI4VDE0OjQ0OjQ3LjI5N1oiLCJwdXIiOiJibG9iX2tleSJ9fQ==--ba7b77c3c5cd58e201aafb7f72050f99e91ced27/roda.webp)[0m
+Redirected to http://127.0.0.1:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJsbDN5MDZkMHQzcjM0bmM5eTM2emdsM2ZkY21sIiwiZGlzcG9zaXRpb24iOiJhdHRhY2htZW50OyBmaWxlbmFtZT1cInJvZGEud2VicFwiOyBmaWxlbmFtZSo9VVRGLTgnJ3JvZGEud2VicCIsImNvbnRlbnRfdHlwZSI6ImltYWdlL3dlYnAiLCJzZXJ2aWNlX25hbWUiOiJsb2NhbCJ9LCJleHAiOiIyMDI0LTExLTI4VDE0OjQ0OjQ3LjI5N1oiLCJwdXIiOiJibG9iX2tleSJ9fQ==--ba7b77c3c5cd58e201aafb7f72050f99e91ced27/roda.webp
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1380)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsiZGF0YSI6eyJrZXkiOiJsbDN5MDZkMHQzcjM0bmM5eTM2emdsM2ZkY21sIiwiZGlzcG9zaXRpb24iOiJhdHRhY2htZW50OyBmaWxlbmFtZT1cInJvZGEud2VicFwiOyBmaWxlbmFtZSo9VVRGLTgnJ3JvZGEud2VicCIsImNvbnRlbnRfdHlwZSI6ImltYWdlL3dlYnAiLCJzZXJ2aWNlX25hbWUiOiJsb2NhbCJ9LCJleHAiOiIyMDI0LTExLTI4VDE0OjQ0OjQ3LjI5N1oiLCJwdXIiOiJibG9iX2tleSJ9fQ==--ba7b77c3c5cd58e201aafb7f72050f99e91ced27/roda.webp" for 127.0.0.1 at 2024-11-28 10:39:47 -0400
+Processing by ActiveStorage::DiskController#show as WEBP
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"roda"}
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Allocations: 151)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2024-11-28 11:35:48 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 319)
+  Rendered shared/_about.html.erb (Duration: 105.5ms | Allocations: 31248)
+  Rendered shared/_booking.html.erb (Duration: 0.4ms | Allocations: 139)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 8.8ms | Allocations: 3685)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 776)
+  [1m[36mTechnician Load (0.2ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 1.1ms | Allocations: 680)
+  Rendered home/index.html.erb within layouts/application (Duration: 120.5ms | Allocations: 37975)
+  Rendered layout layouts/application.html.erb (Duration: 170.3ms | Allocations: 59460)
+Completed 200 OK in 186ms (Views: 170.2ms | ActiveRecord: 3.6ms | Allocations: 65893)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/img/carousel-bg-2.jpg" for 127.0.0.1 at 2024-11-28 11:35:49 -0400
+Started GET "/img/carousel-bg-1.jpg" for 127.0.0.1 at 2024-11-28 11:35:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+Started GET "/services" for 127.0.0.1 at 2024-11-28 11:35:49 -0400
+Processing by HomeController#services as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/services.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 58)
+  [1m[36mRoda Load (0.7ms)[0m  [1m[34mSELECT "rodas".* FROM "rodas"[0m
+  ↳ app/views/home/services.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (0.3ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 2], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 3], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 4], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  Rendered home/services.html.erb within layouts/application (Duration: 46.2ms | Allocations: 30039)
+  Rendered layout layouts/application.html.erb (Duration: 51.8ms | Allocations: 35495)
+Completed 200 OK in 64ms (Views: 39.4ms | ActiveRecord: 13.3ms | Allocations: 42838)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:35:50 -0400
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 1329)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:35:50 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 439)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2138)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 7480)
+Completed 200 OK in 15ms (Views: 7.4ms | ActiveRecord: 1.5ms | Allocations: 14197)
+
+
+Started GET "/users/img/favicon.ico" for 127.0.0.1 at 2024-11-28 11:35:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/users/img/favicon.ico"):
+  
+Started POST "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:36:02 -0400
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"dhiogoandre26@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "dhiogoandre26@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/admin
+Completed 303 See Other in 213ms (ActiveRecord: 1.2ms | Allocations: 4028)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:36:02 -0400
+Processing by Admin::DashboardController#index as TURBO_STREAM
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/admin.html.erb
+  Rendering admin/dashboard/index.html.erb within layouts/admin
+  Rendered admin/dashboard/index.html.erb within layouts/admin (Duration: 0.2ms | Allocations: 77)
+  Rendered shared/_notification.html.erb (Duration: 0.4ms | Allocations: 188)
+  Rendered shared/_sidebar.html.erb (Duration: 1.8ms | Allocations: 403)
+  Rendered layout layouts/admin.html.erb (Duration: 13.3ms | Allocations: 8154)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.1ms | Allocations: 10031)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:36:11 -0400
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/admin.html.erb
+  Rendering admin/dashboard/index.html.erb within layouts/admin
+  Rendered admin/dashboard/index.html.erb within layouts/admin (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_notification.html.erb (Duration: 0.0ms | Allocations: 23)
+  Rendered shared/_sidebar.html.erb (Duration: 0.3ms | Allocations: 189)
+  Rendered layout layouts/admin.html.erb (Duration: 4.0ms | Allocations: 6828)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.2ms | Allocations: 8439)
+
+
+Started GET "/admin/rodas" for 127.0.0.1 at 2024-11-28 11:36:11 -0400
+Processing by Admin::RodasController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/admin.html.erb
+  Rendering admin/rodas/index.html.erb within layouts/admin
+  [1m[36mRoda Load (0.1ms)[0m  [1m[34mSELECT "rodas".* FROM "rodas"[0m
+  ↳ app/views/admin/rodas/index.html.erb:11
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/admin/rodas/index.html.erb:15
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 2], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/admin/rodas/index.html.erb:15
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 3], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/admin/rodas/index.html.erb:15
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/rodas/index.html.erb:15
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 4], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/admin/rodas/index.html.erb:15
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/rodas/index.html.erb:15
+  Rendered admin/rodas/index.html.erb within layouts/admin (Duration: 10.2ms | Allocations: 5626)
+  Rendered shared/_notification.html.erb (Duration: 0.0ms | Allocations: 23)
+  Rendered shared/_sidebar.html.erb (Duration: 0.3ms | Allocations: 180)
+  Rendered layout layouts/admin.html.erb (Duration: 14.4ms | Allocations: 12454)
+Completed 200 OK in 17ms (Views: 13.8ms | ActiveRecord: 1.0ms | Allocations: 14296)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2024-11-28 11:36:15 -0400
+Processing by Devise::SessionsController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 303 See Other in 14ms (ActiveRecord: 0.1ms | Allocations: 4878)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-28 11:36:15 -0400
+Processing by HomeController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered shared/_about.html.erb (Duration: 0.6ms | Allocations: 621)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.9ms | Allocations: 411)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.7ms | Allocations: 407)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.5ms | Allocations: 409)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 2279)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 7599)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.4ms | Allocations: 7850)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:36:16 -0400
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:36:16 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 65)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 612)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 5801)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 6355)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:36:20 -0400
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"edsonmendes@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "edsonmendes@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/admin
+Completed 303 See Other in 209ms (ActiveRecord: 0.2ms | Allocations: 2424)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:36:20 -0400
+Processing by Admin::DashboardController#index as TURBO_STREAM
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/admin.html.erb
+  Rendering admin/dashboard/index.html.erb within layouts/admin
+  Rendered admin/dashboard/index.html.erb within layouts/admin (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_notification.html.erb (Duration: 0.0ms | Allocations: 28)
+  Rendered shared/_sidebar.html.erb (Duration: 0.4ms | Allocations: 189)
+  Rendered layout layouts/admin.html.erb (Duration: 4.4ms | Allocations: 6849)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.1ms | Allocations: 8475)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2024-11-28 11:44:26 -0400
+Processing by Devise::SessionsController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 303 See Other in 10ms (ActiveRecord: 2.1ms | Allocations: 8803)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-28 11:44:26 -0400
+Processing by HomeController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 238)
+  Rendered shared/_about.html.erb (Duration: 0.7ms | Allocations: 845)
+  Rendered shared/_booking.html.erb (Duration: 0.2ms | Allocations: 133)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 1.1ms | Allocations: 670)
+  [1m[36mService Load (0.3ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 749)
+  [1m[36mTechnician Load (0.3ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 1.6ms | Allocations: 661)
+  Rendered home/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 4302)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 24314)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.9ms | Allocations: 26234)
+
+
+Started GET "/services" for 127.0.0.1 at 2024-11-28 11:44:27 -0400
+Processing by HomeController#services as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/services.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  [1m[36mRoda Load (0.3ms)[0m  [1m[34mSELECT "rodas".* FROM "rodas"[0m
+  ↳ app/views/home/services.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 2], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 3], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.3ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 4], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  Rendered home/services.html.erb within layouts/application (Duration: 43.1ms | Allocations: 18690)
+  Rendered layout layouts/application.html.erb (Duration: 46.5ms | Allocations: 24147)
+Completed 200 OK in 66ms (Views: 45.6ms | ActiveRecord: 1.2ms | Allocations: 28890)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:44:27 -0400
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 367)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:44:27 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 422)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1470)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 6727)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 7619)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:44:31 -0400
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"edsonmendes@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "edsonmendes@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/admin
+Completed 303 See Other in 209ms (ActiveRecord: 0.2ms | Allocations: 2744)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:44:31 -0400
+Processing by Admin::DashboardController#index as TURBO_STREAM
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/admin.html.erb
+  Rendering admin/dashboard/index.html.erb within layouts/admin
+  Rendered admin/dashboard/index.html.erb within layouts/admin (Duration: 0.3ms | Allocations: 76)
+  Rendered shared/_notification.html.erb (Duration: 0.4ms | Allocations: 213)
+  Rendered shared/_sidebar.html.erb (Duration: 0.6ms | Allocations: 384)
+  Rendered layout layouts/admin.html.erb (Duration: 11.3ms | Allocations: 8068)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 0.1ms | Allocations: 9877)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2024-11-28 11:45:35 -0400
+Processing by Devise::SessionsController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 303 See Other in 14ms (ActiveRecord: 2.7ms | Allocations: 6261)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-28 11:45:35 -0400
+Processing by HomeController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 236)
+  Rendered shared/_about.html.erb (Duration: 0.9ms | Allocations: 845)
+  Rendered shared/_booking.html.erb (Duration: 0.3ms | Allocations: 133)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 1.6ms | Allocations: 653)
+  [1m[36mService Load (0.4ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 2.6ms | Allocations: 749)
+  [1m[36mTechnician Load (0.2ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 1.5ms | Allocations: 661)
+  Rendered home/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 4283)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 24302)
+Completed 200 OK in 27ms (Views: 24.6ms | ActiveRecord: 1.0ms | Allocations: 26221)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:45:36 -0400
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 370)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:45:36 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 422)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1473)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 6730)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 7597)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:45:41 -0400
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"edsonmendes@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "edsonmendes@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/admin
+Completed 303 See Other in 209ms (ActiveRecord: 0.1ms | Allocations: 2755)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:45:42 -0400
+Processing by Admin::DashboardController#index as TURBO_STREAM
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/admin.html.erb
+  Rendering admin/dashboard/index.html.erb within layouts/admin
+  Rendered admin/dashboard/index.html.erb within layouts/admin (Duration: 0.2ms | Allocations: 76)
+  Rendered shared/_notification.html.erb (Duration: 0.5ms | Allocations: 215)
+  Rendered shared/_sidebar.html.erb (Duration: 0.7ms | Allocations: 384)
+  Rendered layout layouts/admin.html.erb (Duration: 8.2ms | Allocations: 7982)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.1ms | Allocations: 9811)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2024-11-28 11:46:41 -0400
+Processing by Devise::SessionsController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 303 See Other in 9ms (ActiveRecord: 2.1ms | Allocations: 6199)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-28 11:46:41 -0400
+Processing by HomeController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 236)
+  Rendered shared/_about.html.erb (Duration: 0.8ms | Allocations: 833)
+  Rendered shared/_booking.html.erb (Duration: 0.2ms | Allocations: 133)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.9ms | Allocations: 653)
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 1.3ms | Allocations: 749)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 1.0ms | Allocations: 661)
+  Rendered home/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 4269)
+  Rendered layout layouts/application.html.erb (Duration: 40.1ms | Allocations: 29555)
+Completed 200 OK in 43ms (Views: 40.5ms | ActiveRecord: 0.5ms | Allocations: 31466)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-28 11:46:41 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 58)
+  Rendered shared/_about.html.erb (Duration: 0.9ms | Allocations: 627)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 1.1ms | Allocations: 410)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 406)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.5ms | Allocations: 408)
+  Rendered home/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 2282)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 7541)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.4ms | Allocations: 7786)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment-timezone.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/tempusdominus/js/moment.min.js"):
+  
+Started GET "/img/carousel-bg-2.jpg" for 127.0.0.1 at 2024-11-28 11:46:41 -0400
+Started GET "/img/carousel-bg-1.jpg" for 127.0.0.1 at 2024-11-28 11:46:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-2.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/img/carousel-bg-1.jpg"):
+  
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:46:42 -0400
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 385)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:46:42 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 422)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1468)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 6806)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 7678)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/easing/easing.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/wow/wow.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/counterup/counterup.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/waypoints/waypoints.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/lib/owlcarousel/owl.carousel.min.js"):
+  
+Started POST "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:46:50 -0400
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"edsonmendes@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "edsonmendes@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/admin
+Completed 303 See Other in 209ms (ActiveRecord: 0.2ms | Allocations: 2746)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:46:50 -0400
+Processing by Admin::DashboardController#index as TURBO_STREAM
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/admin.html.erb
+  Rendering admin/dashboard/index.html.erb within layouts/admin
+  Rendered admin/dashboard/index.html.erb within layouts/admin (Duration: 0.3ms | Allocations: 76)
+  Rendered shared/_notification.html.erb (Duration: 0.3ms | Allocations: 246)
+  Rendered shared/_sidebar.html.erb (Duration: 0.5ms | Allocations: 384)
+  Rendered layout layouts/admin.html.erb (Duration: 8.8ms | Allocations: 8091)
+Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 0.1ms | Allocations: 9914)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2024-11-28 11:47:28 -0400
+Processing by Devise::SessionsController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 303 See Other in 2ms (ActiveRecord: 0.1ms | Allocations: 1788)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-28 11:47:28 -0400
+Processing by HomeController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 58)
+  Rendered shared/_about.html.erb (Duration: 1.2ms | Allocations: 616)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.4ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 1.1ms | Allocations: 410)
+  [1m[36mService Load (0.2ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.8ms | Allocations: 406)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.5ms | Allocations: 408)
+  Rendered home/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2271)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 7503)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.7ms | Allocations: 7749)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:47:28 -0400
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:47:28 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 65)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 612)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 5796)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 6337)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:47:33 -0400
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"edsonmendes@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "edsonmendes@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/admin
+Completed 303 See Other in 208ms (ActiveRecord: 0.2ms | Allocations: 2422)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:47:34 -0400
+Processing by Admin::DashboardController#index as TURBO_STREAM
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/admin.html.erb
+  Rendering admin/dashboard/index.html.erb within layouts/admin
+  Rendered admin/dashboard/index.html.erb within layouts/admin (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_notification.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered shared/_sidebar.html.erb (Duration: 0.4ms | Allocations: 189)
+  Rendered layout layouts/admin.html.erb (Duration: 4.3ms | Allocations: 6832)
+Completed 200 OK in 8ms (Views: 4.7ms | ActiveRecord: 0.1ms | Allocations: 8456)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2024-11-28 11:48:06 -0400
+Processing by Devise::SessionsController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 303 See Other in 14ms (ActiveRecord: 2.1ms | Allocations: 7198)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-28 11:48:06 -0400
+Processing by HomeController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 236)
+  Rendered shared/_about.html.erb (Duration: 1.1ms | Allocations: 845)
+  Rendered shared/_booking.html.erb (Duration: 0.4ms | Allocations: 133)
+  [1m[36mTestimonial Load (0.3ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 1.1ms | Allocations: 653)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.9ms | Allocations: 749)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.7ms | Allocations: 661)
+  Rendered home/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 4283)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 24273)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.4ms | Allocations: 26193)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:48:07 -0400
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 375)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:48:07 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 422)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1472)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 6725)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 7628)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:48:11 -0400
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"edsonmendes@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "edsonmendes@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/admin
+Completed 303 See Other in 210ms (ActiveRecord: 0.2ms | Allocations: 2740)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:48:11 -0400
+Processing by Admin::DashboardController#index as TURBO_STREAM
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/admin.html.erb
+  Rendering admin/dashboard/index.html.erb within layouts/admin
+  Rendered admin/dashboard/index.html.erb within layouts/admin (Duration: 0.2ms | Allocations: 76)
+  Rendered shared/_notification.html.erb (Duration: 0.5ms | Allocations: 241)
+  Rendered shared/_sidebar.html.erb (Duration: 0.7ms | Allocations: 384)
+  Rendered layout layouts/admin.html.erb (Duration: 7.4ms | Allocations: 8004)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.1ms | Allocations: 9799)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2024-11-28 11:48:18 -0400
+Processing by Devise::SessionsController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Completed 303 See Other in 2ms (ActiveRecord: 0.1ms | Allocations: 1794)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-28 11:48:18 -0400
+Processing by HomeController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 58)
+  Rendered shared/_about.html.erb (Duration: 0.7ms | Allocations: 623)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.8ms | Allocations: 410)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 406)
+  [1m[36mTechnician Load (0.1ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.5ms | Allocations: 408)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2278)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 7580)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.4ms | Allocations: 7828)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:48:19 -0400
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 280)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:48:19 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 65)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 612)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 5853)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 6424)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-28 11:48:35 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered shared/_about.html.erb (Duration: 0.6ms | Allocations: 616)
+  Rendered shared/_booking.html.erb (Duration: 0.0ms | Allocations: 8)
+  [1m[36mTestimonial Load (0.2ms)[0m  [1m[34mSELECT "testimonials".* FROM "testimonials"[0m
+  ↳ app/views/shared/_testimonials.html.erb:7
+  Rendered shared/_testimonials.html.erb (Duration: 0.6ms | Allocations: 410)
+  [1m[36mService Load (0.1ms)[0m  [1m[34mSELECT "services".* FROM "services"[0m
+  ↳ app/views/shared/_footer.html.erb:26
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 406)
+  [1m[36mTechnician Load (0.0ms)[0m  [1m[34mSELECT "technicians".* FROM "technicians"[0m
+  ↳ app/views/shared/_team.html.erb:9
+  Rendered shared/_team.html.erb (Duration: 0.3ms | Allocations: 408)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2271)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 7517)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.3ms | Allocations: 7760)
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2024-11-28 11:48:35 -0400
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.2ms | Allocations: 209)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 74)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1319)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 6510)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 7225)
+
+
+Started GET "/users/password/img/favicon.ico" for 127.0.0.1 at 2024-11-28 11:48:36 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/users/password/img/favicon.ico"):
+  
+Started GET "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:48:36 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 65)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 612)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 5882)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 6427)
+
+
+Started GET "/services" for 127.0.0.1 at 2024-11-28 11:48:46 -0400
+Processing by HomeController#services as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/services.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 58)
+  [1m[36mRoda Load (0.2ms)[0m  [1m[34mSELECT "rodas".* FROM "rodas"[0m
+  ↳ app/views/home/services.html.erb:10
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 1], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 2], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 3], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments" WHERE "active_storage_attachments"."record_id" = $1 AND "active_storage_attachments"."record_type" = $2 AND "active_storage_attachments"."name" = $3 LIMIT $4[0m  [["record_id", 4], ["record_type", "Roda"], ["name", "imagem"], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs" WHERE "active_storage_blobs"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/services.html.erb:14
+  Rendered home/services.html.erb within layouts/application (Duration: 24.5ms | Allocations: 19284)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 24649)
+Completed 200 OK in 66ms (Views: 23.7ms | ActiveRecord: 5.0ms | Allocations: 31731)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:48:47 -0400
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms | Allocations: 291)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:48:47 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 65)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 612)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 5797)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 6345)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2024-11-28 11:48:50 -0400
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"edsonmendes@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "edsonmendes@gmail.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/admin
+Completed 303 See Other in 208ms (ActiveRecord: 0.2ms | Allocations: 2447)
+
+
+Started GET "/admin" for 127.0.0.1 at 2024-11-28 11:48:51 -0400
+Processing by Admin::DashboardController#index as TURBO_STREAM
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/admin.html.erb
+  Rendering admin/dashboard/index.html.erb within layouts/admin
+  Rendered admin/dashboard/index.html.erb within layouts/admin (Duration: 0.0ms | Allocations: 6)
+  Rendered shared/_notification.html.erb (Duration: 0.1ms | Allocations: 28)
+  Rendered shared/_sidebar.html.erb (Duration: 0.4ms | Allocations: 189)
+  Rendered layout layouts/admin.html.erb (Duration: 4.5ms | Allocations: 6844)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.1ms | Allocations: 8460)
+
+

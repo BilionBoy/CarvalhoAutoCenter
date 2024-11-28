@@ -29,6 +29,22 @@
  * about supported directives.
  */
 
- @import "bootstrap.min";
- @import "style";
- 
+@import "bootstrap.min";
+@import "style";
+
+
+.alert-fixed {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    transition: opacity 0.5s ease-out;
+}
+
+.alert-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
