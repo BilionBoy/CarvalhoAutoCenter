@@ -32,9 +32,14 @@
   </head>
   <body>
     <!-- Alertas -->
-    <%= render "shared/notification"%>
-    <!-- Sidebar -->
-    <%= render "shared/sidebar"%>
-    <%= yield %>
+    <%= render "shared/notification" %>
+    <div class="wrapper">
+      <!-- Sidebar -->
+      <%= render "shared/sidebar" %>
+      <!-- Conteúdo Principal -->
+      <div class="content">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
