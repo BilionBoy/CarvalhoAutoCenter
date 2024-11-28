@@ -1,7 +1,6 @@
-
 :root {
-    --primary: #D81324;
-    --secondary: #0B2154;
+    --primary: #3d3d3d;
+    --secondary: #000000;
     --light: #F2F2F2;
     --dark: #111111;
 }
@@ -76,77 +75,74 @@
 
 
 /*** Navbar ***/
-.navbar .dropdown-toggle::after {
-    border: none;
-    content: "\f107";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    vertical-align: middle;
-    margin-left: 8px;
+/* Navbar estilizada */
+.navbar {
+    background-color: #1e1e1e;
+    color: #fff;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    margin-right: 30px;
-    padding: 25px 0;
-    color: #FFFFFF;
-    font-size: 15px;
+.navbar .nav-link {
+    color: #ffffff;
     text-transform: uppercase;
-    outline: none;
+    font-size: 16px;
+    padding: 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #f8c151;
+    transform: scale(1.05);
 }
 
-@media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link {
-        margin-right: 0;
+
+
+.navbar .dropdown-menu {
+    background-color: #1e1e1e;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #f8c151;
+    color: #1e1e1e;
+}
+
+.navbar .navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-toggler-icon {
+    background-color: transparent;
+}
+.navbar-toggler {
+    background-color: #1e1e1e; /* Sem fundo, apenas o ícone */
+  }
+  
+
+/* Responsividade */
+@media (max-width: 991px) {
+    .navbar-nav {
+        border-top: 1px solid #444;
+    }
+
+    .navbar-nav .nav-link {
         padding: 10px 0;
     }
-
-    .navbar-light .navbar-nav {
-        border-top: 1px solid #EEEEEE;
-    }
-}
-
-.navbar-light .navbar-brand,
-.navbar-light a.btn {
-    height: 75px;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
-    font-weight: 500;
-}
-
-.navbar-light.sticky-top {
-    top: -100px;
-    transition: .5s;
 }
 
 @media (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu {
-        display: block;
-        border: none;
-        margin-top: 0;
-        top: 150%;
-        opacity: 0;
+    .navbar .dropdown-menu {
+        top: 100%;
         visibility: hidden;
-        transition: .5s;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
-        top: 100%;
         visibility: visible;
-        transition: .5s;
         opacity: 1;
     }
 }
 
-.icone-adm {
-    height: 1rem;
-}
 
 /*** Header ***/
 .carousel-caption {
