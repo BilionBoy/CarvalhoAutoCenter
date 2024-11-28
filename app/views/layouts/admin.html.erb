@@ -30,16 +30,19 @@
     <%= javascript_include_tag "application", 'data-turbo-track': "reload" %>
     <%= javascript_include_tag "admin" %>
   </head>
-  <body>
-    <!-- Alertas -->
-    <%= render "shared/notification" %>
-    <div class="wrapper">
-      <!-- Sidebar -->
-      <%= render "shared/sidebar" %>
-      <!-- Conteúdo Principal -->
-      <div class="content">
-        <%= yield %>
-      </div>
+ <body>
+  <!-- Alertas -->
+  <%= render "shared/notification" %>
+
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <%= render "shared/sidebar" %>
+
+    <!-- Conteúdo Principal -->
+    <div class="content">
+      <%= yield %>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
