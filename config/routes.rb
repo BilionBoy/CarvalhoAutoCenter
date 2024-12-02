@@ -7,10 +7,10 @@ Rails.application.routes.draw do
 
   # Rotas administrativas
   namespace :admin do
-    root to: "dashboard#index"
+    root to: "dashboard#index"  # Página inicial do painel administrativo
 
-    resources :users
+    resources :users, except: [:show]   # Roteamento para gerenciamento de usuários, sem a ação 'show'
     resources :services
-    resources :rodas, except: [:show]
+    resources :rodas, except: [:show]   # Roteamento para gerenciamento de rodas
   end
 end

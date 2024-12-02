@@ -1,0 +1,26 @@
+<!-- app/views/admin/users/index.html.erb -->
+<h1>Usuários</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Email</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.id %></td>
+        <td><%= user.email %></td> <!-- Exibe o email do usuário -->
+        <td>
+          <%= link_to 'Editar', edit_admin_user_path(user), class: 'btn btn-warning' %> 
+          <%= link_to 'Excluir', admin_user_path(user), method: :delete, data: { confirm: 'Tem certeza que deseja excluir?' }, class: 'btn btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to 'Adicionar Novo Usuário', new_admin_user_path, class: 'btn btn-success' %>
