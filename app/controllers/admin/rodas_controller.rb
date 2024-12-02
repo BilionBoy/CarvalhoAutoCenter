@@ -7,6 +7,8 @@ class Admin::RodasController < ApplicationController
   end
 
   def new
+    @rodas = Roda.all # Definir @rodas para a sidebar
+
     @roda = Roda.new
   end
 

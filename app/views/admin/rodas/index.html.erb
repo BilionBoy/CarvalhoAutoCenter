@@ -1,32 +1,27 @@
-<section class="section-products mt-5">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="col-md-8 col-lg-6">
-        <div class="header">
-          <h2>Catálogo de Rodas</h2>
-        </div>
-      </div>
-    </div>
-   <div class="row"> 
-      <% @rodas.each do |roda| %>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-          <div class="single-product">
-            <div class="part-1">
-              <%= image_tag roda.imagem, class: "product-image" if roda.imagem.present? %>
-              <ul>
-                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                <li><a href="#"><i class="fas fa-heart"></i></a></li>
-                <li><a href="#"><i class="fas fa-plus"></i></a></li>
-                <li><a href="#"><i class="fas fa-expand"></i></a></li>
-              </ul>
-            </div>
-            <div class="part-2">
-              <h3 class="product-title"><%= roda.titulo %></h3>
-              <h4 class="product-price"><%= number_to_currency(roda.preco) %></h4>
-            </div>
-          </div>
-        </div>
-      <% end %>
-    </div>
-  </div>
-</section>
+<h1>Editar Rodas</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Título</th>
+      <th>Descrição</th>
+      <th>Preço</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @rodas.each do |roda| %>
+      <tr>
+        <td><%= roda.titulo %></td>
+        <td><%= roda.descricao %></td>
+        <td><%= number_to_currency(roda.preco) %></td>
+        <td>
+          <%= link_to "Editar", edit_admin_roda_path(roda), class: "btn btn-warning" %>
+          <%= button_to "Remover", admin_roda_path(roda), method: :delete, data: { confirm: "Tem certeza que deseja remover?" }, class: "btn btn-danger" %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to "Adicionar Nova Roda", new_admin_roda_path, class: "btn btn-primary" %>

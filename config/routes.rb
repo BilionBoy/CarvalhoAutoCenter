@@ -7,18 +7,10 @@ Rails.application.routes.draw do
 
   # Rotas administrativas
   namespace :admin do
-    get "rodas/index"
-    get "rodas/new"
-    get "rodas/create"
-    get "rodas/edit"
-    get "rodas/update"
-    get "rodas/destroy"
-
     root to: "dashboard#index"
+
     resources :users
     resources :services
-    resources :rodas
-    resources :rodas, only: [:index]
-
+    resources :rodas, except: [:show]
   end
 end
