@@ -6,6 +6,11 @@ class HomeController < ApplicationController
   end
 
   def services
+    @testimonials = Testimonial.all
+    @technicians = Technician.all
+
+    @services = Service.all
+
     @rodas = Roda.all  # Ou qualquer lógica que recupere as rodas do banco de dados
   end
 
