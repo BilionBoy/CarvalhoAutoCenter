@@ -38,7 +38,48 @@
 }
 
 
-/* Conteúdo principal */
+/* Painel Administrativo */
+.admin-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--light);
+  color: var(--dark);
+  border: 1px solid var(--secondary);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.admin-dashboard-container h1 {
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-dashboard-container p {
+  color: var(--secondary);
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.admin-dashboard-container .btn {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.admin-dashboard-container .btn-primary {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.admin-dashboard-container .btn-primary:hover {
+  background-color: #b90f1c;
+}
 
 .wrapper {
   display: flex;
@@ -88,4 +129,150 @@
 
 .form-check-label {
   color: white;
+}
+
+
+/* Users */
+
+.usuarios-container {
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: var(--light);
+  padding: 20px;
+  border: 1px solid var(--secondary);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.usuarios-container h1 {
+  color: var(--primary);
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.usuarios-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.usuarios-container table th,
+.usuarios-container table td {
+  padding: 12px;
+  border: 1px solid var(--secondary);
+  text-align: left;
+  font-size: 16px;
+}
+
+.usuarios-container table th {
+  background-color: var(--secondary);
+  color: var(--light);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.usuarios-container table td {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.usuarios-container table tr:hover {
+  background-color: rgba(216, 19, 36, 0.1);
+}
+
+.usuarios-container .btn {
+  margin: 0 5px;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.usuarios-container .btn-warning {
+  background-color: #ffb703;
+  color: #fff;
+}
+
+.usuarios-container .btn-warning:hover {
+  background-color: #ffa500;
+}
+
+.usuarios-container .btn-danger {
+  background-color: #e63946;
+  color: #fff;
+}
+
+.usuarios-container .btn-danger:hover {
+  background-color: #d62828;
+}
+
+.usuarios-container .btn-success {
+  background-color: var(--primary);
+  color: #fff;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.usuarios-container .btn-success:hover {
+  background-color: #b90f1c;
+}
+
+.usuarios-container .no-users-message {
+  text-align: center;
+  color: var(--secondary);
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+/* Cadastro de Nova Roda */
+.cadastro-roda-container {
+  background-color: var(--light);
+  padding: 20px;
+  border: 1px solid var(--secondary);
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-roda-container h1 {
+  color: var(--secondary);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cadastro-roda-container .form-label {
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+.cadastro-roda-container .form-control {
+  border: 1px solid var(--secondary);
+  border-radius: 8px;
+  padding: 10px;
+  color: var(--dark);
+}
+
+.cadastro-roda-container .form-control:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 5px var(--primary);
+  outline: none;
+}
+
+.cadastro-roda-container .btn-primary {
+  background-color: var(--primary);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.cadastro-roda-container .btn-primary:hover {
+  background-color: #b90f1c;
 }
