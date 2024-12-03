@@ -11,7 +11,7 @@
     </div>
     <div class="mb-3">
       <%= form.label :preco, "Preço", class: "form-label" %>
-      <%= form.number_field :preco, class: "form-control", step: 0.01, placeholder: "Ex: 49.99" %>
+      <%= form.number_field :preco, class: "form-control", step: 0.01, placeholder: "Ex: 49.99", value: @roda.preco %>
     </div>
     <div class="mb-3">
       <%= form.label :imagem, "Imagem da Roda", class: "form-label" %>

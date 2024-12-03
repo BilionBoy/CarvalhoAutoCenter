@@ -1,10 +1,9 @@
 :root {
-    --primary: #3d3d3d;
-    --secondary: #000000;
+    --primary: #D81324;
+    --secondary: #0B2154;
     --light: #F2F2F2;
     --dark: #111111;
 }
-
 
 
 body {
@@ -91,7 +90,6 @@ body {
 
 
 /*** Navbar ***/
-/* Navbar estilizada */
 .navbar {
     background-color: #1e1e1e;
     color: #fff;
@@ -132,7 +130,6 @@ body {
 
 .navbar-toggler {
     background-color: #1e1e1e;
-    /* Sem fundo, apenas o ícone */
 }
 
 
@@ -183,7 +180,6 @@ body {
 }
 
 
-/*** Facts ***/
 .fact {
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
     background-color: #0B2154;

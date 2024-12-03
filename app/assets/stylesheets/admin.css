@@ -5,6 +5,7 @@
   --dark: #111111;
 }
 
+
 /* Sidebar */
 .sidebar {
   position: fixed;
@@ -225,54 +226,4 @@
   color: var(--secondary);
   font-size: 18px;
   margin-top: 30px;
-}
-
-/* Cadastro de Nova Roda */
-.cadastro-roda-container {
-  background-color: var(--light);
-  padding: 20px;
-  border: 1px solid var(--secondary);
-  border-radius: 10px;
-  max-width: 600px;
-  margin: 20px auto;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.cadastro-roda-container h1 {
-  color: var(--secondary);
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.cadastro-roda-container .form-label {
-  color: var(--secondary);
-  font-weight: bold;
-}
-
-.cadastro-roda-container .form-control {
-  border: 1px solid var(--secondary);
-  border-radius: 8px;
-  padding: 10px;
-  color: var(--dark);
-}
-
-.cadastro-roda-container .form-control:focus {
-  border-color: var(--primary);
-  box-shadow: 0 0 5px var(--primary);
-  outline: none;
-}
-
-.cadastro-roda-container .btn-primary {
-  background-color: var(--primary);
-  border: none;
-  color: #fff;
-  font-weight: bold;
-  padding: 10px;
-  border-radius: 8px;
-  width: 100%;
-  transition: background-color 0.3s ease;
-}
-
-.cadastro-roda-container .btn-primary:hover {
-  background-color: #b90f1c;
 }

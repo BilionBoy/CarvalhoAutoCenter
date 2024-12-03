@@ -9,3 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return new bootstrap.Tooltip(tooltipTriggerEl);
     });
 });
+
+$(document).ready(function () {
+    $('#roda_preco').mask('000.000.000,00', { reverse: true });
+});
