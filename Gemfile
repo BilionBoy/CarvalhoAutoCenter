@@ -5,6 +5,7 @@ gem "rufo"
 gem "html2erb"
 gem "rufo"
 
+gem 'ransack'
 
 #gem para arquivos de tradução
 gem 'rails-i18n'

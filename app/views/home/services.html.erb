@@ -18,7 +18,7 @@
               <tbody>
                 <tr>
                   <td>
-                    <%= f.select :categoria_eq, [['Nova', 'Nova'], ['Semi Nova', 'Semi Nova'], ['Todas', '']],  class: 'form-control form-control-sm' %>
+                    <%= f.select :categoria_eq, [['Nova', 'nova'], ['Semi Nova', 'semi nova'], ['Todas', '']], class: 'form-control form-control-sm' %>
                     <!-- Opção "Todas" para permitir visualizar todas as categorias -->
                   </td>
                   <td>
@@ -36,23 +36,26 @@
     </div>
     <!-- Exibição das Rodas -->
     <div class="row mt-4">
-      <% @rodas.each do |roda| %>
-        <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
-          <div class="single-product card shadow-lg border-0 rounded-lg hover-shadow">
-            <div class="card-img-top overflow-hidden">
-              <%= image_tag roda.imagem, class: "img-fluid w-100 h-100 rounded", alt: roda.titulo if roda.imagem.present? %>
-            </div>
-            <div class="card-body text-center">
-              <h3 class="card-title mb-2 text-primary"><%= roda.titulo %></h3>
- <!-- Título com cor mais forte -->
-              <h4 class="card-text mb-3 text-dark"><%= number_to_currency(roda.preco, locale: :'pt-BR') %></h4>
-              <p class="text-muted"><strong>Categoria:</strong> <%= roda.categoria.present? ? roda.categoria.capitalize : "Não definida" %></p>
-              <p class="text-muted"><%= truncate(roda.descricao, length: 100) %></p>
+      <% if @rodas.any? %>
+        <% @rodas.each do |roda| %>
+          <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+            <div class="single-product card shadow-lg border-0 rounded-lg hover-shadow">
+              <div class="card-img-top overflow-hidden">
+                <%= image_tag roda.imagem, class: "img-fluid w-100 h-100 rounded", alt: roda.titulo if roda.imagem.present? %>
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title mb-2 text-primary"><%= roda.titulo %></h3>
+                <h4 class="card-text mb-3 text-dark"><%= number_to_currency(roda.preco, locale: :'pt-BR') %></h4>
+                <p class="text-muted"><strong>Categoria:</strong> <%= roda.categoria.present? ? roda.categoria.capitalize : "Não definida" %></p>
+                <p class="text-muted"><%= truncate(roda.descricao, length: 100) %></p>
+              </div>
             </div>
           </div>
-        </div>
+        <% end %>
+      <% else %>
+        <p class="text-center">Nenhuma roda encontrada para os filtros selecionados.</p>
       <% end %>
     </div>
   </div>
 </section>
-<%= render "shared/footer" %>
+<%= render "shared/footer", footer_class: @no_results ? 'footer-neutral' : '' %>

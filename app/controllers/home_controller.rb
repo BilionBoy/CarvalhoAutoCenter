@@ -6,18 +6,18 @@ class HomeController < ApplicationController
   end
 
   def services
-  
     # Fazendo a busca com Ransack
     @q = Roda.ransack(params[:q])
   
-    # Verificando se o filtro de categoria foi deixado em branco ou se foi selecionada "Todas"
-    if params[:q] && params[:q][:categoria_eq].blank?
-      @rodas = Roda.all  # Caso a categoria seja "Todas" ou não tenha sido selecionada
+    if params[:q].present? && params[:q][:categoria_eq].present?
+      @rodas = @q.result(distinct: true)
     else
-      @rodas = @q.result(distinct: true)  # Busca filtrada com os parâmetros de categoria e título
+      @rodas = Roda.all
     end
+    
+    # Verifica se não encontrou resultados
+    @no_results = @rodas.empty?
   end
-  
 
   def up
     render json: { status: "UP", time: Time.now }, status: :ok
