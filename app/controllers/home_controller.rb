@@ -4,9 +4,7 @@ class HomeController < ApplicationController
     @services = Service.all
     @technicians = Technician.all
   end
-
   def services
-    # Fazendo a busca com Ransack
     @q = Roda.ransack(params[:q])
   
     if params[:q].present? && params[:q][:categoria_eq].present?
@@ -14,10 +12,10 @@ class HomeController < ApplicationController
     else
       @rodas = Roda.all
     end
-    
-    # Verifica se não encontrou resultados
+  
     @no_results = @rodas.empty?
   end
+  
 
   def up
     render json: { status: "UP", time: Time.now }, status: :ok
