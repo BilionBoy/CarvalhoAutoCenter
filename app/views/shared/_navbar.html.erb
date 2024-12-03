@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow sticky-top p-0">
+  <a href="<%= admin_root_path %>" class="navbar-brand d-flex align-items-center">
+    <span class="text-uppercase me-2">Acesso Administrativo</span>
+    <span class="material-symbols-outlined icone-adm" data-bs-toggle="tooltip" title="Acesso Administrativo">
+      home
+    </span>
+  </a>
+  <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="navbar-nav ms-auto p-4 p-lg-0">
+      <a href="<%= root_path %>" class="nav-item nav-link" style="color: white;">Início</a>
+      <a href="<%= services_path %>" class="nav-item nav-link" style="color: white;">Catálogo de Rodas</a>
+      <div class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: white;">Contato</a>
+        <div class="dropdown-menu fade-up  " >
+          <a href="https://www.instagram.com/edson.mendes.581/" class="dropdown-item" style="color: white;" target="_blank">Instagram</a>
+          <a href="https://wa.me/556992913010" class="dropdown-item" style="color: white;" target="_blank">WhatsApp</a>
+          <a href="<%= root_path %>" class="dropdown-item" style="color: white;" >Unidade</a>
+        </div>
+      </div>
+      <a href="https://wa.me/556992913010" class="btn btn-primary py-3 px-lg-4 d-none d-lg-block" target="_blank" rel="noopener noreferrer">
+        Faça uma cotação<i class="fa fa-arrow-right ms-3"></i>
+      </a>
+    </div>
+  </div>
+</nav>

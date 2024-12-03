@@ -1,0 +1,37 @@
+<div class="login-container ">
+  <div class="card-login  p-4 " ">
+    <%= form_for(resource, as: resource_name, url: session_path(resource_name), html: { class: "form" }) do |f| %>
+      <div class="mb-3">
+        <%= f.label :email, "E-mail", class: "form-label" %>
+        <%= f.email_field :email, class: "form-control", autofocus: true, autocomplete: "email", placeholder: "Digite seu e-mail" %>
+      </div>
+
+      <div class="mb-3">
+        <%= f.label :password, "Senha", class: "form-label" %>
+        <%= f.password_field :password, class: "form-control", autocomplete: "current-password", placeholder: "Digite sua senha" %>
+      </div>
+
+      <% if devise_mapping.rememberable? %>
+        <div class="form-check">
+          <%= f.check_box :remember_me, class: "form-check-input" %>
+          <%= f.label :remember_me, "Lembrar-me", class: "form-check-label" %>
+        </div>
+      <% end %>
+
+      <div class="d-grid mt-3">
+        <%= f.submit "Entrar", class: "btn btn-primary" %>
+      </div>
+    <% end %>
+
+    <div class="text-center mt-3">
+
+      <%= render "devise/shared/links" %>
+    </div>
+
+    <div class="button-inicio text-center mt-3">
+            <%= link_to "Voltar ao Início", root_path, class: "btn btn-secondary btn-sm " %>
+
+      <div>
+  
+  </div>
+</div>

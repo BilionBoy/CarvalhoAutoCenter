@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: carvalhocenter
+  password: edilena26
+
+development:
+  <<: *default
+  database: carvalho_auto_center_development
+
+test:
+  <<: *default
+  database: carvalho_auto_center_test
+
+production:
+  <<: *default
+  database: carvalho_auto_center_production
+  username: carvalho_auto_center
+  password: <%= ENV['CARVALHO_DATABASE_PASSWORD'] %>

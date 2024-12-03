@@ -1,0 +1,21 @@
+<% if notice %>
+  <p class="alert alert-success alert-fixed" id="notice">
+    <%= notice %>
+    <span class="alert-close" onclick="document.getElementById('notice').style.display = 'none';">&times;</span>
+  </p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger alert-fixed" id="alert">
+    <%= alert %>
+    <span class="alert-close" onclick="document.getElementById('alert').style.display = 'none';">&times;</span>
+  </p>
+<% end %>
+<script>
+  // Espera 5 segundos para esconder o alerta
+  setTimeout(function() {
+    const alert = document.getElementById("notice") || document.getElementById("alert");
+    if (alert) {
+      alert.style.display = 'none';
+    }
+  }, 1000); // 5000ms = 5 segundos
+</script>
