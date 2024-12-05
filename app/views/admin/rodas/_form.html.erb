@@ -1,28 +1,13 @@
 <div class="cadastro-roda-container">
   <h1>Cadastro de Nova Roda</h1>
-  <%= form_with(model: [:admin, @roda], local: true, html: { multipart: true }) do |form| %>
-    <div class="mb-3">
-      <%= form.label :titulo, "Título", class: "form-label" %>
-      <%= form.text_field :titulo, class: "form-control", placeholder: "Digite o título da roda" %>
-    </div>
-    <div class="mb-3">
-      <%= form.label :descricao, "Descrição", class: "form-label" %>
-      <%= form.text_area :descricao, class: "form-control", placeholder: "Descreva a roda" %>
-    </div>
-    <div class="mb-3">
-      <%= form.label :preco, "Preço", class: "form-label" %>
-      <%= form.number_field :preco, class: "form-control", step: 0.01, placeholder: "Ex: 49.99", value: @roda.preco %>
-    </div>
-    <div class="mb-3">
-      <%= form.label :imagem, "Imagem da Roda", class: "form-label" %>
-      <%= form.file_field :imagem, class: "form-control" %>
-    </div>
-    <div class="mb-3">
-      <%= form.label :categoria, "Categoria", class: "form-label" %>
-      <%= form.select :categoria, [["Nova", "nova"], ["Semi Nova", "semi nova"]], {}, class: "form-control" %>
-    </div>
+  <%= simple_form_for([:admin, @roda], html: { multipart: true }) do |form| %>
+    <%= form.input :titulo, label: "Título", placeholder: "Digite o título da roda" %>
+    <%= form.input :descricao, label: "Descrição", as: :text, placeholder: "Descreva a roda" %>
+    <%= form.input :preco, label: "Preço", as: :decimal, placeholder: "Ex: 49.99" %>
+    <%= form.input :imagem, label: "Imagem da Roda", as: :file %>
+    <%= form.input :categoria, label: "Categoria", collection: [["Nova", "nova"], ["Semi Nova", "semi nova"]] %>
     <div class="text-center mt-4">
-      <%= form.submit "Salvar", class: "btn btn-primary btn-lg" %>
+      <%= form.button :submit, "Salvar", class: "btn btn-primary btn-lg" %>
     </div>
   <% end %>
 </div>

@@ -4,6 +4,7 @@ ruby "3.3.3"
 gem "rufo"
 gem "html2erb"
 gem "rufo"
+gem 'simple_form'
 
 gem 'ransack'
 
