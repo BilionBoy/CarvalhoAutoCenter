@@ -4,7 +4,10 @@ ruby "3.3.3"
 gem "rufo"
 gem "html2erb"
 gem 'simple_form'
-
+gem 'net-pop', '0.1.2'
+gem 'net-imap', '0.5.1'
+gem 'net-smtp', '0.5.0'
+gem 'net-protocol', '>= 0'
 gem 'ransack'
 
 #gem para arquivos de tradução
@@ -76,3 +79,4 @@ group :test do
 end
 
 gem "devise", "~> 4.9"
+
