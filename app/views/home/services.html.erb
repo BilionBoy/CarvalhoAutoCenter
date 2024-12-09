@@ -78,7 +78,6 @@
                 </div>
                 <!-- Corpo do Modal -->
                 <div class="modal-body">
-                  <!-- Informações do Produto -->
                   <div class="d-flex align-items-center justify-content-between mb-3">
                     <p class="m-0 fw-bold">Preço:</p>
                     <p class="fs-5 text-primary m-0"><%= number_to_currency(roda.preco, locale: :'pt-BR') %></p>
@@ -87,10 +86,10 @@
                   <!-- Métodos de Pagamento -->
                   <h6 class="fw-bold text-primary mb-3">Selecione o método de pagamento:</h6>
                   <div class="d-grid gap-3">
-                    <button class="btn btn-outline-primary d-flex align-items-center justify-content-center py-3">
+                    <button class="btn btn-dark d-flex align-items-center justify-content-center py-3">
                       <i class="bi bi-cash-coin me-2"></i> Pix
                     </button>
-                    <button class="btn btn-outline-light d-flex align-items-center justify-content-center py-3">
+                    <button class="btn btn-dark d-flex align-items-center justify-content-center py-3">
                       <i class="bi bi-credit-card-2-front me-2"></i> Cartão de Crédito
                     </button>
                     <a href="https://wa.me/5511999999999?text=Quero%20comprar%20<%= roda.titulo %>" class="btn btn-success d-flex align-items-center justify-content-center py-3">
