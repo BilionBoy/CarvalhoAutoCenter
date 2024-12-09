@@ -4,7 +4,7 @@
     <title>Carvalho Auto Center</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="img/favicon.ico" rel="icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,19 +31,16 @@
     <%= javascript_include_tag "application", 'data-turbo-track': "reload" %>
     <%= javascript_include_tag "admin" %>
   </head>
- <body>
-  <!-- Alertas -->
-  <%= render "shared/notification" %>
-
-  <div class="wrapper">
-    <!-- Sidebar -->
-    <%= render "shared/sidebar" %>
-
-    <!-- Conteúdo Principal -->
-    <div class="content">
-      <%= yield %>
+  <body>
+    <!-- Alertas -->
+    <%= render "shared/notification" %>
+    <div class="wrapper">
+      <!-- Sidebar -->
+      <%= render "shared/sidebar" %>
+      <!-- Conteúdo Principal -->
+      <div class="content">
+        <%= yield %>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
