@@ -1,13 +1,13 @@
 <div class="cadastro-roda-container">
   <h1>Cadastro de Nova Roda</h1>
-  <%= simple_form_for([:admin, @roda], html: { multipart: true }) do |form| %>
-    <%= form.input :titulo, label: "Título", placeholder: "Digite o título da roda" %>
-    <%= form.input :descricao, label: "Descrição", as: :text, placeholder: "Descreva a roda" %>
-    <%= form.input :preco, label: "Preço", as: :decimal, placeholder: "Ex: 49.99" %>
-    <%= form.input :imagem, label: "Imagem da Roda", as: :file %>
-    <%= form.input :categoria, label: "Categoria", collection: [["Nova", "nova"], ["Semi Nova", "semi nova"]] %>
+  <%= simple_form_for([:admin, @roda], html: { multipart: true, id: "cadastro-roda-form" }) do |form| %>
+    <%= form.input :titulo, label: "Título", placeholder: "Digite o título da roda", class: "form-control" %>
+    <%= form.input :descricao, label: "Descrição", as: :text, placeholder: "Descreva a roda", class: "form-control" %>
+    <%= form.input :preco, label: "Preço", as: :decimal, placeholder: "Ex: 49.99", class: "form-control" %>
+    <%= form.input :imagem, label: "Imagem da Roda", as: :file, class: "form-control" %>
+    <%= form.input :categoria, label: "Categoria", collection: [["Nova", "nova"], ["Semi Nova", "semi nova"]], class: "form-control" %>
     <div class="text-center mt-4">
-      <%= form.button :submit, "Salvar", class: "btn btn-primary btn-lg" %>
+      <%= form.button :submit, "Salvar", class: "btn btn-success btn-lg" %>
     </div>
   <% end %>
 </div>

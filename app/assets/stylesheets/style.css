@@ -9,13 +9,12 @@
 
 
 
-
 body {
     background-color: #161616;
 
     margin: 0;
     font-family: "Poppins", sans-serif;
-    color: #444444;
+    color: #ffffff;
     padding: 0;
     height: 100%;
 }
@@ -422,7 +421,6 @@ a:hover {
 .form-select:focus,
 .form-control:focus {
     border-color: #000000;
-    box-shadow: 0 0 0 0.2rem rgba(255, 126, 0, 0.25);
 }
 
 .modal-header {
