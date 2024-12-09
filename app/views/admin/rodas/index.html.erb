@@ -1,6 +1,6 @@
 <div class="tabela-rodas-container">
   <h1>Editar Rodas</h1>
-  <table>
+  <table class="table">
     <thead>
       <tr>
         <th>Título</th>
@@ -16,7 +16,6 @@
           <td><%= roda.descricao %></td>
           <td><%= number_to_currency(roda.preco) %></td>
           <td>
-            <%= link_to "Editar", edit_admin_roda_path(roda), class: "btn btn-dark btn-sm" %>
             <%= button_to "Remover", admin_roda_path(roda), method: :delete, data: { confirm: "Tem certeza que deseja remover?" }, class: "btn btn-danger btn-sm" %>
           </td>
         </tr>
@@ -24,62 +23,77 @@
     </tbody>
   </table>
   <div class="mt-4">
-    <%= link_to "Adicionar Nova Roda", new_admin_roda_path, class: "btn btn-success" %>
+    <%= link_to "Adicionar Nova Roda", new_admin_roda_path, class: "btn btn-success btn-lg" %>
   </div>
 </div>
+
 <style>
-  /* Tabela de Rodas */
   .tabela-rodas-container {
-  margin: 20px auto;
-  max-width: 900px;
-  background-color: var(--light);
-  padding: 20px;
-  border: 1px solid var(--secondary);
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: var(--light);
+    padding: 25px;
+    border: 1px solid var(--secondary);
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   }
 
   .tabela-rodas-container h1 {
-  color: var(--primary);
-  margin-bottom: 20px;
+    color: var(--primary);
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 28px;
   }
 
-  .tabela-rodas-container table {
-  width: 100%;
-  border-collapse: collapse;
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
   }
 
-  .tabela-rodas-container table th,
-  .tabela-rodas-container table td {
-  padding: 12px;
-  border: 1px solid var(--secondary);
-  text-align: left;
+  .table th,
+  .table td {
+    padding: 15px;
+    border: 1px solid var(--secondary);
+    text-align: left;
+    font-size: 16px;
   }
 
-  .tabela-rodas-container table th {
-  background-color: var(--secondary);
-  color: var(--light);
+  .table th {
+    background-color: var(--secondary);
+    color: var(--light);
+    font-weight: bold;
   }
 
-  .tabela-rodas-container table td {
-  background-color: var(--light);
+  .btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
   }
 
-  .tabela-rodas-container .btn-warning {
-  background-color: #ffb703;
-  color: #fff;
+  .btn-warning {
+    background-color: #ffb703;
+    color: #fff;
   }
 
-  .tabela-rodas-container .btn-warning:hover {
-  background-color: #ffa500;
+  .btn-warning:hover {
+    background-color: #ffa500;
   }
 
-  .tabela-rodas-container .btn-danger {
-  background-color: #e63946;
-  color: #fff;
+  .btn-danger {
+    background-color: #e63946;
+    color: #fff;
   }
 
-  .tabela-rodas-container .btn-danger:hover {
-  background-color: #d62828;
+  .btn-danger:hover {
+    background-color: #d62828;
+  }
+
+
+  .mt-4 {
+    margin-top: 20px;
   }
 </style>
