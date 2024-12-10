@@ -63,6 +63,9 @@
                   <p class="text-muted mb-2">
                     <strong>Categoria:</strong> <%= roda.categoria.present? ? roda.categoria.capitalize : "Não definida" %>
                   </p>
+                  <p class="text-muted mb-2">
+                    <strong>Quantidade em Estoque:</strong> <%= roda.quantidade %>
+                  </p>
                   <button class="btn btn-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#modalCompra<%= roda.id %>">
                     Comprar Agora
                   </button>
