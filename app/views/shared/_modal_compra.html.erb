@@ -1,0 +1,41 @@
+<!-- _modal_compra.html.erb -->
+<div class="modal fade" id="modalCompra<%= roda.id %>" tabindex="-1" aria-labelledby="modalCompraLabel<%= roda.id %>" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded-4 bg-dark-premium text-light">
+      <!-- Cabeçalho do Modal -->
+      <div class="modal-header bg-primary text-white d-flex align-items-center">
+        <h5 class="modal-title fw-bold" id="modalCompraLabel<%= roda.id %>">
+          <i class="bi bi-cart-fill me-2"></i> Comprar <%= roda.titulo %>
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <!-- Corpo do Modal -->
+      <div class="modal-body">
+        <div class="d-flex align-items-center justify-content-between mb-3">
+          <p class="m-0 fw-bold">Preço:</p>
+          <p class="fs-5 text-primary m-0"><%= number_to_currency(roda.preco, locale: :'pt-BR') %></p>
+        </div>
+        <p class="text-muted mb-3"><strong>Descrição:</strong> <%= roda.descricao %></p>
+        <!-- Métodos de Pagamento -->
+        <h6 class="fw-bold text-primary mb-3">Selecione o método de pagamento:</h6>
+        <div class="d-grid gap-3">
+          <button class="btn btn-dark d-flex align-items-center justify-content-center py-3">
+            <i class="bi bi-cash-coin me-2"></i> Pix
+          </button>
+          <button class="btn btn-dark d-flex align-items-center justify-content-center py-3">
+            <i class="bi bi-credit-card-2-front me-2"></i> Cartão de Crédito
+          </button>
+          <a href="https://wa.me/5511999999999?text=Quero%20comprar%20<%= roda.titulo %>" class="btn btn-success d-flex align-items-center justify-content-center py-3">
+            <i class="bi bi-whatsapp me-2"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+      <!-- Rodapé do Modal -->
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-danger w-100 py-3" data-bs-dismiss="modal">
+          Cancelar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

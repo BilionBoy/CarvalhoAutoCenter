@@ -1,119 +1,84 @@
-<%= render "shared/navbar" %>
-<section class="section-products mt-4">
-  <div class="container">
-    <!-- Filtros de Pesquisa -->
-    <div class="row justify-content-center mb-5">
-      <div class="col-md-8 col-lg-6">
-        <div class="card shadow-lg border-0 rounded-4 p-4 bg-dark-premium text-light">
-          <h2 class="text-center fw-bold mb-3">Encontre a Roda Ideal</h2>
-          <p class="text-muted text-center mb-4">Filtre por categoria ou título para encontrar o que deseja.</p>
-          <%= search_form_for @q, url: services_path, method: :get, html: { class: "filter-form" } do |f| %>
-            <div class="row g-3">
-              <div class="col-12 col-md-6">
-                <div class="form-floating">
-                  <%= f.select :categoria_eq,
-                  [['Nova', 'nova'], ['Semi Nova', 'semi nova'], ['Todas', '']],
-                  { prompt: "Selecione a Categoria" },
-                  id: 'categoria_eq', class: 'form-select bg-dark-premium text-light' %>
-                  <label for="categoria_eq" class="text-light">Categoria</label>
-                </div>
+<div id="view-produtos">
+  <%= render "shared/navbar" %>
+  <section class="section-products mt-4">
+    <div class="container">
+      <!-- Filtros de Pesquisa -->
+      <div class="row justify-content-center mb-4">
+        <div class="col-12 col-md-8 col-lg-6">
+          <div class="card shadow-lg border-0 rounded-4 p-2 bg-dark-premium text-light">
+            <h2 class="text-center fw-bold mb-2 fs-4">Encontre a Roda Ideal</h2>
+            <p class="text-muted text-center mb-2 fs-6">Filtre por categoria ou título para encontrar o que deseja.</p>
+            <%= search_form_for @q, url: services_path, method: :get, html: { class: "filter-form" } do |f| %>
+              <div class="table-responsive mt-2">
+                <table class="table table-borderless mb-0">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="form-floating">
+                          <%= f.select :categoria_eq,
+                          [['Nova', 'nova'], ['Semi Nova', 'semi nova'], ['Todas', '']],
+                          { prompt: "Selecione a Categoria" },
+                          id: 'categoria_eq', class: 'form-select bg-dark-premium text-light form-control-sm' %>
+                          <label for="categoria_eq" class="text-light">Categoria</label>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="form-floating">
+                          <%= f.text_field :titulo_cont,
+                          id: 'titulo_cont',
+                          class: "form-control bg-dark-premium text-light form-control-sm",
+                          placeholder: "Digite o título" %>
+                          <label for="titulo_cont" class="text-light">Título</label>
+                        </div>
+                      </td>
+                      <td class="text-center">
+                        <%= f.submit "Buscar", class: "btn btn-primary btn-sm  fw-bold btn-custom" %>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-              <div class="col-12 col-md-6">
-                <div class="form-floating">
-                  <%= f.text_field :titulo_cont,
-                  id: 'titulo_cont',
-                  class: "form-control bg-dark-premium text-light",
-                  placeholder: "Digite o título" %>
-                  <label for="titulo_cont" class="text-light">Título</label>
-                </div>
-              </div>
-              <div class="col-12 d-grid">
-                <%= f.submit "Buscar", class: "btn btn-primary btn-lg fw-bold" %>
-              </div>
-            </div>
-          <% end %>
+            <% end %>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Exibição das Rodas -->
-    <div class="row g-4">
-      <% if @rodas.any? %>
-        <% @rodas.each do |roda| %>
-          <div class="col-md-6 col-lg-4 col-xl-3">
-            <div class="card shadow-lg border-0 rounded-4 h-100 roda-card bg-dark-premium">
-              <!-- Imagem da roda -->
-              <div class="roda-image-wrapper">
-                <% if roda.imagem.present? %>
-                  <%= image_tag roda.imagem, class: "img-fluid rounded-top roda-image", alt: roda.titulo, loading: "lazy" %>
-                <% else %>
-                  <div class="d-flex justify-content-center align-items-center h-100 text-muted bg-light">
-                    <p class="m-0">Imagem não disponível</p>
-                  </div>
-                <% end %>
-              </div>
-              <!-- Informações da roda -->
-              <div class="card-body text-center text-light">
-                <h5 class="fw-bold text-light"><%= roda.titulo %></h5>
-                <p class="fs-4 text-primary"><%= number_to_currency(roda.preco, locale: :'pt-BR') %></p>
-                <p class="text-muted mb-2">
-                  <strong>Categoria:</strong> <%= roda.categoria.present? ? roda.categoria.capitalize : "Não definida" %>
-                </p>
-                <!-- Botão de compra -->
-                <button class="btn btn-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#modalCompra<%= roda.id %>">
-                  Comprar Agora
-                </button>
-              </div>
-            </div>
-          </div>
-          <!-- Modal de Compra -->
-          <div class="modal fade" id="modalCompra<%= roda.id %>" tabindex="-1" aria-labelledby="modalCompraLabel<%= roda.id %>" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content rounded-4 bg-dark-premium text-light">
-                <!-- Cabeçalho do Modal -->
-                <div class="modal-header bg-primary text-white d-flex align-items-center">
-                  <h5 class="modal-title fw-bold" id="modalCompraLabel<%= roda.id %>">
-                    <i class="bi bi-cart-fill me-2"></i> Comprar <%= roda.titulo %>
-                  </h5>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      <!-- Exibição das Rodas -->
+      <div class="row g-4 justify-content-center mt-4">
+        <% if @rodas.any? %>
+          <% @rodas.each do |roda| %>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="card shadow-lg border-0 rounded-4 h-100 roda-card bg-dark-premium">
+                <div class="roda-image-wrapper">
+                  <% if roda.imagem.present? %>
+                    <%= image_tag roda.imagem, class: "img-fluid rounded-top roda-image", alt: roda.titulo, loading: "lazy" %>
+                  <% else %>
+                    <div class="image-placeholder">
+                      <p class="m-0">Imagem não disponível</p>
+                    </div>
+                  <% end %>
                 </div>
-                <!-- Corpo do Modal -->
-                <div class="modal-body">
-                  <div class="d-flex align-items-center justify-content-between mb-3">
-                    <p class="m-0 fw-bold">Preço:</p>
-                    <p class="fs-5 text-primary m-0"><%= number_to_currency(roda.preco, locale: :'pt-BR') %></p>
-                  </div>
-                  <p class="text-muted mb-3"><strong>Descrição:</strong> <%= roda.descricao %></p>
-                  <!-- Métodos de Pagamento -->
-                  <h6 class="fw-bold text-primary mb-3">Selecione o método de pagamento:</h6>
-                  <div class="d-grid gap-3">
-                    <button class="btn btn-dark d-flex align-items-center justify-content-center py-3">
-                      <i class="bi bi-cash-coin me-2"></i> Pix
-                    </button>
-                    <button class="btn btn-dark d-flex align-items-center justify-content-center py-3">
-                      <i class="bi bi-credit-card-2-front me-2"></i> Cartão de Crédito
-                    </button>
-                    <a href="https://wa.me/5511999999999?text=Quero%20comprar%20<%= roda.titulo %>" class="btn btn-success d-flex align-items-center justify-content-center py-3">
-                      <i class="bi bi-whatsapp me-2"></i> WhatsApp
-                    </a>
-                  </div>
-                </div>
-                <!-- Rodapé do Modal -->
-                <div class="modal-footer border-0">
-                  <button type="button" class="btn btn-danger w-100 py-3" data-bs-dismiss="modal">
-                    Cancelar
+                <div class="card-body text-center text-light">
+                  <h5 class="fw-bold text-light"><%= roda.titulo %></h5>
+                  <p class="fs-4 text-primary"><%= number_to_currency(roda.preco, locale: :'pt-BR') %></p>
+                  <p class="text-muted mb-2">
+                    <strong>Categoria:</strong> <%= roda.categoria.present? ? roda.categoria.capitalize : "Não definida" %>
+                  </p>
+                  <button class="btn btn-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#modalCompra<%= roda.id %>">
+                    Comprar Agora
                   </button>
                 </div>
               </div>
             </div>
+            <%= render partial: "shared/modal_compra", locals: { roda: roda } %>
+          <% end %>
+        <% else %>
+          <div class="col-12 text-center">
+            <p class="text-muted fs-4">Nenhuma roda encontrada para os filtros selecionados.</p>
           </div>
         <% end %>
-      <% else %>
-        <div class="col-12 text-center">
-          <p class="text-muted fs-4">Nenhuma roda encontrada para os filtros selecionados.</p>
-        </div>
-      <% end %>
+      </div>
     </div>
-  </div>
-</section>
-<%= render "shared/footer" %>
-<%= render "shared/backtop" %>
+  </section>
+  <%= render "shared/footer" %>
+  <%= render "shared/backtop" %>
+</div>
