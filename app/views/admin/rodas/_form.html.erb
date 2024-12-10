@@ -1,4 +1,4 @@
-<div class="cadastro-roda-container">
+<div class="cadastro-roda-container col-lg-9">
   <h1>Cadastro de Nova Roda</h1>
   <%= simple_form_for([:admin, @roda], html: { multipart: true, id: "cadastro-roda-form" }) do |form| %>
     <%= form.input :titulo, label: "Título", placeholder: "Digite o título da roda", class: "form-control" %>

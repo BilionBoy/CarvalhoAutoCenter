@@ -6,15 +6,10 @@ class HomeController < ApplicationController
   end
   def services
     @q = Roda.ransack(params[:q])
-  
-    if params[:q].present? && params[:q][:categoria_eq].present?
-      @rodas = @q.result(distinct: true)
-    else
-      @rodas = Roda.all
-    end
-  
+    @rodas = @q.result(distinct: true)
     @no_results = @rodas.empty?
   end
+  
   
 
   def up
