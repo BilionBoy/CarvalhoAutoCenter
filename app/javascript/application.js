@@ -34,3 +34,5 @@ document.querySelectorAll('.btn-dark-premium').forEach(button => {
         spinner.style.display = 'block';
     });
 });
+
+

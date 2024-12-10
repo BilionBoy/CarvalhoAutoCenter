@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
+
 :root {
     --primary: #8f0511 !important;
     --secondary: #0B2154;
@@ -7,26 +8,18 @@
     --dark: #111111;
 }
 
+.wow {
+    animation-duration: 5s;
+    /* Aumente o tempo para 2 segundos */
+}
+
 
 
 body {
     background-color: #161616;
-
-    margin: 0;
     font-family: "Poppins", sans-serif;
     color: #ffffff;
-    padding: 0;
-    height: 100%;
 }
-
-.main-content {
-    max-height: 100vh;
-    /* Limita a altura do conteúdo ao tamanho da tela */
-    overflow-y: auto;
-    /* Apenas a área de conteúdo rola, sem afetar o layout geral */
-    padding: 20px;
-}
-
 
 .fw-medium {
     font-weight: 600 !important;
@@ -41,9 +34,37 @@ body {
 }
 
 
-
-
 /*** Button ***/
+.btn-outline-primary {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #161616;
+    color: #ffffff;
+}
+
+.btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-success {
+    background-color: #25d366;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #20c159;
+}
+
 .btn {
     font-weight: 500;
     text-transform: uppercase;
@@ -83,6 +104,42 @@ body {
 
 
 /*** Navbar ***/
+/* Altura maior para desktops */
+@media (min-width: 992px) {
+    .navbar {
+        height: 80px;
+        /* Altura maior para desktops */
+    }
+
+    .navbar .nav-link {
+        padding: 20px;
+        /* Ajusta o padding para equilibrar */
+        font-size: 18px;
+        /* Aumenta a legibilidade */
+    }
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.icone-adm {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.icone-adm:hover {
+    color: #e0e0e0;
+}
+
 .navbar {
     background-color: #1e1e1e;
     color: #fff;
@@ -91,7 +148,7 @@ body {
 .navbar .nav-link {
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 19px;
     padding: 15px;
     transition: color 0.3s ease, transform 0.3s ease;
 }
@@ -125,58 +182,57 @@ body {
     background-color: #1e1e1e;
 }
 
+.navbar .dropdown-menu {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+}
 
+.navbar .dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
 
+.navbar .dropdown-item:hover {
+    background-color: #f8c151;
+    color: #1e1e1e;
+}
 
-/*** Header ***/
-.container,
-.row,
-.col-lg-6,
-.col-md-6 {
+/*** Sobre ***/
+.about-section {
     overflow-x: hidden;
 }
 
+.about-section .about-img {
+    border-radius: 0.768rem;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 
-.carousel-caption {
+.about-section .about-overlay {
+    position: absolute;
     top: 0;
-    left: 0;
     right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, .7);
-    z-index: 1;
+    background: rgba(0, 0, 0, 0.08);
+    padding: 1rem 2rem;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    width: 10%;
+.feature-item {
+    align-items: center;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    width: 3rem;
-    height: 3rem;
+.feature-icon {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
 }
 
-
-.page-header {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.page-header-inner {
-    background: rgba(0, 0, 0, .7);
-}
-
-.breadcrumb-item+.breadcrumb-item::before {
-    color: var(--light);
-}
-
-
-.fact {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
-    background-color: #0B2154;
-}
 
 
 /*** Service ***/
@@ -248,98 +304,17 @@ body {
 }
 
 /*** Booking ***/
-.booking {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-bg-2.jpg) center center no-repeat;
-    background-size: cover;
+
+.booking-section .form-control {
+    height: 55px;
+    border: none;
 }
 
-.bootstrap-datetimepicker-widget.bottom {
-    top: auto !important;
+.booking-form-container .form-select,
+.booking-form-container .datetimepicker-input {
+    height: 55px;
 }
 
-.bootstrap-datetimepicker-widget .table * {
-    border-bottom-width: 0px;
-}
-
-.bootstrap-datetimepicker-widget .table th {
-    font-weight: 500;
-}
-
-.bootstrap-datetimepicker-widget.dropdown-menu {
-    padding: 10px;
-    border-radius: 2px;
-}
-
-.bootstrap-datetimepicker-widget table td.active,
-.bootstrap-datetimepicker-widget table td.active:hover {
-    background: var(--primary);
-}
-
-.bootstrap-datetimepicker-widget table td.today::before {
-    border-bottom-color: var(--primary);
-}
-
-
-/*** Team ***/
-.team-item .team-overlay {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--primary);
-    transform: scale(0);
-    transition: .5s;
-}
-
-.team-item:hover .team-overlay {
-    transform: scale(1);
-}
-
-.team-item .team-overlay .btn {
-    color: var(--primary);
-    background: #FFFFFF;
-}
-
-.team-item .team-overlay .btn:hover {
-    color: #FFFFFF;
-    background: var(--secondary)
-}
-
-
-/*** Testimonial ***/
-.testimonial-carousel .owl-item .testimonial-text,
-.testimonial-carousel .owl-item.center .testimonial-text * {
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-text {
-    background: var(--primary) !important;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-text * {
-    color: #FFFFFF !important;
-}
-
-.testimonial-carousel .owl-dots {
-    margin-top: 24px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.testimonial-carousel .owl-dot {
-    position: relative;
-    display: inline-block;
-    margin: 0 5px;
-    width: 15px;
-    height: 15px;
-    border: 1px solid #CCCCCC;
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
-}
 
 
 /*** Footer ***/
@@ -412,7 +387,6 @@ body {
     border-right: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 
 
@@ -505,36 +479,14 @@ a:hover {
     transform: translateY(-5px);
 }
 
-.btn-outline-primary {
-    border-color: #ffffff;
-    color: #ffffff;
-}
 
-.btn-outline-primary:hover {
-    background-color: #161616;
-    color: #ffffff;
-}
-
-.btn-outline-light {
-    border-color: #ffffff;
-    color: #ffffff;
-}
-
-.btn-outline-light:hover {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.btn-success {
-    background-color: #25d366;
-    color: #ffffff;
-    border: none;
-}
-
-.btn-success:hover {
-    background-color: #20c159;
-}
 
 .bi {
     font-size: 1.2rem;
+}
+
+/*footer */
+
+footer {
+    margin-top: auto;
 }
