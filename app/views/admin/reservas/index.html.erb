@@ -23,7 +23,7 @@
         <td><%= number_to_currency(pedido.roda.preco, locale: :'pt-BR') %></td>
         <td><%= pedido.created_at.strftime("%d/%m/%Y %H:%M") %></td>
         <td>
-          <%= link_to 'Cancelar', admin_reserva_path(pedido), method: :delete, class: 'btn btn-danger btn-sm', data: { confirm: "Tem certeza que deseja cancelar esta reserva?" } %>
+          <%= button_to 'Cancelar', admin_reserva_path(pedido), method: :delete, class: 'btn btn-danger btn-sm', data: { confirm: "Tem certeza que deseja cancelar esta reserva?" } %>
         </td>
       </tr>
     <% end %>
