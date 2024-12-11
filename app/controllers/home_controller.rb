@@ -5,11 +5,10 @@ class HomeController < ApplicationController
     @technicians = Technician.all
   end
   def services
-    @q = Roda.ransack(params[:q])
-    @rodas = @q.result(distinct: true)
-    @no_results = @rodas.empty?
+    @q = Roda.ransack(params[:q])  # Inicializa a busca
+    @rodas = @q.result(distinct: true)  # Executa a pesquisa, se houver
+    @no_results = @rodas.empty?  # Verifica se não há resultados
   end
-  
   
 
   def up

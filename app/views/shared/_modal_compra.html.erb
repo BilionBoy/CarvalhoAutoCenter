@@ -1,4 +1,3 @@
-<!-- _modal_compra.html.erb -->
 <div class="modal fade" id="modalReserva_<%= roda.id %>" tabindex="-1" aria-labelledby="modalReservaLabel_<%= roda.id %>" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content rounded-4 bg-dark-premium text-light">
@@ -11,6 +10,12 @@
       </div>
       <!-- Corpo do Modal -->
       <div class="modal-body">
+        <% if flash[:alert] %>
+          <!-- Exibe a mensagem de erro no modal se houver um alerta -->
+          <div class="alert alert-danger">
+            <%= flash[:alert] %>
+          </div>
+        <% end %>
         <p class="fw-bold">Preço:</p>
         <p class="fs-5 text-primary"><%= number_to_currency(roda.preco, locale: :'pt-BR') %></p>
         <p class="fw-bold">Descrição:</p>

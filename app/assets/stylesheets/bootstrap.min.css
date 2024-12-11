@@ -201,6 +201,7 @@ blockquote {
 
 b,
 strong {
+    color: white;
     font-weight: bolder
 }
 
@@ -8324,7 +8325,7 @@ fieldset:disabled .btn {
 }
 
 .text-muted {
-    color: #6c757d !important
+    color: white !important;
 }
 
 .text-black-50 {
