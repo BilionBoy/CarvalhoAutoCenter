@@ -17,6 +17,21 @@ class PedidosController < ApplicationController
     end
   end
 
+  def destroy
+    @pedido = Pedido.find(params[:id])  # Encontrar o pedido pelo ID
+    @roda = @pedido.roda  # Acessar a roda associada ao pedido
+    if @pedido.destroy  # Exclui o pedido
+      @roda.update(quantidade: @roda.quantidade + 1)  # Aumenta a quantidade da roda em 1
+      redirect_to root_path, notice: 'Reserva cancelada e estoque atualizado.'
+    else
+      redirect_to root_path, alert: 'Erro ao cancelar a reserva.'
+    end
+  end
+
+  def cupom
+    @pedido = Pedido.find(params[:id])
+  end
+
   private
 
   def pedido_params

@@ -6,7 +6,11 @@ Rails.application.routes.draw do
   devise_for :users
 
   # Rotas para Pedidos (Reserva de Rodas)
-  resources :pedidos, only: [:create]
+  resources :pedidos, only: [:create, :destroy] do
+    member do
+      get 'cupom'  # Ação para exibir o cupom
+    end  
+  end
 
   # Rotas administrativas
   namespace :admin do

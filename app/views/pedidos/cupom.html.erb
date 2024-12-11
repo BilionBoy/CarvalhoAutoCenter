@@ -1,0 +1,27 @@
+<!-- app/views/pedidos/cupom.html.erb -->
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6">
+      <div class="card shadow-lg border-0 rounded-4 p-4 bg-light">
+        <h2 class="text-center fw-bold mb-4">Seu Cupom de Reserva</h2>
+        <p class="text-center mb-4">Obrigado pela sua reserva! Aqui estão os detalhes do seu pedido:</p>
+        <div class="text-center mb-4">
+          <h5><strong>Pedido Número:</strong> <%= @pedido.id %></h5>
+          <p><strong>Roda:</strong> <%= @pedido.roda.titulo %></p>
+          <p><strong>Preço:</strong> <%= number_to_currency(@pedido.roda.preco, locale: :'pt-BR') %></p>
+          <p><strong>Quantidade em Estoque:</strong> <%= @pedido.roda.quantidade %></p>
+        </div>
+        <div class="text-center">
+          <p class="fw-bold">Aqui está o seu cupom:</p>
+          <div class="alert alert-success">
+            <strong>Seu Cupom:</strong> <%= @pedido.id %>_<%= SecureRandom.hex(4).upcase %>
+          </div>
+          <p>Use este código ao finalizar a compra. Ele é válido por 30 dias.</p>
+        </div>
+        <div class="text-center mt-4">
+          <%= link_to 'Voltar para a Página de Serviços', services_path, class: "btn btn-secondary" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -6,6 +6,9 @@ module Admin
       # Lógica do dashboard administrativo
     end
   end
+  
+
+  
 
   def users
     @users = User.all

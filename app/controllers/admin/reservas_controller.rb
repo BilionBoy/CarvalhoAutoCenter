@@ -4,20 +4,22 @@ class Admin::ReservasController < ApplicationController
 
   def index
     @pedidos = Pedido.includes(:roda).order(created_at: :desc)
+
   end
 
-  def destroy
-    @pedido.destroy
-    redirect_to admin_reservas_path, notice: 'Reserva cancelada com sucesso!'
-  end
-
+def destroy
+    @roda = @pedido.roda  # Acessa a roda associada ao pedido
+    if @pedido.destroy  # Exclui o pedido
+      @roda.update(quantidade: @roda.quantidade + 1)  # Aumenta a quantidade da roda em 1
+      redirect_to admin_reservas_path, notice: 'Reserva cancelada e estoque atualizado.'
+    else
+      redirect_to admin_reservas_path, alert: 'Erro ao cancelar a reserva.'
+    end
+end
   private
 
   def set_pedido
     @pedido = Pedido.find(params[:id])
   end
 
-  def authorize_admin!
-    redirect_to root_path, alert: "Acesso não autorizado" unless current_user.admin?
-  end
 end
