@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   # Rotas do Devise
   devise_for :users
 
+  # Rotas para Pedidos (Reserva de Rodas)
+  resources :pedidos, only: [:create]
+
   # Rotas administrativas
   namespace :admin do
     root to: "dashboard#index"  # Página inicial do painel administrativo
@@ -12,5 +15,8 @@ Rails.application.routes.draw do
     resources :users, except: [:show]   # Roteamento para gerenciamento de usuários, sem a ação 'show'
     resources :services
     resources :rodas, except: [:show]   # Roteamento para gerenciamento de rodas
+
+    # Rota para visualizar as reservas (pedidos) no administrativo
+    resources :reservas, only: [:index, :destroy]
   end
 end

@@ -44,6 +44,6 @@ class Admin::RodasController < ApplicationController
   end
 
   def roda_params
-    params.require(:roda).permit(:titulo, :descricao, :preco, :imagem, :categoria)
+    params.require(:roda).permit(:titulo, :descricao, :preco, :imagem, :categoria, :quantidade)
   end
 end
