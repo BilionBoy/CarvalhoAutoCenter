@@ -12,7 +12,6 @@ Rails.application.routes.draw do
     end  
   end
 
-  # Rotas administrativas
   namespace :admin do
     root to: "dashboard#index"  # Página inicial do painel administrativo
 

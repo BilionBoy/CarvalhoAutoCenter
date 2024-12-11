@@ -8,7 +8,7 @@ class PedidosController < ApplicationController
     if @roda.quantidade > 0
       if @pedido.save
         @roda.update(quantidade: @roda.quantidade - 1)
-        redirect_to root_path, notice: 'Pedido realizado com sucesso!'
+        redirect_to services_path, notice: 'Pedido realizado com sucesso!'
       else
         redirect_to services_path, alert: "Erro ao salvar o pedido."
       end
