@@ -1,5 +1,5 @@
 class Admin::ReservasController < ApplicationController
-  before_action :authenticate_user! # Garante que apenas usuários logados possam acessar
+  before_action :authenticate_user! 
   before_action :set_pedido, only: [:destroy]
 
   def index
@@ -8,9 +8,9 @@ class Admin::ReservasController < ApplicationController
   end
 
 def destroy
-    @roda = @pedido.roda  # Acessa a roda associada ao pedido
-    if @pedido.destroy  # Exclui o pedido
-      @roda.update(quantidade: @roda.quantidade + 1)  # Aumenta a quantidade da roda em 1
+    @roda = @pedido.roda  
+    if @pedido.destroy  
+      @roda.update(quantidade: @roda.quantidade + 1)  
       redirect_to admin_reservas_path, notice: 'Reserva cancelada e estoque atualizado.'
     else
       redirect_to admin_reservas_path, alert: 'Erro ao cancelar a reserva.'
