@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_12_10_151154) do
+ActiveRecord::Schema[7.1].define(version: 2024_12_10_172606) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -43,9 +43,11 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_10_151154) do
   end
 
   create_table "pedidos", force: :cascade do |t|
+    t.string "nome"
+    t.string "telefone"
+    t.string "email"
     t.bigint "roda_id", null: false
-    t.string "codigo"
-    t.string "status", default: "pendente"
+    t.string "status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["roda_id"], name: "index_pedidos_on_roda_id"
