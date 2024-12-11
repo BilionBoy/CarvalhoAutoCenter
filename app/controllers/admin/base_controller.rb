@@ -1,7 +1,7 @@
 module Admin
   class BaseController < ApplicationController
     before_action :authenticate_user! # Exige autenticação do Devise
-    before_action :ensure_admin # Garante que seja um administrador
+    before_action :ensure_admin 
     layout 'admin'
 
     private

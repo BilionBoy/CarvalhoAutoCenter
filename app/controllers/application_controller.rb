@@ -5,9 +5,9 @@ class ApplicationController < ActionController::Base
 
   def choose_layout
     if admin_controller?
-      "admin" # Usa o layout admin.html.erb
+      "admin" 
     else
-      "application" # Usa o layout padrão application.html.erb
+      "application" 
     end
   end
 

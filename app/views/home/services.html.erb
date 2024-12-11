@@ -67,12 +67,9 @@
                     <strong>Quantidade em Estoque:</strong> <%= roda.quantidade %>
                   </p>
                   <% if roda.quantidade > 0 %>
-                    <!-- Exibe o botão "Comprar Agora" se houver estoque -->
                     <button class="btn btn-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#modalReserva_<%= roda.id %>">
-                      Comprar Agora
-                    </button>
+                      Reservar agora                    </button>
                   <% else %>
-                    <!-- Exibe o botão desabilitado com a mensagem de indisponibilidade -->
                     <button class="btn btn-secondary btn-sm mt-2" disabled>
                       Indisponível
                     </button>
@@ -90,5 +87,6 @@
       </div>
     </div>
   </section>
+  <%= render "shared/footer" %>
   <%= render "shared/backtop" %>
 </div>
