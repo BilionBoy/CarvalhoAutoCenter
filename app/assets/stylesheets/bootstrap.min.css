@@ -3167,8 +3167,8 @@ fieldset:disabled .btn {
 .btn-secondary:disabled,
 .btn-secondary.disabled {
     color: #fff;
-    background-color: #0B2154;
-    border-color: #0B2154
+    background-color: #000000;
+    border-color: #000000
 }
 
 .btn-success {
