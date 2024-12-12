@@ -6,7 +6,7 @@
     <%= form.input :preco, label: "Preço", as: :decimal, placeholder: "Ex: 49.99", class: "form-control" %>
     <%= form.input :imagem, label: "Imagem da Roda", as: :file, class: "form-control" %>
     <%= form.input :categoria, label: "Categoria", collection: [["Nova", "nova"], ["Semi Nova", "semi nova"]], class: "form-control" %>
-    <%= form.input :quantidade, label: "Quantidade em Estoque", as: :integer, min: 0, class: "form-control" %>  
+    <%= form.input :quantidade, label: "Quantidade em Estoque", as: :integer, min: 0, class: "form-control" %>
     <div class="text-center mt-4">
       <%= form.button :submit, "Salvar", class: "btn btn-success btn-lg" %>
     </div>
