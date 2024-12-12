@@ -1,5 +1,7 @@
 class Roda < ApplicationRecord
   has_one_attached :imagem
+  has_many :vendas, dependent: :destroy
+
 
   validates :categoria, presence: true, inclusion: { in: ["nova", "semi nova"] }
   validates :preco, numericality: { greater_than_or_equal_to: 0 }

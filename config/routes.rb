@@ -1,25 +1,23 @@
 Rails.application.routes.draw do
   root to: "home#index"
   get "services", to: "home#services"
-
-  # Rotas do Devise
   devise_for :users
-
-  # Rotas para Pedidos (Reserva de Rodas)
+vamos
+  # Rotas para pedidos (não precisando do show, só create e destroy)
   resources :pedidos, only: [:create, :destroy] do
     member do
-      get 'cupom'  # Ação para exibir o cupom
-    end  
+      # Ação para exibir o cupom relacionado ao pedido
+      get 'cupom'
+    end
   end
-
+  # Namespace para o painel administrativo (admin)
   namespace :admin do
-    root to: "dashboard#index"  # Página inicial do painel administrativo
+    root to: "dashboard#index"
 
-    resources :users, except: [:show]   # Roteamento para gerenciamento de usuários, sem a ação 'show'
+    resources :users, except: [:show]
     resources :services
-    resources :rodas, except: [:show]   # Roteamento para gerenciamento de rodas
-
-    # Rota para visualizar as reservas (pedidos) no administrativo
+    resources :rodas, except: [:show]
+    resources :vendas, only: [:index, :new, :create]
     resources :reservas, only: [:index, :destroy]
   end
 end
