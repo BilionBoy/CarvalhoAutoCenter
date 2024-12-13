@@ -1,8 +1,5 @@
 class HomeController < ApplicationController
   def index
-    @testimonials = Testimonial.all
-    @services = Service.all
-    @technicians = Technician.all
   end
   def services
     @q = Roda.ransack(params[:q])  # Inicializa a busca

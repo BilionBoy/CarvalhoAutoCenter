@@ -56,33 +56,9 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_11_121543) do
   create_table "rodas", force: :cascade do |t|
     t.string "titulo"
     t.text "descricao"
-    t.decimal "preco"
-    t.string "imagem"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.decimal "preco", precision: 10, scale: 2
     t.string "categoria"
     t.integer "quantidade", default: 0
-  end
-
-  create_table "services", force: :cascade do |t|
-    t.string "name"
-    t.text "description"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "technicians", force: :cascade do |t|
-    t.string "name"
-    t.string "profession"
-    t.string "image"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "testimonials", force: :cascade do |t|
-    t.string "name"
-    t.string "profession"
-    t.text "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
