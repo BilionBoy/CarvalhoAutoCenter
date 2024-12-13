@@ -1,52 +1,12 @@
 <div id="view-produtos">
-  <%= render "shared/navbar" %>
   <section class="section-products mt-4">
     <div class="container">
-      <!-- Filtros de Pesquisa -->
-      <div class="row justify-content-center mb-4">
-        <div class="col-12 col-md-8 col-lg-6">
-          <div class="card shadow-lg border-0 rounded-4 p-2 bg-dark-premium text-light">
-            <h2 class="text-center fw-bold mb-2 fs-4">Encontre a Roda Ideal</h2>
-            <p class="text-muted text-center mb-2 fs-6">Filtre por categoria ou título para encontrar o que deseja.</p>
-            <%= search_form_for @q, url: services_path, method: :get, html: { class: "filter-form" } do |f| %>
-              <div class="table-responsive mt-2">
-                <table class="table table-borderless mb-0">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <div class="form-floating">
-                          <%= f.select :categoria_eq,
-                          [['Nova', 'nova'], ['Semi Nova', 'semi nova'], ['Todas', '']],
-                          { prompt: "Selecione a Categoria" },
-                          id: 'categoria_eq', class: 'form-select bg-dark-premium text-light form-control-sm' %>
-                          <label for="categoria_eq" class="text-light"></label>
-                        </div>
-                      </td>
-                      <td>
-                        <div class="form-floating">
-                          <%= f.text_field :titulo_cont,
-                          id: 'titulo_cont',
-                          class: "form-control bg-dark-premium text-light form-control-sm",
-                          placeholder: "Digite o título" %>
-                          <label for="titulo_cont" class="text-light">Título</label>
-                        </div>
-                      </td>
-                      <td class="text-center">
-                        <%= f.submit "Buscar", class: "btn btn-primary btn-sm  fw-bold btn-custom" %>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            <% end %>
-          </div>
-        </div>
-      </div>
+      <%= render "shared/filtropesquisa" %>
       <!-- Exibição das Rodas -->
       <div class="row g-4 justify-content-center mt-4">
         <% if @rodas.any? %>
           <% @rodas.each do |roda| %>
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="col-lg-3 col-md-6  ">
               <div class="card shadow-lg border-0 rounded-4 h-100 roda-card bg-dark-premium">
                 <div class="roda-image-wrapper">
                   <% if roda.imagem.present? %>
@@ -87,6 +47,5 @@
       </div>
     </div>
   </section>
-  <%= render "shared/footer" %>
   <%= render "shared/backtop" %>
 </div>
