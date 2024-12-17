@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_12_14_192142) do
+ActiveRecord::Schema[7.1].define(version: 2024_12_14_194638) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -53,14 +53,6 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_14_192142) do
     t.index ["roda_id"], name: "index_pedidos_on_roda_id"
   end
 
-  create_table "produtos", force: :cascade do |t|
-    t.string "nome"
-    t.text "descricao"
-    t.decimal "preco"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "rodas", force: :cascade do |t|
     t.string "titulo"
     t.text "descricao"
@@ -70,29 +62,6 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_14_192142) do
     t.datetime "updated_at", null: false
     t.string "categoria"
     t.integer "quantidade", default: 0, null: false
-  end
-
-  create_table "services", force: :cascade do |t|
-    t.string "name"
-    t.text "description"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "technicians", force: :cascade do |t|
-    t.string "name"
-    t.string "profession"
-    t.string "image"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "testimonials", force: :cascade do |t|
-    t.string "name"
-    t.string "profession"
-    t.text "content"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
