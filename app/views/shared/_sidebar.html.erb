@@ -1,13 +1,45 @@
 <!-- Sidebar -->
-<div class="sidebar col-lg-3 ">
+<div class="sidebar col-lg-3">
   <ul class="list-unstyled">
-    <li><%= link_to "Menu", admin_root_path %></li>
-    <li><%= link_to "Página Home", root_path %></li>
-    <li><%= link_to "Usuários",  admin_users_path %></li>
-    <li><%= link_to "Editar Rodas", admin_rodas_path %></li>
-    <li><%= link_to "Adicionar Roda", new_admin_roda_path %></li>
-    <li><%= link_to "Reservas",  admin_reservas_path %></li>
-    <li><%= link_to "Estoque",  admin_estoque_path %></li>
-    <li><%= button_to "Sair", destroy_user_session_path, method: :delete, class: "btn btn-danger" %></li>
+    <li>
+      <%= link_to admin_root_path do %>
+        <span class="material-symbols-outlined">menu</span> Menu
+      <% end %>
+    </li>
+    <li>
+      <%= link_to root_path do %>
+        <span class="material-symbols-outlined">home</span> Página Inicial
+      <% end %>
+    </li>
+    <li>
+      <%= link_to admin_users_path do %>
+        <span class="material-symbols-outlined">group</span> Usuários
+      <% end %>
+    </li>
+    <li>
+      <%= link_to new_admin_roda_path do %>
+        <span class="material-symbols-outlined">add_circle</span> Adicionar Roda
+      <% end %>
+    </li>
+    <li>
+      <%= link_to admin_rodas_path do %>
+        <span class="material-symbols-outlined">remove_circle</span> Remover do Catálogo
+      <% end %>
+    </li>
+    <li>
+      <%= link_to admin_reservas_path do %>
+        <span class="material-symbols-outlined">event</span> Reservas
+      <% end %>
+    </li>
+    <li>
+      <%= link_to admin_estoque_path do %>
+        <span class="material-symbols-outlined">inventory</span> Estoque
+      <% end %>
+    </li>
+    <li>
+      <%= button_to destroy_user_session_path, method: :delete, class: "btn btn-danger" do %>
+        <span class="material-symbols-outlined">logout</span> Sair
+      <% end %>
+    </li>
   </ul>
 </div>
