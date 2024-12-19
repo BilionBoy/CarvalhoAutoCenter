@@ -21,5 +21,7 @@ Rails.application.routes.draw do
 
     # Rota para visualizar as reservas (pedidos) no administrativo
     resources :reservas, only: [:index, :destroy]
+    get 'dashboard/estoque', to: 'dashboard#estoque', as: :estoque
+
   end
 end

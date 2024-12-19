@@ -1,0 +1,56 @@
+<div class="estoque-container">
+  <h1 class="mb-4">Relatório de Estoque</h1>
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Título</th>
+        <th>Categoria</th>
+        <th>Quantidade</th>
+        <th>Preço</th>
+        <th>Valor Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @rodas.each_with_index do |roda, index| %>
+        <tr>
+          <td><%= index + 1 %></td>
+          <td><%= roda.titulo %></td>
+          <td><%= roda.categoria %></td>
+          <td><%= roda.quantidade %></td>
+          <td><%= number_to_currency(roda.preco, locale: :'pt-BR') %></td>
+          <td><%= number_to_currency(roda.quantidade * roda.preco, locale: :'pt-BR') %></td>
+        </tr>
+      <% end %>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th colspan="3" class="text-right">Totais:</th>
+        <th><%= @rodas.sum(&:quantidade) %></th>
+        <th></th>
+        <th><%= number_to_currency(@rodas.sum { |r| r.quantidade * r.preco }, locale: :'pt-BR') %></th>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+<style>
+  .estoque-container {
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 25px;
+    background-color: var(--light);
+    border-radius: 12px;
+    border: 1px solid var(--secondary);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .estoque-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary);
+  }
+
+  .table th, .table td {
+    text-align: center;
+  }
+</style>

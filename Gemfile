@@ -1,14 +1,6 @@
 source "https://rubygems.org"
 
 ruby "3.3.3"
-gem "rufo"
-gem "html2erb"
-gem 'simple_form'
-gem 'net-pop', '0.1.2'
-gem 'net-imap', '0.5.1'
-gem 'net-smtp', '0.5.0'
-gem 'net-protocol', '>= 0'
-gem 'ransack'
 
 #gem para arquivos de tradução
 gem 'rails-i18n'
@@ -64,10 +56,10 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
-
+  
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
-
+  
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
@@ -79,4 +71,8 @@ group :test do
 end
 
 gem "devise", "~> 4.9"
+gem "rufo"
+gem "html2erb"
+gem 'simple_form'
+gem 'ransack'
 
