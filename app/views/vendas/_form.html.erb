@@ -27,6 +27,14 @@
             <%= f.input :user_id, label: "Vendedor", collection: User.all.pluck(:email, :id), prompt: "Selecione o vendedor", input_html: { class: 'form-select bg-dark text-white' } %>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <%= f.input :entrada, as: :select, label: "Tipo de Movimento", collection: [["Entrada", true], ["Saída", false]],prompt: "Selecione", input_html: { class: 'form-select bg-dark text-white' } %>
+          </div>
+          <div class="col-md-6 mb-3">
+            <%= f.input :tipo_pagamento, as: :select, label: "Forma de Pagamento", collection: Venda::TIPOS_PAGAMENTO.map { |tp| [tp.capitalize, tp] }, prompt: "Selecione", input_html: { class: 'form-select bg-dark text-white' } %>
+          </div>
+        </div>
         <div class="form-actions d-flex justify-content-between">
           <%= link_to "Cancelar", vendas_path, class: "btn btn-outline-light" %>
           <%= f.button :submit, "Salvar Venda", class: "btn samsung-btn" %>

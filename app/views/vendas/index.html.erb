@@ -46,11 +46,13 @@
           <table class="table table-hover">
             <thead>
               <tr>
-                <th width="15%">Data</th>
-                <th width="35%">Descrição</th>
-                <th width="15%">Valor</th>
+                <th width="12%">Data</th>
+                <th width="25%">Descrição</th>
+                <th width="12%">Valor</th>
+                <th width="15%">Tipo</th>
+                <th width="16%">Forma de Pagamento</th>
                 <th width="20%">Vendedor</th>
-                <th width="15%">Ações</th>
+                <th width="10%">Ações</th>
               </tr>
             </thead>
             <tbody>
@@ -58,10 +60,16 @@
                 <tr>
                   <td><%= venda.data.strftime("%d/%m/%Y") %></td>
                   <td><%= venda.descricao %></td>
-                  <td class="<%= venda.valor >= 0 ? 'text-success' : 'text-danger' %>">
+                  <td class="<%= venda.entrada? ? 'text-success' : 'text-danger' %>">
                     R$ <%= number_to_currency(venda.valor.abs, unit: "", separator: ",", delimiter: ".") %>
-                    <i class="bi <%= venda.valor >= 0 ? 'bi-arrow-up-circle' : 'bi-arrow-down-circle' %>"></i>
+                    <i class="bi <%= venda.entrada? ? 'bi-arrow-up-circle' : 'bi-arrow-down-circle' %>"></i>
                   </td>
+                  <td>
+                    <span class="badge <%= venda.entrada? ? 'bg-success' : 'bg-danger' %>">
+                      <%= venda.entrada? ? 'Entrada' : 'Saída' %>
+                    </span>
+                  </td>
+                  <td><%= venda.tipo_pagamento&.capitalize || '—' %></td>
                   <td><%= venda.user.email %></td>
                   <td>
                     <div class="btn-group">

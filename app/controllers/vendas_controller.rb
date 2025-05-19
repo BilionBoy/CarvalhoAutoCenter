@@ -9,7 +9,8 @@ class VendasController < ApplicationController
   
     @entradas = @vendas.where("valor >= 0").sum(:valor)
     @saidas = @vendas.where("valor < 0").sum(:valor).abs
-    @total = @entradas - @saidas  end
+    @total = @entradas - @saidas
+  end
 
   def show
   end
@@ -71,6 +72,6 @@ class VendasController < ApplicationController
          params[:venda][:data] = nil
        end
      end
-     params.require(:venda).permit(:descricao, :valor, :data)
+     params.require(:venda).permit(:descricao, :valor, :data, :entrada, :tipo_pagamento)
    end
 end
