@@ -16,26 +16,15 @@
         </div>
         <div class="row">
           <div class="col-md-6 mb-3">
-            <%= f.input :valor, 
-                        label: "Valor (R$)", 
-                        placeholder: "0,00", 
-                        hint: "Informe o valor da venda", 
-                        input_html: { class: 'form-control bg-dark text-white' } %>
+            <%= f.input :valor, label: "Valor (R$)", placeholder: "0,00", hint: "Informe o valor da venda", input_html: { class: 'form-control bg-dark text-white' } %>
           </div>
           <div class="col-md-6 mb-3">
-            <%= f.input :data, 
-                        as: :date, 
-                        label: "Data da Venda",
-                        html5: true,
-                        input_html: { class: 'form-control bg-dark text-white' } %>
+            <%= f.input :data, as: :string, label: "Data da Venda", input_html: { class: "form-control bg-dark text-white", placeholder: "dd/mm/aaaa", autocomplete: "off", id: "data_venda" } %>
           </div>
         </div>
         <div class="row mb-4">
           <div class="col-md-12">
-            <%= f.association :user, 
-                             label: "Vendedor", 
-                             prompt: "Selecione o vendedor",
-                             input_html: { class: 'form-select bg-dark text-white' } %>
+            <%= f.input :user_id, label: "Vendedor", collection: User.all.pluck(:email, :id), prompt: "Selecione o vendedor", input_html: { class: 'form-select bg-dark text-white' } %>
           </div>
         </div>
         <div class="form-actions d-flex justify-content-between">
@@ -46,6 +35,11 @@
     </div>
   </div>
 </div>
+<script>
+  document.addEventListener('turbo:load', () => {
+  Inputmask("99/99/9999").mask(document.querySelectorAll('input[data-date-mask]'));
+  });
+</script>
 <style>
   @import "bootstrap.min";
 

@@ -64,6 +64,13 @@ class VendasController < ApplicationController
     end
 
     def venda_params
-      params.require(:venda).permit(:descricao, :valor, :data)
-    end
+     if params[:venda][:data].present?
+       begin
+         params[:venda][:data] = Date.strptime(params[:venda][:data], '%d/%m/%Y')
+       rescue ArgumentError
+         params[:venda][:data] = nil
+       end
+     end
+     params.require(:venda).permit(:descricao, :valor, :data)
+   end
 end
