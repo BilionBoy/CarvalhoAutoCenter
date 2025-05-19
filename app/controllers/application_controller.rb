@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   private
 
   def choose_layout
-    if admin_controller?
+  if controller_path.start_with?('admin/') || controller_name == 'vendas'
       "admin" 
     else
       "application" 

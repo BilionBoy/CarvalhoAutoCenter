@@ -1,0 +1,88 @@
+<div class="relatorio-container">
+  <div class="card samsung-card">
+    <div class="card-header d-flex justify-content-between align-items-center">
+      <h2 class="mb-0"><i class="bi bi-graph-up me-2"></i>Relatório Mensal de Vendas</h2>
+      <div class="d-flex">
+        <div class="me-2">
+          <%= form_tag relatorio_path, method: :get, class: "d-flex" do %>
+            <%= select_month(Date.today, {}, { class: "form-select bg-dark text-white me-2", onchange: "this.form.submit()" }) %>
+            <%= select_year(Date.today, {start_year: Date.today.year - 5, end_year: Date.today.year}, { class: "form-select bg-dark text-white", onchange: "this.form.submit()" }) %>
+          <% end %>
+        </div>
+        <%= link_to new_venda_path, class: "btn samsung-btn" do %>
+          <i class="bi bi-plus-circle me-1"></i> Nova Venda
+        <% end %>
+      </div>
+    </div>
+    <div class="card-body">
+      <% if @vendas.any? %>
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <div class="card bg-success text-white">
+              <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-arrow-up-circle me-2"></i>Entradas</h5>
+                <h3 class="mb-0">R$ <%= number_to_currency(@entradas, unit: "", separator: ",", delimiter: ".") %></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-danger text-white">
+              <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-arrow-down-circle me-2"></i>Saídas</h5>
+                <h3 class="mb-0">R$ <%= number_to_currency(@saidas, unit: "", separator: ",", delimiter: ".") %></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-primary text-white">
+              <div class="card-body">
+                <h5 class="card-title"><i class="bi bi-cash-stack me-2"></i>Total</h5>
+                <h3 class="mb-0">R$ <%= number_to_currency(@total, unit: "", separator: ",", delimiter: ".") %></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th width="15%">Data</th>
+                <th width="35%">Descrição</th>
+                <th width="15%">Valor</th>
+                <th width="20%">Vendedor</th>
+                <th width="15%">Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% @vendas.each do |venda| %>
+                <tr>
+                  <td><%= venda.data.strftime("%d/%m/%Y") %></td>
+                  <td><%= venda.descricao %></td>
+                  <td class="<%= venda.valor >= 0 ? 'text-success' : 'text-danger' %>">
+                    R$ <%= number_to_currency(venda.valor.abs, unit: "", separator: ",", delimiter: ".") %>
+                    <i class="bi <%= venda.valor >= 0 ? 'bi-arrow-up-circle' : 'bi-arrow-down-circle' %>"></i>
+                  </td>
+                  <td><%= venda.user.email %></td>
+                  <td>
+                    <div class="btn-group">
+                      <%= link_to edit_venda_path(venda), class: "btn btn-sm btn-warning" do %>
+                        <i class="bi bi-pencil"></i>
+                      <% end %>
+                      <%= link_to venda_path(venda), method: :delete, data: { confirm: "Tem certeza que deseja excluir esta venda?" }, class: "btn btn-sm btn-danger" do %>
+                        <i class="bi bi-trash"></i>
+                      <% end %>
+                    </div>
+                  </td>
+                </tr>
+              <% end %>
+            </tbody>
+          </table>
+        </div>
+      <% else %>
+        <div class="alert alert-info">
+          <i class="bi bi-info-circle me-2"></i> Nenhuma venda registrada neste mês.
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

@@ -5,6 +5,9 @@ class User < ApplicationRecord
   # Define admin como falso por padrão
   after_initialize :set_default_admin, if: :new_record?
 
+
+    has_many :vendas, dependent: :destroy
+
   private
 
   def set_default_admin

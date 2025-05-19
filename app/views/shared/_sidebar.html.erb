@@ -37,6 +37,11 @@
       <% end %>
     </li>
     <li>
+      <%= link_to vendas_path do %>
+        <span class="material-symbols-outlined">attach_money</span> Vendas
+      <% end %>
+    </li>
+    <li>
       <%= button_to destroy_user_session_path, method: :delete, class: "btn btn-danger" do %>
         <span class="material-symbols-outlined">logout</span> Sair
       <% end %>
